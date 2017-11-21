@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="airline_player">
+  <goals>
+    <goal type="getadminpasswordstring" target="dpa_bookings"/>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="Take Flight - #PLAYERNAME#">
+Gain access to the bookings mainframe of an international airline.
+  </posting>
+  <email>
+    <sender>Take Flight - #PLAYERNAME#</sender>
+    <subject>Take Flight</subject>
+    <body>
+Gain access to the bookings mainframe of an international airline.
+----
+To get straight to the point, for some future safeguarding projects, I need access to the bookings mainframe of the international airline "Pacific Air".
+
+I've been looking into this already, and have some solid leads. We already know the IP address of the Bookings Mainframe itself - unfortunately getting in isn't going to be that simple.
+It's protected by not only exceptional security, but also a dedicated whitelist server. It'll deny connections outright from all external sources, including us. We'll need to use an alternative entry point into the network (provided) to find a way around this, and a way in.
+
+The network is run by the Psylance Cyber Security group, so expect a challenge, and cover your tracks at all points.
+
+Once you've found a way in, include the administrator password of the bookings mainframe in your mission completion details.
+Good luck.
+</body>
+    <attachments>
+      <note title="Mission Guidelines">
+Investigate the Bookings Mainframe whitelist server
+Explore the network via the LAX entry point
+Gain administrator access to the Bookings Mainframe
+Add the Mainframe password to the mission completion details.
+      </note>
+      
+      <link comp="dal_lax" />
+      <link comp="dpa_bookings" />
+      
+    </attachments>
+  </email>
+</mission>

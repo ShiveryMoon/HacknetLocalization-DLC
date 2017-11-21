@@ -1,0 +1,210 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPets_VC" name="DigiPets_版本控制" security="5" type="4" icon="DLCServer">
+
+  <adminPass pass="undc321b9y" />
+
+  <positionNear target="dPets_MF" position="150" total="360" extraDistance="0.01"/>
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/DigiPets/Scorchum" title="DLC/Sprites/DigiPetsLogo" overdrawLogo="false" buttonAlignment="left" />
+
+  <trace time="65" />
+  <portsForCrack val="3" />
+  <ports>21, 6881, 443, 9418</ports>
+  <portRemap>443=8080</portRemap>
+  <admin type="progress"/>
+
+  <proxy time="0.5" />
+  <firewall level="-1"/>
+
+  <admin type="progress" isSuper="true"/>
+
+  <file path="git/trunk" name="digipets.php">[?php
+$f03f7000="\x62\x61\163\x65\x36\x34\x5f\144\x65\143\x6f\x64\145";@eval($f03f7000(
+"Ly9OcU5lWTlFcU1tRW5LcTZKSlNTZWVCa2p3Q0VRQWY2VTY1NDNLbFVxdkpwOHhTbEFOeGtNSHlWVGNw
+Slo4aG10M3MxdEZINHA5WG9HaitsQ3NCRzRnZ2VoMHN1VlpjQnljSVUyTmpURnZpSlRxV0ppaUlROEx2d
+kwwNWJFMEhjOExXQkxIOFBOQml2NnBhVE1OUTlzUm5YR3E5dGkvLzdrNEJ6emZ5RytVL3lTNFFxV1lMRz
+dBb0l2cGsya1VZaXhIS2J1M3hLTy9nRVgrQ3RFeVRFN3VtejVvclMwR2tBWHVZRkg0MTJyVkNpb3FWMXV
+xVWwwMjZJK21rU0I5Vi9TZ21oWGxXSTljTXJxMHBrMHhxMHlLcjd0M01DM01KQy95bUZhUXZsSnY0S05p
+RjZueHVTRUZPRHRiNlBmNmJWaUk2ejVpSTIvWk5hMWcybGluemVLZDRhTWVpUHdHTGU0ZkVOVTdwbmI1Y
+VBLZzRJb1dwU3pIM3BPNDNrbXdLRUVVMThwUWFxMk9odWY5Nmg3MnlvVXJKMEl3U0dyNFNYMFRmQzhtMl
+JnR29OcnNhdHRLUTIxT1JsZUJSc090eWtBYklxY1RJM25IRDFOTW5PS3FEdzJVVWxVK2xPeE1UNXc5RmR
+MRU56cTZMRitiNisvQXJzU0lQY2I5ZnNEZWtuNmd2QWRFeWY1NzBPOXQwazVJNm8wRzMrWFRwb2NwS3lQ
+NGZBdHZhN2k3MmhwQ0ZETUlSdFlSODE0SHRvZVZPYmtlOTl4QTk2QTRKOHR4WUNUM1k0YmdRT0N5eXAzS
+TdUdmhBV2lLOUYyZXB3Z1g0YWpYY0JKT1JJNjczSmtkVTd1b3hFbUNjaWQvWXpPRmJiM2F2YXA4M2VRN2
+dzZlgrYUk2YjVHT21DWUJkcWU3aldvOWlsVE1SUm1BL3pSMkM3M1dSMVZ6Uk5UcFdmQ1RJcDZQS2luUHV
+ThGTy9aUkpVeDBUQ05UZGtVeXhRSzVCSUNjQnIvaU9LdjhOOWVSRlNNZW01MC9CY3UyRmwrYzRkQ2FBY2
+5wYnF2ZVhvdTdPR2dIaVpxbHR2SmduRjJyRllmQjJXZ3RRWDFXSzdaSElFYjlCcmlwZ0dRamxwZmloYjZ
+BRTZLUDZBaWlKRUdzQjdmdDVCREVVdDZmSzFKUHZLMUc2VzFKM2lqb25xdjhCTkZHbTY0SW9WZ0ZRdkZM
+RXEyRHl3L2IrUklSTDZnQzVUSW14VmZ3eG1URnhxZmszdEpNdEttNGZUdnp1Z3V4TkFYZDV5SGVLMDY3M
+00rK01udEdCTXRGdWZRUzY0S1lGSjBZUUJDQTJIdWt2TGF1d1J6V0pnVUhrYVJDQ25YSlJjTEJnNTRPal
+FjdFV5OWhtOGhIN3ZId0hBd3VOMGV4TVR5eHRESlZyQzdPUzFBMVd6WFJ3Sm80cFVPNTZ0UElVYWJIQlo
+0WDFNUlBhOWd3cHlrcEhienVzcVVYYkRqK0NoNTlORjd5bUNlWEFhZFE4ZkVUbm1XUlRWTis3YUtWSEEv
+FVSUkdsSENrVU9uUklQSFVEcy8zMTVsbkQzNFkvak5HNk84b2pDbXFYL1BUakNtcXIvcUQvRnJOLzlyOF
+ZXLyttLzVhODluOS95T0RTeDBFVy9OcUMvYlVXLy9TTy80bFZhbEUrUmloQ201aThLOE8veTJwNi9DQy9
+Mcy84ay85cTRXOS9zTVdaNWUrQnlaOU01RUVmam1jUllBbGtDaVlHaytQZCtJZWhTOTlBWndTZWpXRWtu
+WnlqaWpjdHBUd0xnVDhMTkZtWW00eURVQlBwUmRvR1FLQVBQOXRJWVB3TnFISE1aNVFnUUx1TEJOd1hBR
+jROQTBlV1ZDTmNYOW5DSlNISDdPQjFMK1BxU1dsZ1l0MEdpQ0N2MmpKeHVYZlFGc1FXZE5OSUV3UTdERF
+A0ZHhQbE54UERoUlFDbC9hdTZRbU5iREdTMnNGSTlEa1RBK2ZtVVdHZXlTcnJmM3d4VnF5b2dMcTBQakJ
+KSzRScUM5OW03NElRelI2bVdsUFVnSExpb2xRTVZZUERMbHJMaS9ENThEMGFPTjQxeUVhTC83VmIxZkhX
+SzNSaWg5enJOMkJTdEFqWkRGWVdaZDdldDJJMzV1emhES3VLNE9wRllZbEIybU05NzhoaGZ1TW40Q2F1V
+mNuQmttVDhZM2JmdVJMQzZBRndud0FwZnhzaUxkZGJSNWdKb1hQMXY2eHBjL05wS21UUWRqbmx3bnFBeH
+JBZ2dWcURMdndIUHExUzVMbXlyaVVEcHRDZHY2d09TR2RSam54SXhQemhSOHdqRWs1OGw4b1VZQy9UUXR
+5VDdHeURRc294NzlyckZlTTJWYmRVZXBvWjg5b2k0N3ZNVDBUaDBEcGxGN1BiZXBGazBVd2Q2RXVVWDUz
+S1lMODYvckZHMGE2WUFkbk56QXhUZVZpaFJibkZBVXRzOVlucnB0K2FrNmJITjZVQ1J6M1dXbG1laGoyM
+kJvaHZ4cklacjZYU2tWQTJ6MStlcWtTNzR2RUFwVE1iNi9FWkF0NFNNb3Q1L01qdmU3aHNkcWttY29tYn
+ltVWVudFhOOXJ5czdKQXozbHBiUzBnRGsxcCtsMlZVY2l6T3c2R0hzcmdJOWQvY24wRks4MHZ1T2pieDJ
+PRTJTdWpBRFZGUEwwVHBTbEhxWDh3dHdETDJUcktMdXJ5QTdWY2hzM0pUK2pWQ3BmNXVYeWhkbHhES0ht
+SDRra2hsL2h5Nkw3SjdkNURTZ1FlVncxNkt6TlJiTUFKMFlyNDBWb0hWYWFoWU5ZakZKcmRuZVYxZEF2Q
+nlCUy9oa25RZkc3cnRvTjdzYjJYcC9hc0RoeHdabHJ6RnQrR1B3SllPV1c1TnZ4aUtuazVZNEUwejd6Q1
+VPU3hlbEhwRUZiSklab2pMbHRJdFIwdU1VSmFQUTVKQkE4Q2Q4NHhZUWh4Z2l2MHVaZGUyYllPUitEcjM
+2SGcvNzl6UXMxRUIvYzVQUTRkcEh2bnR5STMyTkp0OG9lcDBaNDJqVDlaMDdJdEkwb3cxeWxvek00TzFk
+lBDS0JFVnJjcXlad29FOVl3UmxVOVhQYXRrdUJIaWErVEFPK3JMRGdYalk3VndYMURVaUZ5V2FGR3FUcE
+QwL3JSQXMzRlZLdDRhdXI1ZVc3N3V4RGI2OTYyRTU2MDFZZVJaM1J4bnZwZWZBcTBqTVh4R090ZzJjWVB
+FK0MrSk5rcDJ0Q01qanB6S044VTRCbkc5NVdneCtyVlNKdmQzVlhudm1QczE2NzBMVDNTSEJrS1BSa3Jh
+djdWQW0rOU50TkloYXJIRm42NUNldUkzbitNR3JMcnZkcHZBalpFL3pndWhiQ0pyOVZwZmlMMVVGMm9aM
+FRSd1RQNkRJc2RwbEV6UHIzZEgvSUljNEVZa1FGRmplWUFYVzBYZWZxMkJZd3NEQ2hHZElIemtrcHRiQ1
+JYMmwrRHM3K08yUC9hNlRDMDVlc1dHZVBxa3ovS1hwVGl3cDlOL1lNRDNNOGRFYTIyL0M2a1MzdWRDUk1
+tRHd1OEZTRU9ZYnVuRGJRSEl2Q1dUbWlxRXJBVUxGVnFHU3loU0tnRHhHckZ4MCtBSWJoU0dlbTliOWtv
+RndNc05UWW5WL2Vpdk9EeGhabENVZ0JCY1lCcVRXaGF2ME0rckFJa0pwalA3cmpoWXZXd2pjVFZmVXlKQ
+WhLMGFEcXA0R3N3dy9pcjgwQkFkOXMxeUNXQWpJMG5JeEREVkJpbUZqWnVzMmQxb0sraWtEYXZXZjZZZm
+lsTDNIRWh0MzJycDlWaXVZa3phZ0NVOU1vbG0ybys2d0t2N2U0czZwL1J0RkN4NmhvSVBVQUg0MDZCSlc
+xMGVTc0lUSzd0YXpZeWpuc0toS2pJT0l6bUtMMTlZb2p4Szl0YzQxNDdrMStyUnluMldORkZ4ZHFaRlg2
+VFV6SkhCOFlrV3JZRTdxUFlWemxUQnhDVW5qWGNRb0V1dk5uMW5rb0o1SW83QWp2V3ZqR28wRnlzZzcxN
+FFXak1wOUVTZldvbVk2T3o5SVg5SDByUE5VUHBTS3c5V2Z6Ly8vNzdLLzhUIikpKSk7"));
+?]</file>
+  <file path="git/trunk" name="favicon.ico">#BINARY#</file>
+  <file path="git/trunk" name="Content.pak">#BINARY##BINARY#</file>
+  <file path="git/trunk" name="Developer_SetupGuide.txt">--DigiPets开发人员设置指南v1--
+  
+欢迎来到Digipets活跃开发团队！设置应该很简单，你将会在几分钟之后就能够开始工作，对吧？
+
+错了，贱人！欢迎来到地狱。
+啥，你真的以为这个有一千万年老的网站会有一个清洁的、可维护的代码库？欢迎来到痛苦的单PHP文件200页一团糟网站我的朋友！
+你正在看的是灯枯油尽的开发者们为了使你未来的生活变得痛苦、无望且不可检验而无数年来竭尽所能共同努力结成的心血。啥，你想听听关于代码库的实际建议？好啊，打开那坨狗屎去看看啊，我会等着的。
+或者，别去了，因为等你搞明白那玩意儿的时候估计我已经死了。你说啥？你在后悔没有加入艺术组？能够理解——有时候我也想离开这地方去充满爱心地创作纯洁的角色设计，然后看人们第二天就弄出来几兆兆字节这个角色的低质量色情涂鸦？10/10。
+
+设置步骤如下：
+
+步骤 1: 找一支上了膛的左轮手枪
+步骤 2: 找到该为这一团糟负责的每一个人
+步骤 3: ???
+步骤 4: 还是一团糟。
+
+有一次我只是更改了登录按钮的颜色就把战斗系统弄坏了。我靠这都什么鬼啊。
+
+不管怎样，那应该会促使你进步的！如果你有任何问题，我建议你祈求甜蜜的死亡。
+-Thomas
+  </file>
+  
+  <file path="git/trunk" name="Developer_SetupGuide_V2.txt">--DigiPets开发人员设置指南v2--
+因为管理层宣称上一版设置指南“太过负面”且“对团队士气造成了不利影响”，所以他们要求发布第二版指南。这一版是在监督下写成的！
+
+步骤 1: 在你的开发机上安装PHP
+步骤 2: 从Git下载开发分支
+步骤 3: 去和其他开发者谈谈他们的各种模糊处理方法 - 不久之前我们决定把所有模糊过的企业代码都保存在云端，这被证明是有史以来最蠢的决定，没有之一，不过我们还是这么做了。“安全”对吧？
+步骤 4: 你将需要进行反模糊，做一些修正，重新模糊，然后进行“Git Merge Clusterfuck”，我们一向都是这么讲的，很有趣吧 :) :) :) :)
+步骤 5: 重复以上步骤直至你失去活下去的意愿，或是用完我们的技术支持工单（lol）
+
+我是字面意义上的如此宝贵不能被炒，因为再也没人能维护那玩意儿了还有不会的我是不会删了它的，
+-Thomas
+
+  </file>
+
+  <DatabaseDaemon Name="DigiPets版本控制" DataType="GitCommitEntry" Permissions="admin" Foldername="git" Color="255,197,61">
+    <GitCommitEntry>
+      <EntryNumber>8613</EntryNumber>
+      <ChangedFiles>
+        <String>DigiPets.php</String>
+      </ChangedFiles>
+      <Message>恢复小更新因为它破坏了一切</Message>
+      <UserName>T.Champer</UserName>
+      <SourceIP>192.168.1.1 （本地主机）</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8612</EntryNumber>
+      <ChangedFiles>
+        <String>DigiPets.php</String>
+      </ChangedFiles>
+      <Message>小更新</Message>
+      <UserName>T.Champer</UserName>
+      <SourceIP>192.168.1.1 （本地主机）</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8611</EntryNumber>
+      <ChangedFiles>
+        <String>Content.pak</String>
+      </ChangedFiles>
+      <Message>远程提交: 已减少闪光服套装上的骨盆隆起 :(</Message>
+      <UserName>A.Wallin</UserName>
+      <SourceIP>54.192.234.65</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8610</EntryNumber>
+      <ChangedFiles>
+        <String>Content.pak</String>
+      </ChangedFiles>
+      <Message>远程提交: 已添加闪光服套装！:D</Message>
+      <UserName>A.Wallin</UserName>
+      <SourceIP>54.192.234.65</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8609</EntryNumber>
+      <ChangedFiles>
+        <String>DigiPets.php</String>
+      </ChangedFiles>
+      <Message>为了市场稳定操纵Dubloon币的下降率</Message>
+      <UserName>T.Doehan</UserName>
+      <SourceIP>192.168.1.1 （本地主机）</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8608</EntryNumber>
+      <ChangedFiles>
+        <String>Developer_SetupGuide.txt</String>
+        <String>Developer_SetupGuide_V2.txt</String>
+      </ChangedFiles>
+      <Message>……已添加“修正后的”设置指南。</Message>
+      <UserName>T.Champer</UserName>
+      <SourceIP>192.168.1.1 （本地主机）</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8607</EntryNumber>
+      <ChangedFiles>
+        <String>Developer_SetupGuide.txt</String>
+      </ChangedFiles>
+      <Message>远程提交: 已添加荣耀的新开发设置指南（终于）</Message>
+      <UserName>T.Champer</UserName>
+      <SourceIP>104.95.129.117</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8606</EntryNumber>
+      <ChangedFiles>
+        <String>DigiPets.php</String>
+      </ChangedFiles>
+      <Message>远程提交：修正了一个使用星光画笔可能会使玩家破产的问题</Message>
+      <UserName>T.Doehan</UserName>
+      <SourceIP>98.129.229.204</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8605</EntryNumber>
+      <ChangedFiles>
+        <String>DigiPets.php</String>
+        <String>Content.pak</String>
+        <String>Favicon.ico</String>
+      </ChangedFiles>
+      <Message>从旧的已损坏的VC系统重新上传</Message>
+      <UserName>T.Doehan</UserName>
+      <SourceIP>192.168.1.1 （本地主机）</SourceIP>
+    </GitCommitEntry>
+
+  </DatabaseDaemon>
+  
+
+</Computer>

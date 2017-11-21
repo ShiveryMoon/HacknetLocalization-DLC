@@ -1,0 +1,72 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPets_Engineer2" name="Ash-ALIENGEAR13" security="2" ip="54.192.234.65" icon="DLCPC2">
+
+  <!-- Digipets artist - contains eos device hint for other comp  -->
+  
+  
+  <dlink target="dPets_VC" />
+
+  <positionNear target="dPets_MF" position="220" total="360" extraDistance="0.05"/>
+
+  <file name="IMPORTANT_SusanLog.txt" path="home">
+
+[S.Bonesau] 没人说你必须改变你的艺术风格，只是……
+[S.Bonesau] 你在提交之后真的被人提了很大一堆更改要求
+[S.Bonesau] 而且我认为如果你更认真地对待他们的话我们可以提高不少效率
+[S.Bonesau] 比如说，在规划未来的部分时把先前的反馈纳入到考虑中。
+[Ash] Ok我明白了，但我真的相信这个设计是好的
+[S.Bonesau] 我知道。我明白，只是……
+[S.Bonesau] 这本来应该是一套幽灵环绕的鬼屋服装，而你却把它们画成都坐在坦克里
+[S.Bonesau] 再一次的。
+[Ash] 我喜欢坦克。坦克很吓人。
+[S.Bonesau] 我知道你喜欢坦克
+[Ash] 你不认为罗马尼亚人觉得德国坦克战线很吓人吗？
+[S.Bonesau] 不，我是说，他们当然那么觉得，但那是另一回事，稍等一下
+[Ash] 那可是25吨重的德国死亡机器轰隆隆地向你开过来，那对你来说还不够吓人吗？
+[S.Bonesau] 等一下！
+[S.Bonesau] 我只是不觉得我们的玩家会像你这样看待那些东西。
+[S.Bonesau] 我是不是应该提醒你，你在仙女故事里也把他们都画成坐在坦克里了？
+[Ash] 坦克很像仙女
+[S.Bonesau] ...
+[Ash] 我喜欢可爱的东西和二战军用物品，你想从我这里得到什么？
+[S.Bonesau] 我想让你画穿着吸血鬼服装的DigiPets和类似的东西
+[Ash] 我会这么做的，如果我们以后能搞一场坦克活动的话
+[S.Bonesau] 现在可真不是你该讨价还价的时候
+[Ash] 我打赌吸血鬼有一大堆坦克
+[S.Bonesau] 哦天哪，好吧，成交，把那鬼画出来
+[Ash] 我正在保存这份日志。正在进行。
+[S.Bonesau] 都在我的手机里呢，别担心
+  </file>
+
+  <file name="DRACULATANK.psd" path="home">#BINARY##BINARY#</file>
+  <file name="asdf.psd" path="home">#BINARY#</file>
+  <file name="asdf2.psd" path="home">#BINARY##BINARY#</file>
+  <file name="asdfasdf.psd" path="home">#BINARY#</file>
+
+  <!-- Memory dump with viewable sketches of Dracula tank -->
+  <Memory>
+    <Data>
+      <Block>
+STEAM_聊天:activewindow
+4e0f622c-c5f1-4959-902d-bd2c1009a4cb
+记录：
+控制台： 不要把你的密码告诉任何人。
+2:46 PM - Jigxor：这些机器人视频真是疯狂
+2:47 PM - Jigxor: 哦伙计，我在看另一段视频，是关于一个有240年历史叫做“书写者”的，这是个机械小男孩，他真能写出一两条完整的句子，用他手里的真笔和纸，都是齿轮机械驱动的，这玩意儿真是不可思议。
+2:48 PM - Jigxor: 而且他还会眨眼或是扭头啥的
+2:48 PM - [P]Ash: 哦天哪你为什么要跟我说这些。我今天本来是有工作要完成的;_;
+2:48 PM - Jigxor：这真疯狂
+控制台： Jigxor已断开连接
+控制台： Jigxor已重新连入聊天
+3:18 PM - Jigxor: 我觉着自己挺聪明的
+3:18 PM - Jigxor: 尽管我刚从StackOverflow上拷贝了一些regex
+3:18 PM - [P]Ash: >my_life.txt
+      </Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Misc/DraculaTank</Image>
+    </Images>
+  </Memory>
+  
+  
+</Computer>

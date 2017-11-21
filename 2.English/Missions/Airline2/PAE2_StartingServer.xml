@@ -1,0 +1,80 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa2_start" name="Pacific_ATC_RoutingHub" security="5" type="4" icon="PacificAir">
+  
+  <!-- The three servers at this point are quite clinical and clean - I've written something in here to indicate why.
+  As half a time-saving thing, and half an atmosphere thing, I was thinking the ending servers (these ones) would be relatively barren.
+  They're a fairly 'pure' challenge - not much messing about. Also gives players come mental breathing room on the narrative side, as
+  they are about to be hit with some heavy stuff.-->
+  
+  <portsForCrack val="4" />
+  <ports>6881, 22, 443, 192, 9418</ports>
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="48" />
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/PacificAir_Big" title="DLC/Sprites/PacificAirTitle" overdrawLogo="true" buttonAlignment="right" />
+  
+  <positionNear target="dpa_bookings" position="180" total="360" extraDistance="0.15"/>
+
+  <dlink target="dpa_bookings" />
+  <dlink target="dpa2_whitelist" />
+  <dlink target="dpa2_target" />
+
+  <file path="home" name="Reminder.txt"> --  IMPORTANT  --  
+No files are to be saved on this server, including all files from the Internet, personal data, pictures or any files created on this machine.
+This is in place as a security and future proofing measure. Files that are currently open on the desktop are for security purposes only, and are
+not to be saved to a harddrive or printed for any reason.</file>
+
+  <Memory>
+    <Commands>
+      <Command>ping 208.91.196.94</Command>
+      <Command>ps</Command>
+      <Command>kill -9 188</Command>
+    </Commands>
+    <Data>
+      <Block>GN9UXL_NV9T1Z-UFAL
+3ZJHHQ3BNZPB____
+@ACTIVEFILE :: [UNSAVED]
+
+     ::  IMPORTANT  ::  
+ - DO NOT SAVE THIS DOCUMENT -
+ 
+Active Whitelist Password:
+
+CKYX258
+ 
+Whitelist server (Marked PSYLENCE_WHITELIST_SL2 in server room) has it's password changed on rotation - when it's updated, change the entry below to the new password so engineers can access it.
+NOTE: This document is to be left open on the display in the server room to keep the password documented, and it is to be written *NOWHERE ELSE*
+
+DO NOT SAVE THIS DOCUMENT! That introduces further, unnecessary security risk.
+If the password listed here is incorrect, contact the Cyber Sec team.
+
+-Psylence Cyber Security
+</Block>
+      <Block>AY67DY5IWIWY40WMOEXX
+TEAKW2GXWH5HSSNLA4TG
+5RYNN02D5P9UN4KY8I8J
+AD9H1TD43P3P8G0CB6PG
+MMR9LOWO48J24GLLRIK2
+A29D9HPCDNNUQO6M2PVS
+AG45QUGKWEJ5TTB3C4QS
+LMX4LMX5MI96VPFF5NI8
+CV69O0DE6G415V9JRUE9
+BNK8KDOCJ10NO08LC3MY
+KI76PNB6X6Y5Q99W7FJ3
+0917XC629EZ7YTL5ECUX
+H7OHLB27FA47CU45ZYES
+7D4PFX7IO99UF8NHK2G9
+O3HF04QYO8270RPXPV72
+TL8L6J257XDYOLGILESX
+2UZD0XHJPSTF9GXL8RZA
+K9DH1AZ8MW3XL0QDZ1BS
+AHPPH4HKF9JOFXLHQSV8
+W17B2NYUW0IJXS1QWIHE
+VQ7DR9W5IL3G88QB6BXP</Block>
+    </Data>
+  </Memory>
+  
+</Computer>

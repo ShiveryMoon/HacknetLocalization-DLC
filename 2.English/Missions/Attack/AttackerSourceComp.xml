@@ -1,0 +1,178 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dAttackSource" name="Striker Proxy" security="6" ip="72.52.4.119" type="4" icon="DLCPC2">
+  
+  <trace time="80" />
+  <portsForCrack val="3" />
+  <ports>21, 22, 6881</ports>
+  <proxy time="0.4" />
+  <firewall level="-1"/>
+  
+
+  <dlink target="dAttackHome" />
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+
+  <file path="home" name="irc_autolog_286.log">fdsfjga: stop being so toxic
+StrikeR: how about
+StrikeR: u
+StrikeR: stop feeding
+StrikeR: and also fucking send me
+StrikeR: ur theme already
+fdsfjga: sigh
+fdsfjga: right now?
+StrikeR: yes
+fdsfjga: can it wait until after the game is over
+StrikeR: .
+fdsfjga: seriously
+fdsfjga: i’m busy jungling
+StrikeR: o i tohught you were afk
+fdsfjga: lmao fuck u
+StrikeR: xd
+fdsfjga: oi
+StrikeR: what
+StrikeR: what do you want now
+fdsfjga: the game is over
+StrikeR: what
+fdsfjga: the game we were playing?
+StrikeR: sorry you’ll have to remind me
+fdsfjga: holy shit
+fdsfjga: you are so salty
+StrikeR: brb afk
+fdsfjga: no you’re not
+StrikeR: shit you got me
+fdsfjga: do you want the theme files or not
+StrikeR: ugggHHHHHHH
+StrikeR: fine
+StrikeR: move to irc
+fdsfjga: this is irc
+StrikeR: whoa
+StrikeR: makes u think huh
+</file>
+  
+  <file path="home" name="irc_autolog_289.log">StrikeR: ur theme is broken
+fdsfjga: ?
+StrikeR: ?
+fdsfjga: ???
+StrikeR: its broken
+StrikeR: what
+fdsfjga: what/?
+StrikeR: i don’t know what to say
+StrikeR: it doesn’t load
+fdsfjga: lemme check
+fdsfjga: it loads fine on my end
+fdsfjga: are you sure you aren’t just terrible
+StrikeR: that is
+StrikeR: let’s be real
+StrikeR: extremely unlikely
+fdsfjga: did you screw up the file extension
+StrikeR: no
+fdsfjga: did you check
+StrikeR: yes
+fdsfjga: did you actually check
+StrikeR: yes
+fdsfjga: check again
+StrikeR: fuck u
+fdsfjga: so how about that file extension, huh?
+StrikeR: ur lucky that your themes are good
+fdsfjga: ?
+fdsfjga: nice to know how highly you rate your own character
+fdsfjga: :3
+StrikeR: reported
+</file>
+  
+  <file path="home" name="irc_autolog_290.log">fdsfjga: hey
+fdsfjga: just thought you should know
+fdsfjga: jammy was talking shit about you after you left
+fdsfjga: something about girls not being good at dota
+fdsfjga: hes SO salty lmao
+StrikeR: kk
+StrikeR: i’m going mid next game
+fdsfjga: yeah I already told everyone else
+StrikeR: i don’t even care about winning the game
+fdsfjga: oh no
+StrikeR: oh yes
+fdsfjga: pls
+StrikeR: mid sf
+StrikeR: you know that one cheese build
+fdsfjga: no
+StrikeR: dagon mek
+StrikeR: i guarantee he’ll ragequit
+</file>
+
+  <file path="home" name="irc_autolog_291.log">
+fdsfjga: did you
+fdsfjga: seirously
+fdsfjga: hack jammy
+StrikeR: ?
+fdsfjga: oh my god
+fdsfjga: you
+StrikeR: he didnt use a proxy
+StrikeR: he was basically begging for it
+fdsfjga: i can’t
+fdsfjga: he was whining in #dota about
+fdsfjga: wait for it
+StrikeR: oh did it work?
+fdsfjga: yes you destroyed his video card
+fdsfjga: totally bricked
+StrikeR: lmao he should have been more suspicious when i asked him about the model he had
+fdsfjga: unbelievable
+fdsfjga: he spent his entire paycheck on that thing
+StrikeR: he should have spent $5 on a vps
+fdsfjga: i know he was a piece of shit to you but
+fdsfjga: don’t you think it’s a bit much
+StrikeR: no
+StrikeR: lol
+fdsfjga: kk i guess
+StrikeR: he needs to learn
+StrikeR: that
+StrikeR: his words
+StrikeR: have
+StrikeR: consequences
+StrikeR: LMAO
+StrikeR: guess what else I found while I was flashing the gpu bios
+fdsfjga: ooh what
+StrikeR: a full chatlog of him striking out with some girl INCREDIBLY hard
+fdsfjga: no way
+StrikeR: yep, he kept all his msn messenger chatlogs LOL
+fdsfjga: that is amazing
+</file>
+  
+  <file path="home" name="strikeout.txt">j4mmy: hi :)
+- - -
+j4mmy: heya!
+* j4mmy has sent a Nudge! *
+- - -
+j4mmy: how r u?
+- - -
+j4mmy: *gives you shoulder massage*
+* j4mmy has sent a Sticker! *
+- - -
+j4mmy: *waves*
+* j4mmy has sent a Nudge! *
+- - -
+* j4mmy has sent a Nudge! *
+j4mmy: omg stop ignoring me
+[A]LEX[A]: what do you want
+j4mmy: what’s up? :)
+[A]LEX[A]: listen
+[A]LEX[A]: i’m not into you
+[A]LEX[A]: stop bugging me
+j4mmy: what??
+j4mmy: that’s pretty rude
+[A]LEX[A]: no you know what’s actually rude?
+[A]LEX[A]: sending me transparently horny messages all the time.
+[A]LEX[A]: in the hopes of getting in my pants.
+[A]LEX[A]: you have literally 0 chance with me. and your rando messages and nudges have actually pushed that below zero
+j4mmy: there’s no need to get hysterical at me
+[A]LEX[A]: nope! that won’t work on me. don’t need you guilting me into jack shit.
+[A]LEX[A]: in conclusion: go away, loser, don’t cry too hard into your cornflakes, they’ll taste bad.
+[A]LEX[A]: byeeee :)
+* [A]LEX[A] is offline. Your messages might not get through. *
+* [A]LEX[A] is offline. Your messages might not get through. *
+* [A]LEX[A] is offline. Your messages might not get through. *
+</file>
+  
+  
+  
+  
+</Computer>

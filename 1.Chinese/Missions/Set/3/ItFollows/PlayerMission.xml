@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dFollowsMission">
+  <goals>
+    <goal type="clearfolder" target="ds3_dest" path="home"/>
+  </goals>
+  <nextMission>无</nextMission>
+    <posting title="如下">有人宣称要向Kaguya泼脏水。找到他们并核实他们的说法 - 另外，如果有必要的话，就让他们闭嘴。我们需要让这条船保持平稳。</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>It Follows</subject>
+    <body>
+有人宣称要向Kaguya泼脏水。找到他们并核实他们的说法 - 另外，如果有必要的话，就让他们闭嘴。我们需要让这条船保持平稳。
+----
+一个匿名用户开始在一些黑客论坛上搞事，说他们要向我泼脏水。对于黑客社区来说，我还没有臭名昭著到要真的被照料的时候，而那个有问题的发帖者是在一个有问题的IRC频道开喷的，但他们的一些指控已经足够具体，使我稍微有些担心。
+
+我的一个联络人给我发来了发帖者的IP。但是，我现在正忙于其他工作，所以我需要你来处理这件事。
+
+核实他们的说法。如果他们有任何支持性的证据，就连他们的所有文件都一起清理掉。要让他们知道他们不能跟我们搞事：我们的组织需要显得坚不可摧。还有，如果你看到如何加密密匙，就把它们放进IRC。我之后会进行调查的。
+
+-Kaguya</body>
+    <attachments>
+      <link comp="ds3_entry" />
+      <note title="任务指引">调查他们的说法。如果证据看起来是“真的”，或是提到了一个叫“Dreadnought”的人，就把他的文件都毁掉。</note>
+    </attachments>
+  </email>
+</mission>

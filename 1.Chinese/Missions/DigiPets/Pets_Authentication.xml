@@ -1,0 +1,56 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPets_Auth" name="DigiPets_身份验证" security="8" type="4" icon="DLCServer">
+
+  <adminPass pass="mlk3fsdie321" />
+
+  <positionNear target="dPets_MF" position="220" total="360" extraDistance="0.01"/>
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/DigiPets/Chisha" title="DLC/Sprites/DigiPetsLogo" overdrawLogo="false" buttonAlignment="right" />
+
+  
+  
+  <Memory>
+    <Commands>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+    </Commands>
+    <Data>
+      <Block>v=atY2Z0J6zX8</Block>
+      <Block>
+~/home/reminder.txt
+
+主机身份验证：
+登录：admin
+口令：n8u5v432kj</Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/DigiPets/Kachici</Image>
+    </Images>
+  </Memory>
+
+  <dlink target="dPets_MF" />
+  <dlink target="dPets_Home" />
+
+  <file path="AUTHSERV" name="EncryptedVerificationCluster.blk">#BINARY##BINARY#</file>
+  <file path="AUTHSERV" name="AuthServ.dll">#BINARY#</file>
+  <file path="home" name="NO_REBOOT.txt">不要重启这台机器！
+API使用这台服务器进行登录，未经许可不得重启这台机器或扰乱其设置！永远不行，真的，不管是什么原因！
+-T</file>
+  <file path="home" name="Ash_READTHIS.txt">
+该死，Ash，你别给我再惹麻烦了。无论这个服务器有多安全，“身份验证服务器”都不是你可以把所有身份验证细节都写上去的服务器！
+文件已经删了，别逼我把这件事报告给Tiff。
+-T</file>
+  
+  <admin type="progress" isSuper="true"/>
+  
+</Computer>

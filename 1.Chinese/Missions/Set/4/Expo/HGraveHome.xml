@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds4_grave" name="Howard Grave的个人电脑" security="1" type="4" icon="DLCPC1">
+
+  <proxy time="0.2" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 6881, 443, 80, 25, 1443</ports>
+  <trace time="-1" />
+
+  <file path="home" name="p_SQL_399.gz">001101010110111#BINARY#</file>
+
+  <file path="home" name="Thank_You_For_Purchasing_File_.txt">感谢购买文件备份管家2099。
+您的许可证密钥以被发送至您在购买过程中输入的电邮地址。
+
+文件备份管家2099的默认文件夹是/home/fman_cfg/。 </file>
+
+
+  <file path="home/fman_cfg/files-backup" name="setup_log.txt">致命错误：文件备份系统失败。
+错误如下：
+未释放的FileSecurityException：
+在此程序安全等级下无法访问文件夹home/fman_cfg。</file>
+    
+  
+  <file path="home" name="phone_reminder.txt">alpine是旧新闻了。新的新闻是fma93dk
+记得安装Seedia并取得所有好的报告</file>
+  
+  <eosDevice name="Howard Grave的ePwned+-" id="dHGrave_Phone" icon="ePhone2" passOverride="fma93dK">
+    <note>测试笔记
+更多文本</note>
+    
+    <file path="eos/STORAGE" name="p_SQL_399.gz">001101010110111#BINARY#</file>
+    <file path="eos/STORAGE" name="patch_checksum.chk">3F636BDC-946E-4021-B29C-1BD1511C5B40S</file>
+  </eosDevice>
+
+</Computer>

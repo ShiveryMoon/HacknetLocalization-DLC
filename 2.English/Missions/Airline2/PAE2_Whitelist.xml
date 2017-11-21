@@ -1,0 +1,56 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa2_whitelist" name="Pacific_ATC_WhitelistAuthenticator" security="5" type="4" icon="Psylance">
+  
+  <!-- This whitelist server is 'unhackably secure', but the player can dig up the password to it on an earlier comp. 
+  The player is here to sabotage the server to allow themselves access. I'm leaving this up to you and your narrative expertise,
+  but I'm thinking we could include a file on here somewhere that's kind of a whitelist setup guide with instructions on how to add to the list via terminal.
+  Also it should say you can only use this server via terminal.
+  The command to add a line to the whitelist (this works in game) is:
+  "append filename ip"
+  so like this:
+  "append list.txt 192.168.1.1"
+  You need to be in the folder where the file exists for it to work of course.
+  This mission is completable if the player adds their own IP to the whitelist or just crashes it's critical files, but I think it'll feel
+  cooler if we hint at the player that they are supposed to add themselves onto it via files here.-->
+  
+  <portsForCrack val="5" />
+  <ports>192, 9418</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="80" />
+  <portRemap>192=199</portRemap>
+  <adminPass pass="CKYX258" />
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  
+  <positionNear target="dpa_bookings" position="180" total="360" extraDistance="0.15"/>
+
+  <dlink target="dpa2_target" />
+
+  <file path="home" name="whitelist_add.txt">To add a verified IP address to the server whitelist, insert the Schiss-Co License Dongle into your machine, making sure that you have enabled auto-run. The SLD contains a full suite of whitelist management software, but will only run on a licensed machine.
+
+Alternatively, for systems that are firewalled, air-gapped, or otherwise unable to access public networks, consult list_add_manual.txt for instructions on manually adding IP addresses to your whitelist.</file>
+
+
+  <file path="home" name="list_add.sys">#BINARY#</file>
+
+  <file path="home" name="list_add_manual.txt">To manually add a verified IP address to your server whitelist, read thoroughly through the following instructions, making sure to double-check each command to ensure that no breaches of your network occur.
+
+Note: this method is unsupported, and must be performed via terminal. Schiss-Co claims no liability on damages caused by use or misuse of these commands. For more information, consult your setup binder, supplied by your Schiss-Co representative.
+
+Manually adding an IP address to your whitelist involves entering the terminal, navigating to the folder containing the whitelist, and appending your selected IP address to the whitelist file.
+
+Step-by-step, the process goes like so:
+
+1. Open the terminal. Schiss-Co recommendations: bash, xsh
+2. Navigate to the folder containing your whitelist. By default, this is /home/whitelist.
+3. Double-check the IP address to be added to your whitelist.
+4. Append your selected IP by using the "append" command, followed by a space, your whitelist filename ("list.txt", in most cases), a second space, and your IP address. 
+
+For example, if one wanted to add the "192.168.1.1" IP address to their whitelist, their terminal output might look like this:
+
+whitelist-server:/ admin$ cd Whitelist
+whitelist-server:whitelist admin$ append list.txt 192.168.1.1</file>
+
+
+</Computer>

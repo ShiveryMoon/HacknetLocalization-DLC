@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dcentralTest2" name="Kaguya连接1" security="1">
+
+  <proxy time="0.3" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 6881</ports>
+  
+<file path="home" name="Delete_Me.txt">
+删除此文件以前进。
+</file>
+
+  <positionNear target="dIntroCentral" position="100" total="360"/>
+  
+</Computer>

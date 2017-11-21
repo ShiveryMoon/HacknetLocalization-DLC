@@ -1,0 +1,20 @@
+A mission starts with a tag saying mission, like this:
+
+<mission id="airline_player">
+
+There are nly a select few tags you need to translate in missions, so i'll go through all of them. Do not translate anything not mentioned here.
+
+In missions, you want to look for the tag "posting", like this:
+
+<posting title="Take Flight - #PLAYERNAME#">
+Gain access to the bookings mainframe of an international airline.
+</posting>
+
+Translate the title (remember to keep names and formatting intact!) and the body of the posting.
+
+Then address the email tag. Translate the Sender, subject and body of the email.
+
+Look to the attachments tag and look for any "note" tags inside that.
+Translate the title and body of any notes.
+
+That's it!

@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPets_MF" name="DigiPets_主机" security="8" type="empty" icon="DLCServer">
+
+  <adminPass pass="n8u5v432kj" />
+
+  <dlink target="dPets_Auth" />
+  <dlink target="dPets_Home" />
+  <dlink target="dPets_VC" />
+
+  <DatabaseDaemon Name="DigiPets主机数据库" DataType="DigiPetsAccount" Permissions="admin" Color="255,197,61" />
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/DigiPets/Psybunny" title="DLC/Sprites/DigiPetsLogo" overdrawLogo="false" buttonAlignment="left" />
+
+  <admin type="progress" isSuper="true"/>
+
+</Computer>

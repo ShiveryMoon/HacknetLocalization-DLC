@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dCleanupMission">
+  <goals>
+    <goal type="clearfolder" target="ds3_fn" path="home"/>
+  </goals>
+  <nextMission>无</nextMission>
+    <posting title="清除">因为某些个人原因，D3f4ult不得不在一次入侵的半中间离开。攻入目标，完成工作，并清除他留下的痕迹。</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>清除</subject>
+    <body>
+因为某些个人原因，D3f4ult不得不在一次入侵的半中间离开。攻入目标，完成工作，并清除他留下的痕迹。
+----
+某些个人事务使得D3f4ult不得不在工作的半中间离开。我需要你回到那儿去，清除他的工作留下的痕迹，并完成整件工作。
+
+我在寻找还未公开的“佛兰肯斯坦”计划 - 与主服务器连接的。下载你找到的任何东西，把它们上传到hub服务器去。
+在D3f4ult不得不离开前他写下的日志：
+
+Kaguya: 没关系。
+D3f4ult: 我真的超级抱歉。
+Kaguya: 不要苛责你自己
+D3f4ult: 以下是详细信息：
+D3f4ult: IP: 21.32.43.54
+D3f4ult: 登录名：admin
+D3f4ult: 密码：redwood
+D3f4ult: 我已经完成了在这套系统上的工作，还有之前在另一些系统上的
+D3f4ult: 所以你要做的就是找到加密文件，获取它们，然后把它们放到dropbox上去
+D3f4ult: 客户说这是些还未公开的音乐？
+D3f4ult: 还有，我没来得及清除我的工作文件，所以请帮我清除一下
+
+祝好运，
+-Kaguya
+    </body>
+    <attachments>
+      <link comp="ds3_fn" />
+      <note title="任务指引">清除基础服务器上与D3F4ult相关的所有文件。
+深入调查以寻找尚未公开的计划
+将它们上传至共享服务器</note>
+    </attachments>
+  </email>
+</mission>

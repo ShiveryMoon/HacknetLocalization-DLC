@@ -1,0 +1,17 @@
+﻿<ConditionalActions>
+  
+  <OnConnect target="dhs">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-8.0">天啊，TorrentStreamInjector的动画太烦人了。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-70.0">几秒钟就能使目标端口饱和确实不错，但是这玩意的动画效果一直不停！弄得我都想把它反编译了，但我敢打赌，里面的代码绝对一团糟。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-60.0">但这不是个大问题，对吧？</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-50.0">？？？</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-40.5">它既托了我后腿，又那么烦人，怎么不是问题了？</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-30">ps -> kill pid不就完了？有啥烦人的？</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-25">……</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-20">我居然没想到这点。真丢人。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-10">哈哈</AddIRCMessage>
+    
+  </OnConnect>
+  
+</ConditionalActions>

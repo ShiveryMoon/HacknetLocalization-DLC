@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dCleanupMission">
+  <goals>
+    <goal type="clearfolder" target="ds3_fn" path="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Cleanup">D3f4ult had to leave the computer halfway through a hack, for personal reasons. Break into the target, finish the job, and clean up his work.</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>Cleanup</subject>
+    <body>
+D3f4ult had to leave the computer halfway through a hack, for personal reasons. Break into the target, finish the job, and clean up his work.
+----
+Personal issues have pulled D3f4ult AFK for a while mid-job. I need you to go back in there, clean up any traces of his work, and finish the job.
+
+I'm looking for the unreleased projects of "Funkenstein" - home server attached. Download any that you find and upload them to the hub server.
+Log from D3f4ult before he had to leave:
+
+Kaguya: It's fine.
+D3f4ult: Really am super sorry.
+Kaguya: Don't beat yourself up over it
+D3f4ult: These are the details:
+D3f4ult: IP: 21.32.43.54
+D3f4ult: login: admin
+D3f4ult: pw: redwood
+D3f4ult: I've already done the work on this system and a few others before it 
+D3f4ult: so all you have to do is find the encrypted files, grab them, and put them on the dropbox
+D3f4ult: The client said they were something about unreleased music?
+D3f4ult: Also, I didn't get a chance to clean up my working files, so please do that for me
+
+Good luck,
+-Kaguya
+    </body>
+    <attachments>
+      <link comp="ds3_fn" />
+      <note title="Mission Guidelines">Clean up any files relating to D3F4ult on the base server.
+investigate further to find any unreleased projects
+upload them to the hub server</note>
+    </attachments>
+  </email>
+</mission>

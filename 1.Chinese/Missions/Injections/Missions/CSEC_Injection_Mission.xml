@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dCSEC_注入">
+  <!-- NOTE: This mission requires copying the upload file listed below to the CSEC hub before being added to the CSEC mission list -->
+  <goals>
+    <!-- corrupt the archive containing this one... blanket with delete, to stop it being un-completable 
+    File deletion will still work if the file exist but has it's data changed -->
+    <goal type="filedeletion" target="dPsyArchives" file="2_q1.zip" path="home/archives"/>
+   
+    <!-- upload the false report -->
+    <goal type="fileupload" target="dHidden" file="PA_0022_Incident.dec" path="home" destTarget="dPsyInternal" destPath="projects/investigations"/>
+    
+  </goals>
+  <missionStart val="2" suppress="true">changeSongDLC</missionStart>
+  <missionEnd val="3">changeSong</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>>
+  <posting title="破坏Psylance的调查">
+因为最近发生的一起硬件故障事件，Psylance网络安全公司正在陷害一个无辜的骇客。我们需要你代表一个匿名的受益人去纠正他们的错误。
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>让Psylance沉默</subject>
+    <body>CSEC代理人，
+    
+我在网络安全领域的一个好朋友正在因为一件非她所为的攻击事件而遭受陷害。
+Psylance网络安全公司正在编写一份该事件的报告，而我想用我自己的版本将其替换。我已将我自己的报告发送给CSEC管理员（管理员提示：加密过的报告现已上传至hub服务器：home/PA_0022_Incident.dec）供你使用
+它应该很好地镜像了他们自己那篇的结构，所以他们应该不会注意到替换。你应该访问他们的内部服务服务器（已链接），找到同名的报告书，将其删除，然后替换成我上传到CSEC的那份。
+
+在那之后，你还需要处理掉他们的备份。访问他们的自动备份服务器（同样已链接），如果可能的话，只破坏他们的文档就可以了，不要直接删除。应该是最新的那个文档（2_q2，如果我的搜索是正确的话）。用字母替换一些二进制内容就可以将文档破坏，或者用其他类似的办法也行。
+
+
+感谢你在此项事务中的援助，
+-K
+    </body>
+    <attachments>
+      <link comp="dPsyArchives" />
+      <link comp="dPsyInternal" />
+
+      <note title="Overview">从CSEC删除服务器下载PA_0022_Incident.dec
+访问Psylance内部服务器
+删除他们的事件报告拷贝
+将CSEC版本的报告上传至相同位置
+访问备份服务器
+破坏文件backup_2q2.zip（或类似的名字）
+好好掩盖痕迹</note>
+      
+    </attachments>
+  </email>
+</mission>

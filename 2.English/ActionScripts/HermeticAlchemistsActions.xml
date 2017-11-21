@@ -1,0 +1,19 @@
+<ConditionalActions>
+  
+  <OnAdminGained target="dhaComp2">
+    
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="23.0">@channel I found an encrypted file on "Solve" that you two might be interested in.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="32.2">Decrypted, it seems to say that the password to "Rebis" is "clarity". Doesn't seem to be working for me for the admin account though?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="50.2">Thanks for the heads up @D3f4ult</AddIRCMessage>
+
+  </OnAdminGained>
+
+  <OnConnect target="dhaAdminPhone" needsMissionComplete="false">
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="17.0">@channel - can anyone remind me what the default eOS admin pass is?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="24">It's "alpine" by default.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="27.0">Thanks</AddIRCMessage>
+    
+  </OnConnect>
+  
+</ConditionalActions>

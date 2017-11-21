@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds3_mail" name="MagmaMailbox" security="1" type="4" icon="DLCSERVER" ip="26.26.62.62">
+
+  <proxy time="-1" />
+  <portsForCrack val="7" />
+  <ports>22, 21, 6881, 443, 80, 25, 104</ports>
+  <trace time="250" />
+
+  <customthemefile path="home" name="caution_standard_x-server.sys" themePath="DLC/Themes/CautionThemeStandard.xml"/>
+
+  <account username="cornch1p" password="SaltyChippies22" type="2" />
+  
+  <mailServer name="MagmaMailbox" color="224,52,0">
+    
+    <email recipient="kburnaby" sender="temp_05ECE" subject="(no subject)">Your home server's IP address is 177.3.200.6, correct? Please whitelist my VPS; the IP address is 7.201.4.178.
+You need to be more cautious. I have heard that you are being noisy; this will surely attract attention.</email>
+    
+    <email recipient="kburnaby" sender="temp_ACCC0" subject="(no subject)">I need you to start talking to hackers in the Western community and find out whether Kaguya is making a name for himself.
+Stay quiet. Stay cautious.</email>
+    
+    <email recipient="kburnaby" sender="temp_05ECE" subject="(no subject)">Kaguya has gone too far this time. I counsel patience for you.</email>
+    
+    <email recipient="kburnaby" sender="do-not-reply@magmamailbox.com" subject="Automatic Notification: Subscription Renewed">Dear cornch1p,
+This is an automated message to notify you that your MagmaMailbox subscription has been renewed.
+Thank you for being a loyal subscriber to the internet's #1 secure mail service.
+Best regards,
+MagmaMailbox Admin Team
+---
+DO NOT REPLY TO THIS EMAIL - THIS MAILBOX IS UNMONITORED.
+---</email>
+    
+    <email recipient="kburnaby" sender="temp_05ECE" subject="(no subject)">Thank you for getting in contact. I received this communique' last month. You know who it's from:
+---
+Dreadnought now goes by ""Kaguya"".
+He(?) has burnt the hard drives of his compatriots, and moved to the West.
+We attempted to follow him, but his tracks are covered. 
+It Lives.
+---</email>
+    
+    <email recipient="kburnaby" sender="do-not-reply@magmamailbox.com" subject="Automatic Notification: Mailbox Wiped">Dear cornch1p,
+This is an automated message to notify you that your mailbox has been wiped as part of MagmaMailbox's weekly purge. This is purely a notification: you don't have to take any action.
+Best regards,
+MagmaMailbox Admin Team
+---
+DO NOT REPLY TO THIS EMAIL - THIS MAILBOX IS UNMONITORED.
+---</email>
+    
+  </mailServer>
+  
+</Computer>

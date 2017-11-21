@@ -1,0 +1,104 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa_nethub" name="太平洋航空网络中心" security="5" type="4" icon="PacificAir">
+  
+   <!-- Network hub for the airline. This is an "internal Services" node for the airline,
+  it runs misc services and hosts data for them. This sort of catch-all, "don't know
+  where to put it so just put it there" server exists *a lot* in corporate networks.
+  Because of it's generic nature, it's the easy answer to where things go, so it naturally
+  becomes the center of things over time.
+  
+  Mechanically, it mostly exists to provide a central point from which players can reference things,
+  and for players to feel like the network is big and expansive, when not everything has a specialized role.
+  
+  In terms of the files it'll have on it, probably a few memos from people to one another (and another one
+  complaining that they should just use the company email for that sort of thing), bits and pieces that
+  employees want to send each other, or be able to access at work, both personal and work-related.
+  We don't want players to spend too long here (there isn't anything too useful to the mission to find) so keep
+  it light.-->
+
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="61" />
+  <portsForCrack val="4" />
+  <ports>22, 21, 443, 6881, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <dlink target="dpa_mail" />
+  <dlink target="dpa_bookings" />
+  <dlink target="dpa_whitelist" />
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/PacificAir_Big" title="DLC/Sprites/PacificAirTitle" overdrawLogo="true" buttonAlignment="right" />
+  
+  
+  <file path="home/memos" name="0504_nkudo_contractors.txt">
+这是一份公开的备忘录，专门用来嘲讽nat这个B还没有把承包商名单搞到手。
+赶快去找！！！-g</file>
+
+  <file path="home/memos" name="0505_gfinbow_clarification.txt">我给Griffin的公开备忘录
+过去几天来，我逐渐……
+明白了一些事情
+事实上，这是一个漫长的过程
+如果我带来了麻烦，那么对不起！
+对于你，我相信这是个失望的
+Finbow-senpai，请原谅我！
+但无论怎样，就像我说的那样，这都是个漫长的过程。
+别担心我加过的那些班！哈哈！
+想不想抛开过去，从头再来？:)
+我愿意试试。
+规则不变。
+不久之后我们可以一起喝咖啡，那可太棒了。
+小心脚下！
+大胆试试再次对我大吼大叫。
+不管怎样，我想要结束这个。
+因此，我会完成这份备忘录，然后回去工作。
+比如，嘿，为何不试试读一下把每句话的第一个字母连在一起 -nat
+
+*汉化组注：原文的每行英文开头字母组成的语句是togriffinkissmyass</file>
+
+  <file path="home/memos" name="0506_hfadden_contractors.txt">
+注意言辞，你们两个家伙。如果你们不能表现地像个成年人，我会取消你们访问这个节点的权限。
+-Harry</file>
+
+  <file path="home/memos" name="0507_hg.txt">
+    k
+  </file>
+
+  <file path="home/memos" name="0508_nkudo.txt">另外，看起来psylance才是应该找的那个。谢谢你帮我拿到名单。
+-g</file>
+
+  <file path="home/memos" name="0509_g.txt">想象一下，如果你没有在被动情况下的再三督促我这么快为你拿到名单，又会怎样，哈哈哈 -n</file>
+
+  <file path="home/memos" name="0510_everyone_STOP_THIS.txt">这是个成品服务器。不要再往这个文件系统里堆备忘录了。 
+使用内部消息板或邮件系统，为了帮你们这帮蠢货，我花了一个星期的时间架设。
+
+放过我吧。
+
+-ADMIN</file>
+
+  <file path="home/memos" name="0510_to_admin.txt">
+    哥们，你生气了？
+  </file>
+
+  <file path="home/memos" name="0511_everyone.txt">griffin 已经被剥夺了权限。你们都应该记住这教训。
+-admin
+  </file>
+
+  <file path="home/share" name="underwater.txt">"看这里，老头，你觉着申请海军预备役怎么样？“Ross问道。”在一般情况下，我都该准备好从桑德赫斯特毕业了，但这不是一般情况。在我们累晕过去前，战争可能就结束了。"
+
+"我更想看些乐子，"Vernon表示赞同。
+
+"好像我们还没看过似的，”他的室友补充道。“但我明白你的意思。与其被困在一个德文潜水艇中被其他人猎杀，我们更想参与对付德国潜水艇。我赞成给各自的地方长官写信说说。</file>
+
+
+  <file path="home/share" name="bonzibuddy.msi">#BINARY#</file>
+
+  <file path="home/share" name="bonzibuddy_v2.msi">#BINARY#</file>
+
+  <file path="home/share" name="the_tingler.msi">#BINARY#</file>
+
+  <file path="home/share" name="frog_fractions_3_beta.txt">#BINARY#</file>
+
+</Computer>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds3_entry" name="cornch1p home pc" security="1" type="4" icon="DLCPC1" ip="177.3.200.6">
+
+  <proxy time="-1" />
+  <portsForCrack val="1" />
+  <ports>6881, 443</ports>
+  <portRemap>6881=69</portRemap>
+  <trace time="250" />
+
+  <Memory>
+    <Commands>
+      <Command>MagmaMail.exe -ip 26.26.62.62 cornch1p@magmamailbox.com:SaltyChippies22
+...Connected!
+Accessing email.
+Accessing email.
+Accessing email.
+Disconnecting.
+rm home/MagmaMail.exe
+dc</Command>
+    </Commands>
+  </Memory>
+  
+  
+</Computer>

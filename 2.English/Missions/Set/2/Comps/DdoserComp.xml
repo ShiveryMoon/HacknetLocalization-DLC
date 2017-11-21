@@ -1,0 +1,114 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dDdoserComp" name="r00t_Tek Battlestation" security="4" type="4">
+
+  <!-- This is the "work/hacking server of one of those DDOS cheaters - the player will find their personal home laptop
+  by scanning this, so leave personal files for that, but this should have files in/around the LOIC folder about that stuff.
+  LOIC stands for "Low orbit ion cannon" - it's a DDOS program made by/for 4Chan. It's pretty widely used by script kiddies and
+  game cheaters to easily ddos servers and people - that's a real thing, and this is sort o referencing it.
+  This guy probably isn't all that smart or good at stuff, (though he's not completely stupid), so would have looked up guides
+  to find out how to use this stuff - probably on google or something. Maybe work with that? Up to you, as always.-->
+  
+  <trace time="-1" />
+  <proxy time="-1" />
+  <portsForCrack val="3" />
+  <ports>22, 6881, 443</ports>
+  <portRemap>ssh=33</portRemap>
+
+  <dlink target="dDdoserHomeComp" />
+  
+  <file path="LOIC" name="runtime.dll">#BINARY#</file>
+  <file path="LOIC" name="config.cfg">#BINARY#</file>
+  <file path="LOIC" name="sources.txt">
+64.34.168.42 - 64.34.168.42 , 0 , SEXYeMULE#9
+64.34.168.99 - 64.34.168.99 , 0 , SEXYeMULE#7
+64.34.168.224 - 64.34.168.224 , 0 , #most powerfull emule server#
+64.34.168.227 - 64.34.168.228 , 0 , !NEXT	CENTURYA GENERATION""
+64.34.168.235 - 64.34.168.235 , 0 , DOWNTOWN EMULE
+64.34.168.247 - 64.34.168.247 , 0 , SEXYeMULE#10
+64.34.169.45 - 64.34.169.45 , 0 , BangBros FukFaktory
+64.34.170.178 - 64.34.170.178 , 0 , Pirate's Lair 3
+64.34.171.71 - 64.34.171.71 , 0 , #sky version #
+64.34.176.133 - 64.34.176.133 , 0 , Pirate's Lair 1
+64.34.176.135 - 64.34.176.135 , 0 , Pirate's Lair 2
+64.34.176.137 - 64.34.176.137 , 0 , Pirate's Lair 4
+64.34.176.139 - 64.34.176.139 , 0 , Pirate's Lair 5
+64.34.176.145 - 64.34.176.145 , 0 , Pirate's Lair 6
+64.34.177.106 - 64.34.177.106 , 0 , SEXYeMULE#3
+64.34.178.57 - 64.34.178.57 , 0 , Hell FIRE!!! atomic P2p
+66.162.178.101 - 66.162.178.102 , 0 , V1d30 b0X
+66.162.178.108 - 66.162.178.108 , 0 , V1d30 b0X
+66.172.60.127 - 66.172.60.151 , 0 , 
+66.180.205.1 - 66.180.205.255 , 0 , too many fake servers in this ip range.
+66.192.117.34 - 66.192.117.44 , 0 , tribes 
+66.193.21.100 - 66.193.21.100 , 0 , 
+66.193.60.182 - 66.193.60.182 , 0 , 
+66.199.250.170 - 66.199.250.170 , 0 , I 3 NY
+66.250.46.252 - 66.250.46.252 , 0 , Jumping Jim 2 
+66.250.46.254 - 66.250.46.254 , 0 , Jumping Jim 
+66.250.47.26 - 66.250.47.27 , 0 , (no name only ip number) 
+66.250.47.29 - 66.250.47.30 , 0 , Roberts Donkey Party VI 
+66.250.47.33 - 66.250.47.37 , 0 , Roberts Donkey Party IV 
+67.159.5.36 - 67.159.5.36 , 0 , Scoopy Doo's Porn Farm
+69.44.156.185 - 69.44.156.185 , 0 , Family Donkey Server. 
+69.90.75.54 - 69.90.75.54 , 0 , tribes 
+72.34.98.2 - 72.34.98.17 , 0 , The andr0ids dunge0n
+72.34.98.19 - 72.34.98.20 , 0 , Ninja's Lair 3
+72.51.35.78 - 72.51.35.78 , 0 , Ararat Sar
+72.51.37.107 - 72.51.37.109 , 0 , BustyPirates
+72.51.37.237 - 72.51.37.237 , 0 , Untouchable 2.0
+72.51.38.139 - 72.51.38.143 , 0 , File Factory
+72.51.39.150 - 72.51.39.153 , 0 , SLAPSLAM
+72.51.41.81 - 72.51.41.81 , 0 , eMULE#1
+87.239.51.126 - 87.239.51.126 , 0 , Nederlands Geslacht</file>
+  
+    <file path="LOIC" name="sources2.txt">
+38.100.26.205 - 38.100.26.205 , 0 , Captian Jack
+38.116.37.102 - 38.116.37.103 , 0 , edonkey.linuxlabs.com
+38.119.66.27 - 38.119.66.27 , 0 , unnamed
+38.119.67.93 - 38.119.67.93 , 0 , tribes 
+38.119.105.66 - 38.119.105.66 , 0 , tribes 
+61.134.43.26 - 61.134.43.26 , 0 , eserver2608
+61.155.39.144 - 61.155.39.144 , 0 , 
+61.234.11.22 - 61.234.11.22 , 0 , ape_music_DonkeyNetwork
+62.75.222.220 - 62.75.222.220 , 0 , www.nutten-abo.de 
+63.115.148.102 - 63.115.148.103 , 0 , edonkey.linuxlabs.com 
+63.217.27.7 - 63.217.27.7 , 0 , eMulerack 2
+63.217.27.11 - 63.217.27.11 , 0 , Cr4ck 734m Un173D
+63.217.27.16 - 63.217.27.16 , 0 , highSPEED 
+63.222.6.1 - 63.222.6.99 , 0 , tribes 
+64.27.7.187 - 64.27.7.187 , 0 , H.POwer charger
+64.27.18.169 - 64.27.18.169 , 0 , Ast te rid quiero
+64.34.161.44 - 64.34.161.44 , 0 , Sonny boy 2 
+64.34.161.157 - 64.34.161.157 , 0 , Sonny boy 4 
+64.34.161.177 - 64.34.161.180 , 0 , Razorback 2.4
+64.34.161.219 - 64.34.161.219 , 0 , Sonny boy 3 
+64.34.161.240 - 64.34.161.241 , 0 , Sonny boy 7
+64.34.162.87 - 64.34.162.87 , 0 , Sonny boy 1 
+64.34.162.138 - 64.34.162.138 , 0 , Razorback 2.2
+64.34.162.148 - 64.34.162.148 , 0 , Razorback 2.3
+64.34.164.93 - 64.34.164.93 , 0 , eMULE#5
+64.34.164.183 - 64.34.164.184 , 0 , Byte Devils
+64.34.165.184 - 64.34.165.184 , 0 , Byte Devils
+64.34.165.203 - 64.34.165.204 , 0 , Byte Devils
+64.34.166.107 - 64.34.166.107 , 0 , Dual opteron 8Gigabyte RAM very high data transfer
+64.34.166.155 - 64.34.166.155 , 0 , ### Gigaserver jeunes sox ###</file>
+  
+  <file path="LOIC" name="TARGETS.txt">
+101.79.150.88, Snowstorm SoG Cluster 0-6
+101.79.150.89, Snowstorm SoG Cluster 6-9
+101.79.150.101, Snowstorm SoG Cluster 9-16 - LOGIN SERVERS
+101.79.150.200, Snowstorm SoG Cluster 16-18
+101.79.150.207, Snowstorm SoG Cluster 18-20
+101.88.150.89, Snowstorm SoG Cluster 20-26 - LOAD BALANCERS
+101.88.150.101, Snowstorm SoG Cluster 26-31
+101.88.150.200, Snowstorm SoG Cluster 31-36
+101.88.152.207, Snowstorm SoG Cluster 36-40
+  </file>
+
+  <file path="LOIC" name="guide.txt">
+open. aim. fire.
+do you really need instructions, you fucking skiddie?
+  </file>
+  
+
+</Computer>

@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dAttackMission_P">
+  <goals>
+    <goal type="fileupload" target="dAttackTarget" file="MemDumpGenerator.exe" path="bin" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="1">scanAndStartDLCVenganceHack</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Striker's Archives">
+A relatively unknown Hacker 'Striker' has reputedly built a very nice memory dump generator. We'd like a copy.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Striker's Stash</subject>
+    <body>
+A relativley unknown Hacker 'Striker' has reputedly built a very nice memory dump generator. We'd like a copy.
+----
+The target's system is relativley well defended, but nothing you shouldn't be able to handle. I'd like this job to be as clean as possible - no unnecessary destruction or trouble if you can manage it.
+Grab a copy of the memory dump generator and upload it to the hub drop server.
+
+Good Luck,
+-Kaguya</body>
+    <attachments>
+      <note title="Mission Guidelines">
+Investigate Striker's server.
+Search for a memory dump generator program and download a copy.
+Upload it to the hub drop server.
+      </note>
+      
+      <link comp="dAttackTarget" />
+      
+    </attachments>
+  </email>
+</mission>

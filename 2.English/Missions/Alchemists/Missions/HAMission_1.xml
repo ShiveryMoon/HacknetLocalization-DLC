@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ham1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="The Hermetic Alchemists - Coel">
+The administrator of a strange, philosophical group's server system has developed some software that we'll need for future projects.
+    </posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

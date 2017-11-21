@@ -1,0 +1,154 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dCredits" name="Kaguya_Projects" security="4" type="empty" ip="54.183.231.34">
+
+  <portsForCrack val="1" />
+  <ports>21</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="-1" />
+  <portRemap>21=1886</portRemap>
+
+  <DLCCredits />
+
+  <file path="bin" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+  <file path="home" name="Prospectives.txt">
+Potential Candidates
+--------------------------
+
+
+        
+Shimo7even
+        - Country: Japan
+        - Leader of L0sExtraditables
+        
+d3f4ult
+        - Country: Japan
+        - BotHerder, BushidoBot 
+        
+L0m1s
+        - Country: UNKNOWN
+        - Ransomware Dev, Web Exploitation
+        
+meepkittyfXck
+        - Country: Canada/Sweden
+        - Social Engineer, Disinfo 
+        
+Bit
+        - Country: Australia
+        - Exploit/Tools Dev
+        
+Lorde_Bashtien
+        - Country: Miami, USA
+        - Carder, Social Engineer
+        
+Sh1n0d4
+        - Country: Japan (?)
+        - BushidoBot dev
+        
+Coel
+        - Country: Germany
+        - CybserSec expert
+        
+MLT
+        - Country: UK
+        - Exploit Dev, 0day Hoarder
+        
+#PLAYERNAME#
+        - Country: #PLAYERLOCATION#
+        - Unknown - 0day tech?
+
+</file>
+
+<file path="home" name="CreditsData.txt">
+%---  Labyrinths Project  ---
+
+^Design and Development
+Matt Trobbiani
+
+^Writing
+Damon Reece (@demanrisu)
+Matt Trobbiani (@Orann)
+
+^Logos and Diagrams
+W O V A Studio
+www.wova.pl
+
+^DigiPets Artists
+Poppy de Raad (@pixecology)
+
+^Keyboard Photos
+/u/koalapear
+
+^Backgrounds
+Angelus-Hellion
+angelus-hellion.deviantart.com
+
+^Bonus Writing Help
+Aisha Black
+Hanna Siek
+
+^Icons
+Pavel Kozlov
+Gregor Cresnar
+Lucy G
+
+^Community Managers
+Colamaeleon
+RainShatter
+Aidy
+
+^Testers
+Peer
+phonic88
+Colamaeleon
+Scratch
+SpadeGamer_Dallas
+
+^Special Thanks
+Hanna Siek
+Jamie Williamson
+Bec Pelvay
+Chris Johnson
+Chelsea Easton
+Alex Mackay
+Lauren  Clinnick
+Morgan Jaffit
+Sasha Mattschoss
+Izzy Gramp
+Ben Trobbiani
+Stephen Trobbiani
+Laura Trobbiani
+Gabriele Trobbiani
+Pam Carroll
+
+</file>
+  
+  <Memory>
+    <Data>
+      <Block>damon.txt
+
+damon reece, aka the one who put all the bad jokes in the DLC, says:
+
+thanks to my writerly and creative friends - lucy, lauren, saf, bridget, zoe, livs, soha, jess, ash, em, kim, craig, shoe, sled. y'all are heroes and i don't know what i'd do without you!
+
+thanks to matt, for bringing me onto the project, and for being such a soft target for devastating and spicy owns, the likes of which will never be seen again unless he makes some sort of huge mistake and hires me again in the future. I'M NOT SORRY
+
+thanks to you, for buying and playing this cool, serious, silly, goofy, ~dramatic~ expansion pack. people like you make it so people like matt and I can follow our dreams and make badass videogames, and that's extremely exciting and good.
+
+also, a special shoutout to that twitter account that mashes up dril tweets with screenshots from metal gear solid 3. you da real mvp</Block>
+    <Block>matt.txt
+
+I feel responsible for a bunch of the bad jokes too, tbh.
+
+Thankyou Damon for your incredible work getting the writing done with me, and everyone in the above lists for being amazing and supportive.
+Working on stuff like this gets really stressful - you've all helped me through a lot.
+
+Thankyou
+    </Block>
+      <Block>54.192.133.33</Block>
+    </Data>
+  </Memory>
+  
+</Computer>

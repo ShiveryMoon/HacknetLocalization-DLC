@@ -1,0 +1,20 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="1.2">Safe.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="5.2">We can breathe again..</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="10.2">I can't believe they did that.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="14.2">A plane... An OCCUPIED plane...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="20.2">Anyway. We need to lie low on this for a while. Best not to be in contact for a bit.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="27.2">Thankyou for your help. You made a real difference with this.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="33.2">I'll take care of the cleanup for all this. You were connected to that plane, so you should stay out of those servers for a while. I'll make sure there's no trace.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="36.2">Ah, and, I found this in this server's setup config. Looks like it'll reset your UI and remove Kaguya's trackers.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="40.2">It's been a pleasure working with you, #PLAYERNAME#. Good luck, take care.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="42.2">-C</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="44.0">!ATTACHMENT:link#%#Kaguya_Projects#%#54.183.231.34</AddIRCMessage>
+  
+  </OnConnect>
+
+</ConditionalActions>

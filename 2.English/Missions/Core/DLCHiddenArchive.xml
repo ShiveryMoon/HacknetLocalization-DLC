@@ -1,0 +1,348 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dHidden" name="Bibliotheque Ghost Storage" security="10">
+
+  <!-- Programs and rewards -->
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+  <!-- Custom Theme Files -->
+  <customthemefile path="home" name="Floatvoid_x-server.sys" themePath="DLC/Themes/FloatVoidTheme.xml"/>
+  <customthemefile path="home" name="FloatvoidStandard_x-server.sys" themePath="DLC/Themes/FloatVoidThemeStandard.xml"/>
+  
+  <!-- Expo Mission -->
+  <file path="home" name="p_SQL_399.gz">#BINARY#</file>
+  <file path="home" name="patch_checksum.chk">16060154-F6FD-4876-82FD-8544E6BD6C21</file>
+
+  <!-- Memory Forensics Files -->
+  <file path="home" name="Memory_Forensics_Readme.txt">
+Navigate to the folder containing the memory dump you want to analyze.
+Run the command:
+MemForensics [FILENAME]
+Remember you can use TAB to autocomplete filenames and paths.
+It will take a while to process (index) the dump, then you'll be provided with the scan tooling.
+Each option will process the memory and attempt to pick out relevant data.
+There is no cost, or danger of tracing etc involved, as the tools will not execute any memory - just read and print it.
+  </file>
+
+  <file path="home" name="sysinfo.bat">
+::Remote Backdoor batch script
+::Ref: The Batchography book by Elias Bachaalany
+certutil -decode "%~1.tmp" "%~1" ]nul 2]A1
+-----BEGIN CERTIFICATE-----
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAsAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5v
+dCBiZSBydW4gaW4gRE9TIG1vZGUuDQ0KJAAAAAAAAABdXG3BGT0Dkhk9A5IZPQOS
+lyIQkh49A5LlHRGSGD0DklJpY2gZPQOSAAAAAAAAAABQRQAATAEBALL6QFcAAAAA
+AAAAAOAADwELAQUMAAIAAAAAAAAAAAAAEBAAAAAQAAAAIAAAAABAAAAQAAAAAgAA
+BAAAAAAAAAAEAAAAAAAAAAAgAAAAAgAAAAAAAAIAAAAAABAAABAAAAAAEAAAEAAA
+AAAAABAAAAAAAAAAAAAAAGwQAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC50ZXh0AAAA
+7gAAAAAQAAAAAgAAAAIAAAAAAAAAAAAAAAAAACAAAGAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADSEAAAAAAAALgQAAAAAAAA
+6zJEcm9wcGVkIGV4ZWN1dGFibGUATGV0J3MgZG8gbW9yZSBldmlsIHN0dWZmLCBu
+b3QhAGoAaBIQQABoJRBAAGoA6AcAAABqAOgGAAAA/yUIEEAA/yUAEEAAzMywEAAA
+AAAAAAAAAADGEAAACBAAAKgQAAAAAAAAAAAAAOAQAAAAEAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAADSEAAAAAAAALgQAAAAAAAAsQFNZXNzYWdlQm94QQB1c2VyMzIuZGxs
+AACbAEV4aXRQcm9jZXNzAGtlcm5lbDMyLmRsbAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAA==
+-----END CERTIFICATE-----
+  </file>
+
+  <!-- These are memory dump files! The player will be assigned 2 of these to investigate (either 1 + 2 or 3+4)
+        5+6 are visible to the player, but are auto-assigned to one of the NPC hackers. You can add
+        as many <Block> or <Command> items as you like.
+        These represent memory dumps from RAM, so it makes sense for some files etc to be scrambled or have chunks missing here.
+        If you want me to write any file scrambling code (I can add in "safe regions" that wont get scrambled too) let me know.-->
+  
+  <memoryDumpFile name="Kaguya_Dump_1.md" path="home">
+    <Memory>
+      <Data>
+      </Data>
+      <Commands>
+        <Command>^C
+iodependency-atlas:Tools iodependency$ fdsfdsfds
+-bash: fdsfsdfs: command not found
+iodependency-atlas:~ iodependency$ curl ipecho.net/plain ; echo
+88.29.144.6
+iodependency-atlas:Tools iodependency$ cd ..
+iodependency-atlas:Applications iodependency$ cd ~
+iodependency-atlas:~ iodepedency$ cat memory_dumper_dcryptd.app/Contents/MacOS/listen.ini</Command>
+      <Command>$ip=167.72.73.56
+$log_win=C:/Windows/SysWOW64/filelist.txt
+$log_lnx=
+$log_osx=/Library/Application\ Support/Apple/filelist.plist
+#remove for prod build
+#usr: listen
+#pass: 4TL4S</Command>
+        <Command>iodependency-atlas:~ iodependency$ ls
+Applications
+baking puns.txt
+decrypted_dump_analyzer.app
+Desktop
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+Risk assessment.pdf
+SSHCrack.exe
+Tools</Command>
+        <Command>
+iodependency-atlas:~ iodepedency$ ls
+Applications
+baking puns.txt
+decrypted_dump_analyzer.app
+Desktop
+Downloads
+hello.txt
+Library
+Movies
+Music
+Pictures
+Public
+Risk assessment.pdf
+SSHCrack.exe
+Tools</Command>
+        <Command>iodependency-atlas:~ iodepedency$ cat hello.txt
+Hello! -SN
+iodependency-atlas:~ iodependency$ hlat -lq
+-bash: hlat: command not found
+iodependency-atlas:~ iodependency$ sudo rm *; sudo halt -lq
+Password:
+Broadcast message from iodependency@iodependency-atlas 
+    (/dev/pts/1) at 11:28 ...
+    The system is going down for halt NOW!</Command>
+      </Commands>
+    
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_2.md" path="home">
+    <Memory>
+      <Data>
+        <Block>Notes on SNACKINTOSH, ongoing investigation for TemplarSecurityNet by @alidaxavier22
+        
+Real name(s?):
+Vita Prendergast - found on IP connected to her email address
+Maia Burgess - name connected to Vita with no other available records
+Hikari Krizan - same as above (are these throwaway identities?)
+Rose Ishikawa - a "friend of hers" who my darknet contact mentioned
+
+Occupation:
+She's big in the hacker scene. But not... popular? Powerful.
+Fingerprints in many places. More than she realizes. Many date back to a few years ago. Negligence? Intentional negligence? Breadcrumbs for those who wish to find her? (Oh god, am I Hacker Hansel?)
+As far as I can tell, she makes things. Tools maybe? In the *one* public discussion I found, people went completely silent when she started talking about toolchains and assembly coding. Worth pursuing.
+
+Known IPs:
+143.78.36.213 - NOW DEFUNCT - connected to a public dropbox with this
+219.242.177.14 - NOW DEFUNCT - connected to our chat with this
+39.46.123.206 - NOW DEFUNCT - her proxy?
+185.160.171.69 - probably dead? - her proxy behind the first proxy? I paid someone to break through the first one. Don't know how to get into this one. Need to buy new tools from HackerForums.
+
+Contact details:
+Hell if I know. I was able to chat with her, through our mutual contact, but she didn't seem interested in making contact again. I guess she'll find me if she wants to talk more.
+
+Ongoing plans: 
+-keep doing stuff
+-pursue someone else idk
+-die
+</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_3.md" path="home">
+    <Memory>
+      <Data>
+        <Block>[@sbeezy] lmao so yeah i ended up just cutting and running
+[@sbeezy] ... prolly not my best decision xD
+[@sbeezy] whats the status on operation barter economy
+[@addili] What
+[@annili] ????
+[@addili] Oh
+[@addili] The buyers?
+[@sbeezy] yeah
+[@annili] I'm giving them the channel password shortly.
+[@annili] Let me know when you're available.
+[@addili] Are you sure we should be doing this?
+[@annili] Yes.
+[@annili] Too late to pull out now.
+[@sbeezy] we covered our tracks right?
+[@sbeezy] she sounded pretty terrifying when she warned us
+[@sbeezy] to
+[@sbeezy] specifically not do the thing we're doing
+[@addili] Yeah uh
+[@addili] Maybe let me and Annie do the talking
+[@sbeezy] w/e
+[@sbeezy] im not fussed hahaha
+[@sbeezy] my ass isnt on the line probably
+[@sbeezy] send them in whenever
+[@annili] Sending access tokens now.
+[@sbeezy] kk
+* blanner has joined #atohil, with mode(s) +v
+[+blanner] morning
+[@sbeezy] hey
+[@addili] Good to see you
+* dramm has joined #atohil, with mode(s) +v
+[+dramm] yo yo yo
+[+dramm] hello?
+[@addili] Hi dramm, give us a moment, just working out some stuff :)
+[@annili] 2/3. Any status on our third?
+[@sbeezy] ngl prolly a fucking plant
+[+dramm] god, i hope not.
+[+blanner] I'd be disappointed if that were the case
+* intehan has joined #atohil, with mode(s) +v
+[+intehan] hi
+[@annili] You're late.
+[+intehan] chill m8
+[+intehan] got held up
+[+intehan] w some fucki ngBULLSHTI lmao
+[@addili] ...right.
+[@addili] Anyway, we discussed this with all of you beforehand
+[@addili] Can you please post your transaction numbers?
+[+intehan] yeah sure
+[+blanner] mine is to7meuX64Q
+[+dramm] a7hxZsULur for me 
+[+intehan] zSp01aALFr
+[@annili] Allow us a short interval to verify the receipts.
+* blanner has left #atohil
+[@sbeezy] wtf
+* blanner has joined #atohil, with mode(s) +v
+[+blanner] apologies
+[+blanner] internet is dodgy here
+[@addili] Sigh
+[+intehan] i havent got all day..
+[@annili] We've checked the blockchain, receipts have been verified.
+[@annili] We've set up a remote drop server.
+[@annili] addili, would you mind pasting the details?
+[@addili] Oops, one sec
+[@addili] IP address: 40.73.228.137
+[@addili] Username: atohil
+[@addili] Password: JHhTSDtxYv
+[@addili] The user account will expire in 24 hours, so be sure to collect your purchase before it, uh, expires
+[+intehan] cool
+[+intehan] cool
+[+intehan] cool!
+[+dramm] thanks!
+[+blanner] i've got the stuff
+[@addili] Excellent
+[@annili] This constitutes the end of our transaction. We look forward to working with you again.
+* annili has left #atohil
+* addili has left #atohil
+[+intehan] neat
+* intehan has left #atohil
+* blanner has left #atohil
+* blanner has joined #atohil, with mode(s) +v
+* dramm has left #atohil
+* blanner has left #atohil
+[@sbeezy] Blocked. Blocked. None of you are free of sin
+[@sbeezy] oops wrong window
+* sbeezy has left #atohil</Block>
+      </Data>
+      <Commands>
+      </Commands>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_4.md" path="home">
+    <Memory>
+      <Commands>
+        <Command>
+> profiledump.exe -gp alihotatohila
+Accessing profile...
+Name: Lihota, Addi
+Age: 22
+Occupation: Software Engineer, Netsec (Schiss-Co Innovations Lab)
+Profile Description: (empty)
+Liked Pages: Perturbator, Emancipator, What's the deal with Bee Movie Memes, CFC: Colonel's Fried Chicken, ePad Giveaway Page, (more)
+Join Date: 07/11/2010
+Last Login: 3 Hours Ago (03:22 GMT+1)
+Last IP: 17.5.3.9
+Connected Profiles: 363
+Recently Viewed Profiles: Ani Lihota (Brother), Devi Muhammad, Jaswinder Esan (Partner), Sharma Lihota (Mother), Simon Bestman (Not Friends) (more)
+Recently Chatted With: Ani Lihota (Brother), Sharma Lihota (Mother)
+> disconnect
+</Command>
+      </Commands>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_5.md" path="home">
+    <!-- Should be a secret here... -->
+    <Memory>
+      <Commands>
+        <Command>ping 208.73.49.146</Command>
+      </Commands>
+      <Data>
+        <Block>Passphrase: Open Sesame.
+-: Return: I've told you the same thing ninety-nine times.
+Acknowledged.
+Operation Barter Economy.
+-: Really?
+The goal is to nab the software, modify it so nobody realizes we're reselling it, and then profit a whole bunch. Addi is in charge of reverse engineering. Ani, contacting buyers. Simon, cleaning up the money. 
+-: ?
+Don't be a shit, Simon.
+-: I'm good at contacting buyers too.
+Yes, but Ani is better. Let him handle it.
+-: Fine. Are you sure you can handle *this*, though?
+One hundred percent. I've got all my tools in order.
+Simon. What's the status of our acquisition?
+-: In progress. Will keep you updated.
+Thanks. Do we have anything to worry about?
+-: No. I'm confident that we do not.
+How confident?
+-: Confident enough.
+Keep it that way. Talk later.
+-: Don't let Ani fuck this up.
+I won't.</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+  208.73.49.146
+  <memoryDumpFile name="Kaguya_Dump_6.md" path="home">
+    <Memory>
+      <Data>
+        <Block>Two people walk onto an airplane, hand in hand.
+One is a black-hearted grocer.
+One is a free-flying florist.
+After the plane lands, one leaves, carrying a briefcase.
+Who is it?
+
+What happens when you throw a volcano at a regretful koala in a tree?
+It is a fridge.
+
+*extremely Jerry Seinfeld voice* I'd buy that for a Malaysian Ringgit!
+
+I heard a story about three corgis: one round, one phlegmatic, one emptied of all its rounds. They walk into a bar. Behind the bar is a young woman with a smoking habit. In the corner of the bar, a retired professional wrestler is grappling with a knight in a helmet. What happens next?
+
+A person has a shoe on his head. He creates stories of old. He owns a moody creature that lives in a shell. Who is he?
+
+In a cold place there is a weaver of wonders in many lands. This person is a swashbuckler. This person wears a sword. This person never lies.
+Who is she?
+
+- Excerpt from "Jokes and Riddles told by a Markov Chain, Vol. III: We're Getting Somewhere Now"</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+  
+  <!-- False report for Psylance CSEC Injected mission -->
+  <encryptedFile path="home" name="PA_0022_Incident.dec" ip="54.183.231.31" header="Psylance Incident Report v2">
+Psylance Cyber Security - internal investigations division.
+---------------------------------------
+
+Investigations into the sudden equipment failure aboard Pacific Air Flight PA_0022 are ongoing, but preliminary reports show it to be caused by a glitch in the firmware of the plane itself.
+Psylance servers remain secure and show no deviations from expected behavior during the incident (infact, this incident shows promising application of the remote monitoring capabilities of the skylink and related servers - lower latency than was originally predicted!).
+
+The firmware incident itself seems to be based in 747FlightOps.dll - in which under currently unknown rare circumstances the firmware will stop responding to pilot controls and require a firmware reboot (which we can see happened in this case successfully).
+Psylance recommends investigating the software providers behind this module, and instructing all pilots on safe firmware reboot procedure for the rare case in which this might happen in the interim.
+
+As always, Psylance Cyber Security holds the security of your data, records and safety in the highest regard. We will continue monitoring the situation to ensure that your networks are safe and secure in this delicate time.
+  </encryptedFile>
+  
+</Computer>

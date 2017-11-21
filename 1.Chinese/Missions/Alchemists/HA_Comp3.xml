@@ -1,0 +1,94 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dhaComp3" name="HA_Rebis" security="4" ip="66.96.149.16" type="4" icon="Alchemist">
+  
+  <proxy time="-1" />
+  <trace time="180" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dhaComp2" position="160" total="360"/>
+  
+  <firewall level="20" solution="clarity" additionalTime="6.2"/>
+
+  <!-- This server should contain "revelations" - the architect designed this one to be the end of the line. -->
+
+  <file path="home" name="behindthecurtain.txt">四象相生
+
+1. 主动凝聚（火）
+2. 主动扩张（气）
+3. 被动收缩（水）
+4. 被动扩张（土）
+
+历史上，人们认为金属在某种意义上是有生命的。这种理念是说，每个金属都在经历一种缓慢的进化，逐渐进化变得完美；这与当代认为事物走向“热寂”的理论相得益彰。
+
+最原始状态的金属是铅，所有物质都是由铅变化而来。如果置之不理，铅会缓慢地向上进化，从锡变成铁，并最终变成完全完美的状态：黄金。凡人和星象都在经历这个历程：从土星，到木星，到火星，金星，水星，月球并最终到达太阳。太阳是完美的体现。我们最终都将变成星人。
+
+炼金术仅仅是加快了这个过程。炼金术师是一种思想，修补宇宙间简单和复杂的东西……他们是向往完美的一群人，哪怕其他人类似乎是在主动远离完美。
+</file>
+
+  <file path="sys" name="eos_sync.log">同步日志：恢复出厂设置启动
+原因：检测到越狱后自动重置
+事件代码：JA6629B_43</file>
+  
+  <file path="home" name="rebis.txt">起点便是终点，终点便是起点，铅到锡，锡到铁，铁到铜，铜到水银，水银到银，银到金，起点到终点，终点再到起点，起点再到完美的生命集合，完美自己，然后再回到起点。
+
+这不是黑魔法，只是事实而已。</file>
+
+  <file path="home" name="nameofgod.txt">yod
+he
+vau
+HE
+
++o
+o+
+++
+oo
+
+一
+二
+三
+四
+
+点
+线
+面
+体
+
+奥秘I：哲学家之石
+奥秘II：解决
+奥秘III：凝块
+奥秘IV：显露的幻象
+奥秘v：改变
+</file>
+  
+  
+  <eosDevice name="Nate's ePhone 4S" id="dhaAdminPhone" icon="ePhone2">
+    <note>Home:
+66.175.58.9
+
+Work:
+66.96.149.16
+</note>
+    <note>
+煅烧：
+把实体还原到它们最初的本源，而不毁坏它们的根本有点。
+在发现内心的自己，如通过冥想，很自然地，身体的意识就会减少，并更加清楚构成我们生命的更细微的能量。
+</note>
+<note>
+固形：
+使变化不定的东西固定下来是一个不间断的过程，开始于黑白相通的瞬间，而当红色出现，固形就达到了巅峰。
+</note>
+<note>
+Projection:
+炼金哲学家把他们的投射物称做粉，粉是他们法术的结晶，以极小的数量投射在不完美的金属上进行融合，通过这种方法，根据完美程度不同，它们变成黄金或白银。需要清楚的一点是，如果粉在放入混合物前没有得到完全净化，粉投射到的整个金属在投射中不会完全变成白银或黄金。
+</note>
+    <mail username="AlchemistNate@jmail.com" pass="manifestation" />
+  </eosDevice>
+
+  <LogoDaemon Name="REBIS" ShowsTitle="false" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/Alchemists3" />
+
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/RiptideTheme.xml"/>
+</Computer>

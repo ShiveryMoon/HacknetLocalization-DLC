@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dcentralTest1" name="Kaguya连接2" security="1">
+<!--Names deliberately reversed, bait wrong order thinking-->
+  <proxy time="-1" />
+  <portsForCrack val="1" />
+  <ports>80, 6881</ports>
+
+  <positionNear target="dIntroCentral" position="200" total="360"/>
+  
+</Computer>

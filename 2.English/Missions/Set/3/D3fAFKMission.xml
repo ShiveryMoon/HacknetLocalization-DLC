@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="d_defAFK">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="D3f4ult - AFK">AFK - Personal Reasons</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>AFK</subject>
+    <body></body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

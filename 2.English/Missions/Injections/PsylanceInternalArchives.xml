@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPsyArchives" name="Psylance Internal Archives" security="4" type="empty" icon="Psylance">
+
+  <portsForCrack val="2" />
+  <ports>21, 22</ports>
+  <firewall level="-1"/>
+  <proxy time="1.2" />
+  <trace time="29" />
+  <portRemap>22=340</portRemap>
+  <adminPass pass="faithless" />
+  <positionNear target="dPsyInternal" position="212" total="360" extraDistance="0"/>
+  
+  <file path="home" name="ThisServer.txt">NOTE!
+This is an automated archive server - don't copy stuff around here without checking with someone first!
+Archives by date will be automatically zipped up and copied here so we have backups of everything we've been working on.
+-Faith
+  </file>
+
+  <file path="home/archives" name="0_q1.zip">#BINARY#</file>
+  <file path="home/archives" name="0_q2.zip">#BINARY#</file>
+  <file path="home/archives" name="0_q3.zip">#BINARY#</file>
+  <file path="home/archives" name="0_q4.zip">#BINARY#</file>
+  <file path="home/archives" name="1_q1.zip">#BINARY#</file>
+  <file path="home/archives" name="1_q2.zip">#BINARY#</file>
+  <file path="home/archives" name="1_q3.zip">#BINARY#</file>
+  <file path="home/archives" name="1_q4.zip">#BINARY#</file>
+  <file path="home/archives" name="2_q1.zip">1101010001000110011#BINARY#</file>
+  
+  
+</Computer>

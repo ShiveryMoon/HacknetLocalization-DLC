@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dhsDrop" name="Bibliotheque共享服务器" security="6" ip="69.58.186.118" type="4" icon="DLCServer">
+
+  <ports>22, 21, 80, 6881, 443</ports>
+  <portRemap>ssh=1234,ftp=99,web=9050,6881=6882</portRemap>
+
+  <uploadServerDaemon name="Bibliotheque Drop" folder="Drop"
+                      needsAuth="false" color="38,201,155" hasReturnViewButton="true"/>
+
+  <adminPass pass="ka2gs69" />
+
+  <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+  
+  <positionNear target="dhs" position="1" total="3"/>
+
+</Computer>

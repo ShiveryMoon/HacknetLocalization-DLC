@@ -1,0 +1,63 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpae_airline_home" name="Yasu Arai的触屏电子书" security="4" ip="141.88.107.140" icon="laptop" type="4">
+
+  <!-- Laptop of the administrator of the airline network.
+  
+  Contains an eOS device that has the admin's email account details on it.
+  Should also contain:
+  File describing how Psylence had insisted on installing specialized security on his home computer (the fast trace).
+  Very small mention of a tablet - it's mentioned elsewhere, and it shouldn't be too hand-hold-ey 
+  
+  eOS device needs some notes on it too
+  -->
+
+  <proxy time="-1" />
+  <firewall level="-1"/>
+  <trace time="40" />
+  <portsForCrack val="4" />
+  <ports>443, 6881, 192</ports>
+  <adminPass pass="1185JACK1" />
+
+  <positionNear target="dpa_whitelist" position="110" total="360" extraDistance="0"/>
+
+  <file path="home" name="ryosan_letter.txt">Ryosan，
+
+很高兴听到你一切都好。我喜欢上个月的信；这些天来你的新诗愈加流畅了。就像河流一样。对不起。我不是太擅长它，哈哈。每当你发诗给我，我都越来越为你感到骄傲。
+
+至于我的新生活……进展
+还不错。我的新工作很有压力，但并不是坏事 - 我感到自己每天都面临挑战，但没有不可逾越的障碍。
+
+好吧，洛杉矶的交通确实难以逾越，但你懂的。你明白吗？如果曾驾车去过Obasan在东京的公寓，你就多少懂一些了。洛杉矶的交通太差了。我没骗你。
+
+我在这份工作中遇到的最大问题之一在于同安全公司打交道。他们认为他们就那样颐指气使，不需要先行询问就在你的电脑上安装他们的程序。你能想象吗？我上周就遇到了这种事。这个傲气十足的顾问走了进来，索要我们服务器和我个人电脑的访问权限。甚至还包括我的平板电脑。太荒谬了。
+
+不管怎样，我现在不确定我的电脑上是否有键盘记录器，但……我认为没什么好担心的。他们的安全性非常强，尽管感觉我的电脑有点慢，但我感到很安全。
+
+Ryo，我想你。我有点孤单。请告诉妈妈我也向她了。我会在信封里放一些新公寓的照片，这样你和她就能看到我怎么布置的它了。
+
+顺便，谢谢你的平板电脑。它帮我度过了愉快的一周，哪怕这些Psylance的笨蛋在里面装了些东西，哈哈。
+
+爱你的，
+Yasu
+  </file>
+  
+  <file path="sys" name="eOS_SyncLog.dcs">#BINARY#</file>
+  
+  <eosDevice name="Yasu's ePad Plus" id="dpae_airline_tablet" icon="tablet">
+    <!-- note to Translators: "rx" means "prescription" -->
+    <note>待办：重新配T处方</note>
+    
+    <note>Bridget想周五外出
+    找到一个不错的酒吧。
+    也许那个新地方有棋盘游戏</note>
+    <note>待办
+    向psylance发投诉信
+    为ePad++主旨设置警报
+    打印并邮寄给Ryo的信
+    购物单：金酒、苹果酒、柠檬、汤力水、Jack的27岁生日贺卡、洗碗液、洗衣粉、Kitschy烈酒杯
+    组织内分泌专家检查</note>
+    
+    <mail username="YasuArai@pacificair.com" pass="9NINETWO2" />
+  </eosDevice>
+  
+</Computer>

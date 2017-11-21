@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dKaguya1" name="Kaguya冲刺试验" security="4" ip="74.125.23.121" type="4" icon="DLCPC1">
+
+  <proxy time="-1" />
+  <portsForCrack val="2" />
+  <ports>22, 21</ports>
+
+  <trace time="65" />
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/MiamiTheme.xml"/>
+  <customthemefile path="sys" name="Miami_x-server.sys" themePath="DLC/Themes/MiamiTheme.xml"/>
+
+  <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+  <file path="home/backups" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+
+  <!-- I don't think we actually want this to reset - it's unnecessary and confusing. Save that for later comps. -->
+  <!--
+  <admin type="fast" resetPassword="true" isSuper="true"/>
+  -->
+</Computer>

@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPsyInternal" name="Psylance Internal Services" security="4" type="empty" icon="Psylance">
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 25, 443, 80, 1433</ports>
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="90" />
+  <portRemap>22=340</portRemap>
+  <adminPass pass="catsarebestpet" />
+  <dlink targer="dPsyArchives" />
+
+  <account username="faithless" password="catsarebestpet" type="2" />
+  
+  <file path="home" name="Organization.txt">Because of the way I've set up our automatic archiving system, please use the root folder "projects" for all reports and files - some programs etc generate junk in the home directory that I want to avoid piling in with our actual work, so I'm keeping this blank.
+Thanks!
+-Faith
+  </file>
+
+  <encryptedFile path="projects/investigations" name="PA_0022_Incident.dec" ip="209.68.41.129" header="Psylance cyber security internal investigations division inc.">
+Psylance Cyber Security - internal investigations division.
+---------------------------------------
+
+Pacific air flight PA_0022 experienced flight control failure mid-flight, causing critical descent speeds and risk of crash. Control was regained shortly before critical failure and the pilots were able to recover the flight safely.
+Upon thorough inspection of the aircraft upon landing, nothing wrong was discovered with the hardware of the aircraft in any sense, and the software and firmware appeared to be intact.
+A full copy of the software was sent to Psylance to investigate for errors.
+
+With nothing immediately missing or tampered with, a full investigation showed a surprising *lack* of logs on the system about the event. The implication here being that tampering occurred, and a full log sweep was performed.
+While still speculation, a full investigation is underway regarding this, and a full sweep of existing servers occurred.
+
+One anomaly showed up - a disconnect log from an unrecognized IP on Pacific_ATC_Skylink (208.91.196.94). The IP that was left was 208.73.210.214
+Official traces on this lead us to the gateway of a hacker named "Coel", who we believe to be responsible for this incident.
+
+I recommend that a full investigation be put underway into this matter. Psylance is committed to the security of your servers, and will be redoubling it's efforts to keep all systems in your network secure.
+  </encryptedFile>
+
+  <file path="projects/investigations" name="WhitelistGlitches.zip">#BINARY#</file>
+
+  <file path="projects/misc" name="IRC_Config.txt">//IRC Baseline setup for roaming admins - copy over to new client accounts for easy maintenance
+Color=67,204,148 //PSYLANCE GREEN
+//CORE USER SET
+:user name="faithless" color="0,209,232"
+:user name="dardypants" color="202,98,0"
+:user name="da_vito" color="0,196,82"
+//Admin Config
+:Auth public="false" sec="restricted"
+  </file>
+
+  <file path="projects/misc" name="IRC_setup.zip">#BINARY#</file>
+  
+  <file path="projects/clients" name="Nisei_MK_III.txt">Contacted by Jintech Inc. about providing new security for their servers.
+Apparently they've been under HEAVY attack by some sort of group lately - they lost all archives of their "Nisei" project, and flew hardcopies to a secure location physically (!!) to prevent it.
+They say they're losing the data as soon as they transcribe it, no matter where it's sent.
+
+Their records are *incredibly* clean - someone's really got it out for them, and I'm not 100% sure we can handle that sort of pressure at the moment. 
+
+Seems like PR suicide to try and stop it, at this point. Suggest declining.
+</file>
+
+  <Memory>
+    <Commands>
+      <Command>cd /projects</Command>
+      <Command>scp * ARCHIVE_LINK.bat</Command>
+    </Commands>
+    <Data>
+      <Block>PA_0022_todo.txt
+-------------
+Would be nice to find a way to make our whole company sound less pathetic in that report - sounds like we're a bunch of huge failures?
+I think it's as refined as it's going to get - just send it off as-is and hope they don't chase us up too much about it... :/</Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Misc/Psylance_Big</Image>
+    </Images>
+  </Memory>
+  
+</Computer>

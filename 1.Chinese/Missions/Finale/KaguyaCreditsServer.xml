@@ -1,0 +1,120 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dCredits" name="Kaguya_计划" security="4" type="empty" ip="54.183.231.34">
+
+  <portsForCrack val="1" />
+  <ports>21</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="-1" />
+  <portRemap>21=1886</portRemap>
+
+  <DLCCredits />
+
+  <file path="bin" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+  <file path="home" name="Prospectives.txt">
+潜在候选人
+--------------------------
+
+L0m1s - 乌克兰(?)
+Bit - 澳大利亚
+D3f4ult - 法国
+Pindar - 加拿大
+Shimo7even - 日本
+Coel - 德国
+#PLAYERNAME# - #PLAYERLOCATION#
+
+</file>
+
+<file path="home" name="CreditsData.txt">
+%---  迷宫计划  ---
+
+^设计与开发
+Matt Trobbiani
+
+^写作
+Damon Reece (@demanrisu)
+Matt Trobbiani (@Orann)
+
+^标识与图表
+W O V A Studio
+www.wova.pl
+
+^DigiPets艺术家
+Poppy de Raad (@pixecology)
+
+^键盘照片
+/u/koalapear
+
+^背景
+Angelus-Hellion
+angelus-hellion.deviantart.com
+
+^额外写作帮助
+Aisha Black
+Hanna Siek
+
+^图标
+Pavel Kozlov
+Gregor Cresnar
+Lucy G
+
+^社区管理员
+Colamaeleon
+RainShatter
+Aidy
+
+^测试人员
+Peer
+phonic88
+Colamaeleon
+Scratch
+SpadeGamer_Dallas
+
+^特别鸣谢
+Hanna Siek
+Jamie Williamson
+Bec Pelvay
+Chris Johnson
+Chelsea Easton
+Alex Mackay
+Lauren  Clinnick
+Morgan Jaffit
+Sasha Mattschoss
+Izzy Gramp
+Ben Trobbiani
+Stephen Trobbiani
+Laura Trobbiani
+Gabriele Trobbiani
+Pam Carroll
+
+</file>
+  
+  <Memory>
+    <Data>
+      <Block>damon.txt
+
+damon reece，也就是在DLC里塞了一堆冷笑话的那个家伙，说：
+
+感谢我的充满创意的作家朋友们——lucy, lauren, saf, bridget, zoe, livs, soha, jess, ash, em, kim, craig, shoe, sled。你们都是英雄，我不知道没了你们我还能做什么！
+
+感谢matt，感谢你把我带到这个项目来，感谢你一直是一个如此容易被毁灭的软目标。诸如此类的事不会再重现了，除非他犯下某种巨大的错误并且以后再次雇佣我。我并不感到抱歉
+
+感谢你购买并游玩这款酷炫的、严肃的、愚蠢的、疯癫的、~戏剧性的~扩展包。正是你这样的人这么做了，像matt和我这样的人才能追寻我们的梦想做出炸裂的视频游戏，这真是极好极棒的。
+
+另外，还要特别提一下用《潜龙谍影3》的截图恶搞dril tweets的那个twitter账号。你是真正的mvp</Block>
+    <Block>matt.txt
+
+老实讲，我觉得我对一大堆冷笑话也是负有责任的。
+
+感谢Damon，感谢你出色地完成了写作任务，还有上面列出的每个人，感谢你们的神奇与支持。
+做这样的工作真的让人倍感压力——你们都帮了我很多。
+
+谢谢大家
+    </Block>
+      <Block>54.192.133.33</Block>
+    </Data>
+  </Memory>
+  
+</Computer>

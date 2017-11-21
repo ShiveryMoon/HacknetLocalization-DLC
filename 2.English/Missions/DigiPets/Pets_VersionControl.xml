@@ -1,0 +1,210 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPets_VC" name="DigiPets_VersionControl" security="5" type="4" icon="DLCServer">
+
+  <adminPass pass="undc321b9y" />
+
+  <positionNear target="dPets_MF" position="150" total="360" extraDistance="0.01"/>
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/DigiPets/Scorchum" title="DLC/Sprites/DigiPetsLogo" overdrawLogo="false" buttonAlignment="left" />
+
+  <trace time="65" />
+  <portsForCrack val="3" />
+  <ports>21, 6881, 443, 9418</ports>
+  <portRemap>443=8080</portRemap>
+  <admin type="progress"/>
+
+  <proxy time="0.5" />
+  <firewall level="-1"/>
+
+  <admin type="progress" isSuper="true"/>
+
+  <file path="git/trunk" name="digipets.php">[?php
+$f03f7000="\x62\x61\163\x65\x36\x34\x5f\144\x65\143\x6f\x64\145";@eval($f03f7000(
+"Ly9OcU5lWTlFcU1tRW5LcTZKSlNTZWVCa2p3Q0VRQWY2VTY1NDNLbFVxdkpwOHhTbEFOeGtNSHlWVGNw
+Slo4aG10M3MxdEZINHA5WG9HaitsQ3NCRzRnZ2VoMHN1VlpjQnljSVUyTmpURnZpSlRxV0ppaUlROEx2d
+kwwNWJFMEhjOExXQkxIOFBOQml2NnBhVE1OUTlzUm5YR3E5dGkvLzdrNEJ6emZ5RytVL3lTNFFxV1lMRz
+dBb0l2cGsya1VZaXhIS2J1M3hLTy9nRVgrQ3RFeVRFN3VtejVvclMwR2tBWHVZRkg0MTJyVkNpb3FWMXV
+xVWwwMjZJK21rU0I5Vi9TZ21oWGxXSTljTXJxMHBrMHhxMHlLcjd0M01DM01KQy95bUZhUXZsSnY0S05p
+RjZueHVTRUZPRHRiNlBmNmJWaUk2ejVpSTIvWk5hMWcybGluemVLZDRhTWVpUHdHTGU0ZkVOVTdwbmI1Y
+VBLZzRJb1dwU3pIM3BPNDNrbXdLRUVVMThwUWFxMk9odWY5Nmg3MnlvVXJKMEl3U0dyNFNYMFRmQzhtMl
+JnR29OcnNhdHRLUTIxT1JsZUJSc090eWtBYklxY1RJM25IRDFOTW5PS3FEdzJVVWxVK2xPeE1UNXc5RmR
+MRU56cTZMRitiNisvQXJzU0lQY2I5ZnNEZWtuNmd2QWRFeWY1NzBPOXQwazVJNm8wRzMrWFRwb2NwS3lQ
+NGZBdHZhN2k3MmhwQ0ZETUlSdFlSODE0SHRvZVZPYmtlOTl4QTk2QTRKOHR4WUNUM1k0YmdRT0N5eXAzS
+TdUdmhBV2lLOUYyZXB3Z1g0YWpYY0JKT1JJNjczSmtkVTd1b3hFbUNjaWQvWXpPRmJiM2F2YXA4M2VRN2
+dzZlgrYUk2YjVHT21DWUJkcWU3aldvOWlsVE1SUm1BL3pSMkM3M1dSMVZ6Uk5UcFdmQ1RJcDZQS2luUHV
+ThGTy9aUkpVeDBUQ05UZGtVeXhRSzVCSUNjQnIvaU9LdjhOOWVSRlNNZW01MC9CY3UyRmwrYzRkQ2FBY2
+5wYnF2ZVhvdTdPR2dIaVpxbHR2SmduRjJyRllmQjJXZ3RRWDFXSzdaSElFYjlCcmlwZ0dRamxwZmloYjZ
+BRTZLUDZBaWlKRUdzQjdmdDVCREVVdDZmSzFKUHZLMUc2VzFKM2lqb25xdjhCTkZHbTY0SW9WZ0ZRdkZM
+RXEyRHl3L2IrUklSTDZnQzVUSW14VmZ3eG1URnhxZmszdEpNdEttNGZUdnp1Z3V4TkFYZDV5SGVLMDY3M
+00rK01udEdCTXRGdWZRUzY0S1lGSjBZUUJDQTJIdWt2TGF1d1J6V0pnVUhrYVJDQ25YSlJjTEJnNTRPal
+FjdFV5OWhtOGhIN3ZId0hBd3VOMGV4TVR5eHRESlZyQzdPUzFBMVd6WFJ3Sm80cFVPNTZ0UElVYWJIQlo
+0WDFNUlBhOWd3cHlrcEhienVzcVVYYkRqK0NoNTlORjd5bUNlWEFhZFE4ZkVUbm1XUlRWTis3YUtWSEEv
+FVSUkdsSENrVU9uUklQSFVEcy8zMTVsbkQzNFkvak5HNk84b2pDbXFYL1BUakNtcXIvcUQvRnJOLzlyOF
+ZXLyttLzVhODluOS95T0RTeDBFVy9OcUMvYlVXLy9TTy80bFZhbEUrUmloQ201aThLOE8veTJwNi9DQy9
+Mcy84ay85cTRXOS9zTVdaNWUrQnlaOU01RUVmam1jUllBbGtDaVlHaytQZCtJZWhTOTlBWndTZWpXRWtu
+WnlqaWpjdHBUd0xnVDhMTkZtWW00eURVQlBwUmRvR1FLQVBQOXRJWVB3TnFISE1aNVFnUUx1TEJOd1hBR
+jROQTBlV1ZDTmNYOW5DSlNISDdPQjFMK1BxU1dsZ1l0MEdpQ0N2MmpKeHVYZlFGc1FXZE5OSUV3UTdERF
+A0ZHhQbE54UERoUlFDbC9hdTZRbU5iREdTMnNGSTlEa1RBK2ZtVVdHZXlTcnJmM3d4VnF5b2dMcTBQakJ
+KSzRScUM5OW03NElRelI2bVdsUFVnSExpb2xRTVZZUERMbHJMaS9ENThEMGFPTjQxeUVhTC83VmIxZkhX
+SzNSaWg5enJOMkJTdEFqWkRGWVdaZDdldDJJMzV1emhES3VLNE9wRllZbEIybU05NzhoaGZ1TW40Q2F1V
+mNuQmttVDhZM2JmdVJMQzZBRndud0FwZnhzaUxkZGJSNWdKb1hQMXY2eHBjL05wS21UUWRqbmx3bnFBeH
+JBZ2dWcURMdndIUHExUzVMbXlyaVVEcHRDZHY2d09TR2RSam54SXhQemhSOHdqRWs1OGw4b1VZQy9UUXR
+5VDdHeURRc294NzlyckZlTTJWYmRVZXBvWjg5b2k0N3ZNVDBUaDBEcGxGN1BiZXBGazBVd2Q2RXVVWDUz
+S1lMODYvckZHMGE2WUFkbk56QXhUZVZpaFJibkZBVXRzOVlucnB0K2FrNmJITjZVQ1J6M1dXbG1laGoyM
+kJvaHZ4cklacjZYU2tWQTJ6MStlcWtTNzR2RUFwVE1iNi9FWkF0NFNNb3Q1L01qdmU3aHNkcWttY29tYn
+ltVWVudFhOOXJ5czdKQXozbHBiUzBnRGsxcCtsMlZVY2l6T3c2R0hzcmdJOWQvY24wRks4MHZ1T2pieDJ
+PRTJTdWpBRFZGUEwwVHBTbEhxWDh3dHdETDJUcktMdXJ5QTdWY2hzM0pUK2pWQ3BmNXVYeWhkbHhES0ht
+SDRra2hsL2h5Nkw3SjdkNURTZ1FlVncxNkt6TlJiTUFKMFlyNDBWb0hWYWFoWU5ZakZKcmRuZVYxZEF2Q
+nlCUy9oa25RZkc3cnRvTjdzYjJYcC9hc0RoeHdabHJ6RnQrR1B3SllPV1c1TnZ4aUtuazVZNEUwejd6Q1
+VPU3hlbEhwRUZiSklab2pMbHRJdFIwdU1VSmFQUTVKQkE4Q2Q4NHhZUWh4Z2l2MHVaZGUyYllPUitEcjM
+2SGcvNzl6UXMxRUIvYzVQUTRkcEh2bnR5STMyTkp0OG9lcDBaNDJqVDlaMDdJdEkwb3cxeWxvek00TzFk
+lBDS0JFVnJjcXlad29FOVl3UmxVOVhQYXRrdUJIaWErVEFPK3JMRGdYalk3VndYMURVaUZ5V2FGR3FUcE
+QwL3JSQXMzRlZLdDRhdXI1ZVc3N3V4RGI2OTYyRTU2MDFZZVJaM1J4bnZwZWZBcTBqTVh4R090ZzJjWVB
+FK0MrSk5rcDJ0Q01qanB6S044VTRCbkc5NVdneCtyVlNKdmQzVlhudm1QczE2NzBMVDNTSEJrS1BSa3Jh
+djdWQW0rOU50TkloYXJIRm42NUNldUkzbitNR3JMcnZkcHZBalpFL3pndWhiQ0pyOVZwZmlMMVVGMm9aM
+FRSd1RQNkRJc2RwbEV6UHIzZEgvSUljNEVZa1FGRmplWUFYVzBYZWZxMkJZd3NEQ2hHZElIemtrcHRiQ1
+JYMmwrRHM3K08yUC9hNlRDMDVlc1dHZVBxa3ovS1hwVGl3cDlOL1lNRDNNOGRFYTIyL0M2a1MzdWRDUk1
+tRHd1OEZTRU9ZYnVuRGJRSEl2Q1dUbWlxRXJBVUxGVnFHU3loU0tnRHhHckZ4MCtBSWJoU0dlbTliOWtv
+RndNc05UWW5WL2Vpdk9EeGhabENVZ0JCY1lCcVRXaGF2ME0rckFJa0pwalA3cmpoWXZXd2pjVFZmVXlKQ
+WhLMGFEcXA0R3N3dy9pcjgwQkFkOXMxeUNXQWpJMG5JeEREVkJpbUZqWnVzMmQxb0sraWtEYXZXZjZZZm
+lsTDNIRWh0MzJycDlWaXVZa3phZ0NVOU1vbG0ybys2d0t2N2U0czZwL1J0RkN4NmhvSVBVQUg0MDZCSlc
+xMGVTc0lUSzd0YXpZeWpuc0toS2pJT0l6bUtMMTlZb2p4Szl0YzQxNDdrMStyUnluMldORkZ4ZHFaRlg2
+VFV6SkhCOFlrV3JZRTdxUFlWemxUQnhDVW5qWGNRb0V1dk5uMW5rb0o1SW83QWp2V3ZqR28wRnlzZzcxN
+FFXak1wOUVTZldvbVk2T3o5SVg5SDByUE5VUHBTS3c5V2Z6Ly8vNzdLLzhUIikpKSk7"));
+?]</file>
+  <file path="git/trunk" name="favicon.ico">#BINARY#</file>
+  <file path="git/trunk" name="Content.pak">#BINARY##BINARY#</file>
+  <file path="git/trunk" name="Developer_SetupGuide.txt">--DigiPets Developer Setup Guide v1--
+  
+Welcome to the Digipets active development team! Setting up should be easy and you'll be able to be productive in just a few minutes, right?
+
+WRONG, BITCH! WELCOME TO HELL.
+What, did you seriously think this 10 million year old website was going to have a clean, maintainable codebase? Welcome to the obfuscated-single-PHP-file-200-page-website pain zone friend!
+What you're looking at is a concentrated effort of years of burnt out developers making your future life as painful, impossible and un-testable as they can. What's that, you want some actual advice on the codebase? Yeah, open that shit right up and go ahead, I'll wait.
+Or, not, because by the time you're done understanding it I'll be fucking dead. What's that sound? You're regretting not joining the art team instead? Understandable - sometimes I also want to leave this place to lovingly create innocent character designs and watch people make terrabytes of low quality porn of it the next day. 10/10.
+
+Here's your setup guide:
+
+Step 1: Find a loaded revolver
+Step 2: Track down everyone responsible for this mess
+Step 3: ???
+Step 4: IT'S STILL BROKEN AS FUCK.
+
+One time I changed the login button color and it broke the battle system. What the fuck.
+
+Anyway, that should get you going! If you have any questions, I suggest you pray for the sweet release of death.
+-Thomas
+  </file>
+  
+  <file path="git/trunk" name="Developer_SetupGuide_V2.txt">--DigiPets Developer Setup Guide v2--
+As management declared the last setup guide "too negative" and "had a detrimental impact on team morale", they've asked for a version 2. This one written under supervision!
+
+Step 1: Install PHP on your Dev Machine
+Step 2: Pull down the dev branch from Git
+Step 3: Talk to one of the existing devs about their various obfuscation handling methods - it was decided to keep all corporate code obfuscated on the cloud a while back, which proved the be the single dumbest decision ever, but here we are. "Security" right?
+Step 4: You'll need to deobfuscate, do fixes, reobfuscate, then handle what we like to call the "Git Merge Clusterfuck", which is always fun :) :) :) :)
+Step 5: Repeat until the will to live leaves you, or we run out of support tickets (lol)
+
+The literally too valuable to fire because no one else can maintain this thing and no I wont delete that,
+-Thomas
+
+  </file>
+
+  <DatabaseDaemon Name="DigiPets Version Control" DataType="GitCommitEntry" Permissions="admin" Foldername="git" Color="255,197,61">
+    <GitCommitEntry>
+      <EntryNumber>8613</EntryNumber>
+      <ChangedFiles>
+        <String>DigiPets.php</String>
+      </ChangedFiles>
+      <Message>Reverted Minor updates because it broke everything</Message>
+      <UserName>T.Champer</UserName>
+      <SourceIP>192.168.1.1 (Localhost)</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8612</EntryNumber>
+      <ChangedFiles>
+        <String>DigiPets.php</String>
+      </ChangedFiles>
+      <Message>Minor Updates</Message>
+      <UserName>T.Champer</UserName>
+      <SourceIP>192.168.1.1 (Localhost)</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8611</EntryNumber>
+      <ChangedFiles>
+        <String>Content.pak</String>
+      </ChangedFiles>
+      <Message>REMOTE COMMIT: Decreased pelvis bulge on Sparkle costume set :(</Message>
+      <UserName>A.Wallin</UserName>
+      <SourceIP>54.192.234.65</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8610</EntryNumber>
+      <ChangedFiles>
+        <String>Content.pak</String>
+      </ChangedFiles>
+      <Message>REMOTE COMMIT: Added Sparkle costume set! :D</Message>
+      <UserName>A.Wallin</UserName>
+      <SourceIP>54.192.234.65</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8609</EntryNumber>
+      <ChangedFiles>
+        <String>DigiPets.php</String>
+      </ChangedFiles>
+      <Message>Rigged Dubloon drop rate for market stability</Message>
+      <UserName>T.Doehan</UserName>
+      <SourceIP>192.168.1.1 (Localhost)</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8608</EntryNumber>
+      <ChangedFiles>
+        <String>Developer_SetupGuide.txt</String>
+        <String>Developer_SetupGuide_V2.txt</String>
+      </ChangedFiles>
+      <Message>... added 'fixed' setup guide.</Message>
+      <UserName>T.Champer</UserName>
+      <SourceIP>192.168.1.1 (Localhost)</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8607</EntryNumber>
+      <ChangedFiles>
+        <String>Developer_SetupGuide.txt</String>
+      </ChangedFiles>
+      <Message>REMOTE COMMIT: Added glorious new Dev Setup Guide (FINALLY)</Message>
+      <UserName>T.Champer</UserName>
+      <SourceIP>104.95.129.117</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8606</EntryNumber>
+      <ChangedFiles>
+        <String>DigiPets.php</String>
+      </ChangedFiles>
+      <Message>REMOTE COMMIT: Fixed an issue where using starry paintbrushes could bankrupt players</Message>
+      <UserName>T.Doehan</UserName>
+      <SourceIP>98.129.229.204</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8605</EntryNumber>
+      <ChangedFiles>
+        <String>DigiPets.php</String>
+        <String>Content.pak</String>
+        <String>Favicon.ico</String>
+      </ChangedFiles>
+      <Message>RE-UPLOAD from old corrupt VC System</Message>
+      <UserName>T.Doehan</UserName>
+      <SourceIP>192.168.1.1 (Localhost)</SourceIP>
+    </GitCommitEntry>
+
+  </DatabaseDaemon>
+  
+
+</Computer>

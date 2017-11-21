@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="airline_player">
+  <goals>
+    <goal type="getadminpasswordstring" target="dpa_bookings"/>
+  </goals>
+  
+  <nextMission>无</nextMission>
+  <posting title="Take Flight - #PLAYERNAME#">
+获取一家国际航空公司的预售服务器访问权限。
+  </posting>
+  <email>
+    <sender>夺机 - #PLAYERNAME#</sender>
+    <subject>夺机</subject>
+    <body>
+获取一家国际航空公司的预售服务器访问权限。
+----
+直奔主题，为了日后的一些保卫项目，我需要国际航空公司“太平洋航空”的预售服务器的访问权限。
+
+我已经研究了一段时间，并有了一些可靠的头绪。我们已经知道了预售服务器本身的IP地址 — 不幸的是，进入它并非那么容易。
+它不仅安全性出色，还有一个专用的白名单服务器。它会直接拒绝外部的连接，包括我们。我们需要使用其他进入点进入（提供的）网络，以找到绕过它的方法以及进入的方法。
+
+该网络由Psylance网络安全集团运行，因此应该会很有挑战，注意掩盖好你的踪迹。
+
+一旦找到了进入方法，在你的任务完成详情里添加预售服务器的管理员密码。
+祝你好运。
+</body>
+    <attachments>
+      <note title="Mission Guidelines">
+调查预售服务器白名单服务器
+通过LAX登入点探索网络
+获得预售服务器的管理员访问权限
+在任务完成详情里添加主机密码
+      </note>
+
+      <link comp="dal_lax" />
+      <link comp="dpa_bookings" />      
+    
+    </attachments>
+  </email>
+</mission>

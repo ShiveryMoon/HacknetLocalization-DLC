@@ -1,0 +1,36 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="CSEC_DLC_Connector">
+  <goals>
+    <!-- Impossible goal here - this mission isn't completable in the normal sense
+    It leads the player to KaguyaTrials, which replaces this. We don't want the player
+    to skip past this mission by quick replying or anything, so put a debug only goal here-->
+    <goal type="getstring" target="kaguyatrialscompletedebug" />
+  </goals>
+  <missionStart val="1" suppress="true">addFlags:dlc_start_csec</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>无</nextMission>
+  <posting title="#ALERT# - The Kaguya Trials"> ### 警告 ###
+备注：CSEC的管理员预测这将是极其漫长的一系列连续事件，而这个任务标志的它的开始。如果你有重要的CSEC任务，我们建议你先完成它再进行这个任务。
+ ### 警告 ###
+ 
+一位名叫“Kaguya”的代理人发布了一个事关一系列不同寻常的试炼的连接，以招募某种团队。信息暗示代理人将获得丰厚的奖励，如果他们通过了，可以换取帮助这个团队执行一些任务。
+这个任务对于CSEC并不紧急，感兴趣者可以自愿报名参加。
+  </posting>
+  <email>
+    <sender>CSEC中心服务</sender>
+    <subject>Kaguya的试炼</subject>
+    <body>特工，
+    
+一个名叫"Kaguya"的人向数个知名社区发出来了一则招募招募挑战，其中一项正是CSEC。它看起来相当复杂并且组织完备——我们怀疑无论这些试炼背后的目的是什么，它都需要极多的时间投入——想要完成它的让你可能要离开CSEC一段时间，开始前务必想清楚这些。
+也就是说，你可以随意调查你想调查的内容。而且如果你在追查的是一些新型的工具，那么这看起来还是个很有前途的方向。
+
+这项挑战的说明提供了一个IP地址（见下文）以及“开始试炼”的说明。
+
+祝你好运，
+-CSEC团队
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

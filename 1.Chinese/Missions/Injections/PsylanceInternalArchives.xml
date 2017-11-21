@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPsyArchives" name="Psylance内部档案" security="4" type="empty" icon="Psylance">
+
+  <portsForCrack val="2" />
+  <ports>21, 22</ports>
+  <firewall level="-1"/>
+  <proxy time="1.2" />
+  <trace time="29" />
+  <portRemap>22=340</portRemap>
+  <adminPass pass="faithless" />
+  <positionNear target="dPsyInternal" position="212" total="360" extraDistance="0"/>
+  
+  <file path="home" name="ThisServer.txt">注意！
+这是一台自动存档服务器 - 在与其他人确认之前不要在这里下载东西！
+文件将在此处按日期归档并自动被压缩和复制，这样我们就有我们做过的所有工作的备份了。
+-Faith
+  </file>
+
+  <file path="home/archives" name="0_q1.zip">#BINARY#</file>
+  <file path="home/archives" name="0_q2.zip">#BINARY#</file>
+  <file path="home/archives" name="0_q3.zip">#BINARY#</file>
+  <file path="home/archives" name="0_q4.zip">#BINARY#</file>
+  <file path="home/archives" name="1_q1.zip">#BINARY#</file>
+  <file path="home/archives" name="1_q2.zip">#BINARY#</file>
+  <file path="home/archives" name="1_q3.zip">#BINARY#</file>
+  <file path="home/archives" name="1_q4.zip">#BINARY#</file>
+  <file path="home/archives" name="2_q1.zip">1101010001000110011#BINARY#</file>
+  
+  
+</Computer>

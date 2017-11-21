@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dpetsCoelMission">
+  <goals>
+    
+  </goals>
+  <nextMission>无</nextMission>
+  <posting title="Coel - Nisei MK III">
+-- 机密 --
+  </posting>
+  <email>
+    <sender>1</sender>
+    <subject>1</subject>
+    <body></body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

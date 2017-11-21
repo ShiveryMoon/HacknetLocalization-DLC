@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dMF_2_Passthru" name="Snackintosh_PASSTHRU" security="2" ip="167.72.73.56" type="empty" >
+
+  <!-- Discoverable computer from block 1 of the memory forensics intro missions
+  Use the IP address in the second line of this file in one of the memory dumps
+  to make it findable.-->
+  
+  <ports>6881, 443, 21, 22, 80</ports>
+  
+  <proxy time="-1" />
+  <portsForCrack val="4" />
+
+  <trace time="125" />
+
+  <admin type="progress"/>
+
+  <adminPass pass="4TL4S" />
+
+  <file path="passthru" name="listen.sys">#BINARY#</file>
+  <file path="passthru" name="listen.ini">
+    
+    #LISTEN
+  
+  </file>
+  <file path="passthru" name="collect.sys">#BINARY#</file>
+  <file path="passthru" name="learn.sys">#BINARY#</file>
+  <file path="passthru" name="collaborate.sys">#BINARY#</file>
+  <file path="passthru" name="LISTEN.ini">
+
+    #COLLABORATE
+    $default=meta
+    $fallback1=mystic
+    $fallback2=michiru
+    $fallback3=mono
+    $fallback4=muddywaters
+    $fallback5=muse
+    #li
+    $listen=listen
+    $speak=732d345f657672
+  
+  
+  </file>
+  
+</Computer>

@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dpetsM1">
+  <goals>
+    <goal type="databaseEntryChange" comp="dPets_MF" recordName="minx" fieldName="DigiPoints" operation="greater" targetValue="999999"/>
+  </goals>
+  <missionStart val="1" suppress="true">loadConditionalActions:DLC/ActionScripts/PetsAcceptedActions.xml</missionStart>
+  <nextMission>无</nextMission>
+  <posting title="DigiPets - #PLAYERNAME#">
+经典老派传奇目标DigiPets已被派发给小组以作为一次测试。翻越那座山吧。
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>DigiPets</subject>
+    <body>
+经典老派传奇目标DigiPets已被派发给小组以作为一次测试。翻越那座山吧。
+----
+所以说，这不是我的决定。该任务是倒数第二项任务了。
+我的一个朋友为我做了大量挖掘工作，这为我们在工作中的某些事带来了先决的便利，但她现在想要看看团队能给她多大信心。
+很显然不是每个人都认为你们三个是精英黑客，所以我们要证明自己 - 这就是我们在这里的原因。
+
+现在，不幸的是，这个网络可不是开玩笑的——它出人意料地称得上是骇客技能的试金石——所以说这是一份团队工作，由#PLAYERNAME#和D3f4ult负责。
+
+任务是修改他们的主机数据库里的一些值——用户“Minx”想要把他们的“DigiPoints”值设置为大于1000000。
+
+保持敏锐 - 这份活儿有点难度。
+-Kaguya</body>
+    <attachments>
+      <note title="DigiPets任务指引">
+突破前端网页服务器并扫描节点。不要造成破坏，不然会引起网络管理员的警觉。
+定位主机，研究网络，直至你找到进入的办法。
+找到用户“Minx”的文件，并将“DigiPoints”设置为大于1000000
+验证数据库视图中的变化。
+      </note>
+      
+      <link comp="dPets_Home" />
+      
+    </attachments>
+  </email>
+</mission>

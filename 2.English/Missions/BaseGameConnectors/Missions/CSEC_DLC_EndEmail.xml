@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="CSEC_DLC_End" activeCheck="true">
+  <goals>
+    <!-- No goals and autocomplete here - this exists to clear player missions and also send them back to their faction -->
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="">
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Re:The Kaguya Trials</subject>
+    <body>Agent,
+    
+You haven't been online for a while after accepting that Kaguya Trials job - anything we need to investigate?
+If you've been taking a break to work on some other projects for a while, no problem. Your position at CSEC is safe and waiting for you whenever you want to pick up some jobs again.
+
+-CSEC Team
+    </body>
+    <attachments>
+      <link comp="mainHub" />
+    </attachments>
+  </email>
+</mission>

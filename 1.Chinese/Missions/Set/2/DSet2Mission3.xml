@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ds2m1">
+  <goals>
+    <goal type="clearfolder" target="dDdoserComp" path="LOIC"/>
+    <goal type="clearfolder" target="dDdoserHomeComp" path="LOIC"/>
+  </goals>
+  <nextMission>无</nextMission>
+    <posting title="DDOS攻击出现在一些重要的服务器上">
+Coel挖出了让Grindcraft服务器宕机的源头 - 我们希望攻击被停止。
+    </posting>
+  <email>
+    <sender>1</sender>
+    <subject>1</subject>
+    <body>
+Coel挖出了让Grindcraft服务器宕机的源头 - 我们希望攻击被停止。
+----
+显然有人认为DDOS攻击Secrets of Grindcraft的服务器是很有趣的——整个世界都在催促他们开发新版本，而DDOS攻击又能让他们雪上加霜。不管怎样，Coel把搞定他们作为自己加入小组的条件之一，所以我们想要排除这个干扰。他们很可能在使用LOIC（低轨道离子炮）代码来进行攻击，我认为清除那个文件夹来阻止攻击就可以了——不过如果你想在/sys里搞点破坏，那也不会有人责怪你的。
+
+要记得迅速行事，扫描你在那里能找到的任何东西，确保你搞到了一切。
+    </body>
+    <attachments>
+      <link comp="dDdoserComp" />
+    </attachments>
+  </email>
+</mission>

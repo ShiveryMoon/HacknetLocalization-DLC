@@ -1,0 +1,53 @@
+﻿<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+    <!-- Coel was on Alchemists cleanup duty, Default was on "Personal Ties" 
+    We want to delay the player for 30 seconds here so they can get hacked without starting the next mission...
+    -->
+    
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-10.0">任务完成@Coel - 真抱歉让你不得不去清理日志。我已经尽可能做得不留痕迹了。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="0.1">谢谢。我其实希望能够亲自做这件事，但是……你懂的。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="3">我懂，别担心。你的任务还顺利吗？</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="5.0">干得不错，@D3f4ult</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="9.0">乐意效劳，老大。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="15.2">我已经再次检查过Hermetic Alchemist的全部服务器，确保操作日志全部清除。从现在起，没有任何线索能追查到我们了。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="20.2">话说有人将断开连接的日志留在了各个地方，但别担心，我可没偷看哦。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="24.5">呃，这个…… @Kaguya - 你能否帮我们找些工具来对付断连日志文件？</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="28.1">你是说，除了forkbomb之外的东西？</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="32.1">forkbomb太暴力了 :\</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="35.1">嗯嗯嗯，我也是这么觉得。</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="37.1">我会想想办法。但我可打不了包票。</AddIRCMessage>
+    
+  </OnConnect>
+
+  <!-- These trigger when the player has passed the recovery and connects back to IRC for the first time -->
+  <OnConnect target="dhs" needsMissionComplete="false" requiredFlags="startupBreakinTrapPassed">
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-220.0">@channel紧急情况 - @#PLAYERNAME#的机器在四处发送警告信息——他似乎遇到麻烦了。</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-210.0">@Coel - 取消你现在的任务，我这里需要你帮忙</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-200.0">!ATTACHMENT:link#%##PLAYERNAME# PC#%##PLAYER_IP#</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-194.0">那是@#PLAYERNAME# - 搞清楚发生了什么，然后去帮帮他。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-185.0">@Kaguya，我正在处理。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-180">需要我帮忙吗？</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-175.0">需要，稍等</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-160.0">来，你去调查@#PLAYERNAME#正在进行的任务，看看能不能追查到攻击来源。务必小心。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-155">这就去。</AddIRCMessage>
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-120.0">这是虚拟机级攻击，我已经尽力了，现在要看@#PLAYERNAME#自己的本事了……</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-115.0">干得不错，@Coel。我会留意它的。</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-110.0">有什么消息吗，@D3f4ult？</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-90.0">我发现了一些可疑链接，马上就能把这事搞清楚。</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-85.0">继续。</AddIRCMessage>
+
+    <!-- After this displays in real-time -->
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="1.0">@#PLAYERNAME#，欢迎回来</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="8.0">干得漂亮，@#PLAYERNAME#</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="14.0">喂，@#PLAYERNAME#，Kaguya让我去追查攻击来源，我查到一个防护严密的代理服务器。不过你应该能够通过日志追踪到进攻主机。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="25.0">当然了，这一开始就是你的猎物，但如果你想搞个大事情，D3f4ult风格的，就发给我个IP，我来帮你搞定他</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="40.0">此外，我要给未来的自己提个醒 - 如果要找其他黑客的麻烦，别忘了给自己开个shell以备随时激活traps……</AddIRCMessage>
+
+  </OnConnect>
+  
+</ConditionalActions>

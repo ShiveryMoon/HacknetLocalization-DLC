@@ -1,0 +1,27 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dlcDemoIntro1">
+  <goals>
+    <goal type="filedeletion" target="dDemointro1" file="x-server.sys" path="sys"/>
+  </goals>
+  <missionStart val="0" suppress="true">loadConditionalActions:DLC/ActionScripts/HermeticAlchemistsActions.xml</missionStart>
+  <nextMission>无</nextMission>
+  <posting title="Hermetic Alchemists">
+  属于哲学中一个晦涩的分支，“炼金术师”们建立了一张不可思议的庞大网络。一些调查显示，他们的管理者已经开发出一种我们向往已久的工具。
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>炼金术师</subject>
+    <body>
+看起来这名管理者是某种追踪技术奇才，但完全沉迷于这种炼金大业中。他们的网络坚固的像一座城堡，但我们真的需要追查到管理员的主服务器并获取该工具。
+
+这是一项团队项目，如果你获得了有帮助的信息，就发到聊天频道里。
+祝你们好运。
+    </body>
+    <attachments>
+      <link comp="dhaEntry" />
+      <note title="炼金术师合同">调查该网络，并追查这名管理员的主服务器。
+从那里下载新的痕迹追踪或阻断软件，并把它上传到共享服务器。
+</note>
+    </attachments>
+  </email>
+</mission>

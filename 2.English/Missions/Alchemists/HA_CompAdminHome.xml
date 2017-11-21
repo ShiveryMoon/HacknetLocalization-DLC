@@ -1,0 +1,83 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dhaAdminHome" name="Nate Wesson Home" security="4" ip="66.175.58.9" type="4" icon="DLCPC1">
+  
+  <!-- This is the home computer of the architect of the system, it's more personal, less formal, and contains WIP files -->
+  
+  <proxy time="-1" />
+  <trace time="300" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 443, 80, 6881</ports>
+  
+  <positionNear target="dhaComp2" position="300" total="360" extraDistance="0.01"/>
+
+  <file path="sys" name="STOR-DRIVE_activesync.log">Local memory image established
+secure remote drive online responding to command ping
+BOOT SUCCSESS
+Errors: 0</file>
+
+  <file path="bin" name="SignalScrambler.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+
+  <file path="home/wip" name="todo_books.txt">Books to write
+
+in progress
+- weight loss guide
+
+finished
+- hermetic alchemy primer (why isn't this selling well? must investigate)
+- complexities of the living tree (need to talk to publisher)
+
+todo
+- metaphysics of food
+- cfc cooking guide
+- a screenplay about bees (sentient bees are hot topic right now)</file>
+
+  <file path="home/wip" name="weightloss.txt">It's All In Your Head: How Losing Weight Is Just A Positive Thought Away!
+or:
+The Wesson Way
+
+Introduction
+
+Drugs are great! Food is the cure to all ills! Everything is lovely and good for you! 
+
+That's what all the books I've read say, and let me tell you, they're crap! People try to lose weight, and they tell me, heck, "Oh no, I can't lose weight, even though I'm eating less and exercising and being healthy! All of my weight is turning into muscle mass and I'm fit but the weight isn't going away!"
+
+Let. Me. Tell. You. It's not just about eating less and exercising and being what the dictionary and "doctors" describe as "healthy". You've got to really make some good thoughts happen, and in this comprehensive guide, I'll tell you exactly the sorts of thoughts you're after.</file>
+  
+  <file path="home/wip" name="weightloss_parody.txt">Note to prospective publishers: I am not a crackpot, this is a parody weight loss book, intended for snarky thirty-somethings to put on their shelves to make people think they're smart and funny. Please put me in your slush pile.
+</file>
+  
+  <file path="home/wip" name="weightloss_c2.txt">Chapter 2
+
+Eat Everything Ever To Hasten Your Journey Into The Unknown
+
+structure notes:
+-Eat whatever you want
+-Think weight loss thoughts
+-You only lose weight when you move towards perfection
+-Moving towards perfection makes you lose weight
+-Compare and contrast with traditional alchemic texts
+</file>
+
+
+  <file path="home/wip" name="weightloss_c3.txt">Chapter 3
+
+-Don't eat bad things like turpentine and used cigarettes from the gutter, you'll die, but junk food in bulk is fine (especially from CFC)</file>
+
+  <file path="home/wip" name="weightloss_c4.txt">Chapter 4
+
+-Keep talking about an appendix of good thoughts, sold separately</file>
+  
+  
+  <Memory>
+    <Commands>
+      <Command>STOR-DRIVE upkeep ping @ 66.175.58.11 _ ACTIVE</Command>
+    </Commands>
+    <Images>
+      <Image>DLC/Sprites/Misc/Alchemy</Image>
+    </Images>
+  </Memory>
+  
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/RiptideTheme.xml"/>
+
+
+</Computer>

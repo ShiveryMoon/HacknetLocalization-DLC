@@ -1,0 +1,74 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPsyInternal" name="Psylance内部服务" security="4" type="empty" icon="Psylance">
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 25, 443, 80, 1433</ports>
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="90" />
+  <portRemap>22=340</portRemap>
+  <adminPass pass="catsarebestpet" />
+  <dlink targer="dPsyArchives" />
+
+  <account username="faithless" password="catsarebestpet" type="2" />
+  
+  <file path="home" name="Organization.txt">因为我设置自动归档系统的方式，请使用根文件夹“计划”来存储所有的报告和文件——有些程序会在根目录下生成垃圾文件，我想要避免它们与工作文件堆积在一起，所以我把这地方空着。
+多谢！
+-Faith
+  </file>
+
+  <encryptedFile path="projects/investigations" name="PA_0022_Incident.dec" ip="209.68.41.129" header="Psylance cyber security internal investigations division inc.">
+Psylance网络安全公司 - 内部调查部。
+---------------------------------------
+
+太平洋航空的航班PA_0022在飞行途中经历了飞行控制错误，引发严重的失速并险些坠毁。在致命错误发生的极短时间之前飞行员取回了飞机的控制并成功使飞机恢复到了安全状态。
+根据飞机着陆后对其进行的彻底检查，并未在飞机的硬件上发现任何问题，而软件和固件似乎也完好无损。一份软件的完整拷贝被送至Psylance以调查是否有任何错误。
+
+在没有任何东西马上消失或被篡改的情况下，一次全面的调查揭示了有关此事件的系统日志文件令人意外的*缺失*。 这里的意思是发生了篡改，并进行了一次全面的日志扫描。
+谨慎起见，针对这一情况展开了一次全面调查，并对现有的服务器进行了一次全面的扫描。
+
+发现了一个异常——在Pacific_ATC_Skylink (208.91.196.94)上发现了一份来自未识别IP的断开日志。离开的IP的地址是208.73.210.214
+官方痕迹引领我们找到了一个名叫“Coel”的黑客的网关，我们相信他就是该为此次事故负责的人。
+
+我建议对此事展开一次全面调查。Psylance致力于您的服务器的安保工作，并会加倍努力来确保您的网络中的所有系统的安全。
+  </encryptedFile>
+
+  <file path="projects/investigations" name="WhitelistGlitches.zip">#BINARY#</file>
+
+  <file path="projects/misc" name="IRC_Config.txt">//IRC基线对漫游管理员的设置 - 将新客户账号复制过来会使维护更加简便
+Color=67,204,148 //PSYLANCE绿
+//核心用户设置
+:user name="faithless" color="0,209,232"
+:user name="dardypants" color="202,98,0"
+:user name="da_vito" color="0,196,82"
+//Admin Config
+:Auth public="false" sec="restricted"
+  </file>
+
+  <file path="projects/misc" name="IRC_setup.zip">#BINARY#</file>
+  
+  <file path="projects/clients" name="Nisei_MK_III.txt">JinTech公司就为他们的服务器提供新的安保措施一事联系了我们。
+显然他们最近遭受了来自某个组织的严重攻击——他们失去了“Nisei”计划的所有文档，并且将所有的硬拷贝移动到了一个安全地点来从物理上（！！）保证其安全。
+他们说只要他们转录文件的话数据就会丢失，不管往哪发送。
+ 
+他们的记录*非常*干净——真的有人盯上他们了，而且我也不敢100%确定我们现在能经受住这样的压力。
+
+目前可以试试牺牲公关形象来阻止这件事。建议谢绝这单。
+</file>
+
+  <Memory>
+    <Commands>
+      <Command>cd /projects</Command>
+      <Command>scp * ARCHIVE_LINK.bat</Command>
+    </Commands>
+    <Data>
+      <Block>PA_0022_todo.txt
+-------------
+如果有办法能让我们公司在报告里看起来不是那么可悲就好了——现在听起来我们就是一群失败者？我觉得已经够精练了——把它就这样发出去，希望他们不会因为这事儿经常来烦我们…… :/</Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Misc/Psylance_Big</Image>
+    </Images>
+  </Memory>
+  
+</Computer>

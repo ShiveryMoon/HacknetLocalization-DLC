@@ -1,0 +1,80 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa2_start" name="太平洋_ATC_路由中心" security="5" type="4" icon="PacificAir">
+  
+  <!-- The three servers at this point are quite clinical and clean - I've written something in here to indicate why.
+  As half a time-saving thing, and half an atmosphere thing, I was thinking the ending servers (these ones) would be relatively barren.
+  They're a fairly 'pure' challenge - not much messing about. Also gives players come mental breathing room on the narrative side, as
+  they are about to be hit with some heavy stuff.-->
+  
+  <portsForCrack val="4" />
+  <ports>6881, 22, 443, 192, 9418</ports>
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="48" />
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/PacificAir_Big" title="DLC/Sprites/PacificAirTitle" overdrawLogo="true" buttonAlignment="right" />
+  
+  <positionNear target="dpa_bookings" position="180" total="360" extraDistance="0.15"/>
+
+  <dlink target="dpa_bookings" />
+  <dlink target="dpa2_whitelist" />
+  <dlink target="dpa2_target" />
+
+  <file path="home" name="Reminder.txt"> --  重要  --  
+本服务器不保存任何文件，包括来自互联网、个人数据、图像和这台电脑上创建的任何文件。
+这是一种安全防护措施。目前在桌面上打开的文件仅供安全目的，并
+不会出于任何原因保存在硬件驱动器或打印出来。</file>
+
+  <Memory>
+    <Commands>
+      <Command>ping 208.91.196.94</Command>
+      <Command>ps</Command>
+      <Command>kill -9 188</Command>
+    </Commands>
+    <Data>
+      <Block>GN9UXL_NV9T1Z-UFAL
+3ZJHHQ3BNZPB____
+@ACTIVEFILE :: [未保存]
+
+     ::  重要  ::  
+ - 不要保存本文档 -
+ 
+动态白名单密码：
+
+CKYX258
+ 
+白名单服务器（服务器机房内标号PSYLENCE_WHITELIST_SL2）会循环变化。当它更新后，把下方的文字改成新的密码，这样工程师才能进入。
+注意：本文档应在服务器机房的显示屏上保持打开状态该，以记录密码，而不要写在*其他任何地方*
+
+切勿保存本文档！那将导致更多不必要的安全风险。
+如果下列密码不正确，请联系Cyber Sec团队。
+
+-Psylence网络安全
+</Block>
+      <Block>AY67DY5IWIWY40WMOEXX
+TEAKW2GXWH5HSSNLA4TG
+5RYNN02D5P9UN4KY8I8J
+AD9H1TD43P3P8G0CB6PG
+MMR9LOWO48J24GLLRIK2
+A29D9HPCDNNUQO6M2PVS
+AG45QUGKWEJ5TTB3C4QS
+LMX4LMX5MI96VPFF5NI8
+CV69O0DE6G415V9JRUE9
+BNK8KDOCJ10NO08LC3MY
+KI76PNB6X6Y5Q99W7FJ3
+0917XC629EZ7YTL5ECUX
+H7OHLB27FA47CU45ZYES
+7D4PFX7IO99UF8NHK2G9
+O3HF04QYO8270RPXPV72
+TL8L6J257XDYOLGILESX
+2UZD0XHJPSTF9GXL8RZA
+K9DH1AZ8MW3XL0QDZ1BS
+AHPPH4HKF9JOFXLHQSV8
+W17B2NYUW0IJXS1QWIHE
+VQ7DR9W5IL3G88QB6BXP</Block>
+    </Data>
+  </Memory>
+  
+</Computer>

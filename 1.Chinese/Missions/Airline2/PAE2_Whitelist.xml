@@ -1,0 +1,56 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa2_whitelist" name="太平洋_ATC_白名单验证器" security="5" type="4" icon="Psylance">
+  
+  <!-- This whitelist server is 'unhackably secure', but the player can dig up the password to it on an earlier comp. 
+  The player is here to sabotage the server to allow themselves access. I'm leaving this up to you and your narrative expertise,
+  but I'm thinking we could include a file on here somewhere that's kind of a whitelist setup guide with instructions on how to add to the list via terminal.
+  Also it should say you can only use this server via terminal.
+  The command to add a line to the whitelist (this works in game) is:
+  "append filename ip"
+  so like this:
+  "append list.txt 192.168.1.1"
+  You need to be in the folder where the file exists for it to work of course.
+  This mission is completable if the player adds their own IP to the whitelist or just crashes it's critical files, but I think it'll feel
+  cooler if we hint at the player that they are supposed to add themselves onto it via files here.-->
+  
+  <portsForCrack val="5" />
+  <ports>192, 9418</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="80" />
+  <portRemap>192=199</portRemap>
+  <adminPass pass="CKYX258" />
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  
+  <positionNear target="dpa_bookings" position="180" total="360" extraDistance="0.15"/>
+
+  <dlink target="dpa2_target" />
+
+  <file path="home" name="whitelist_add.txt">如要将经过验证的IP地址添加到服务器白名单，请在你的电脑上插入Schiss-Co证书电子狗，确保你已经启用了自动运行。Schiss-Co证书电子狗包含一整套白名单管理软件，但仅可在授权的电脑上运行。
+
+或者，对于被防火墙阻拦、网闸限制或其他云因无法访问公共网络的系统，请查看list_add_manual.txt，了解如何手动将IP地址添加到你的白名单。</file>
+
+
+  <file path="home" name="list_add.sys">#BINARY#</file>
+
+  <file path="home" name="list_add_manual.txt">如要手动添加经过验证的IP地址到你的服务器白名单，请阅读以下说明，确保再次确认每项命令，以保证你的网络不会出现入侵。
+
+注释：本方法未经证实且必须通过终端执行。Schiss-Co对使用或误用这些命令造成的损害不承担任何责任。如需了解更多信息，请查看您的Schiss-Co代表提供的设置活页。
+
+手动添加IP地址的方法如下：打开操作终端，前往包含白名单的文件夹，并在白名单文件中附上你选择的IP地址。
+
+整个流程的步骤如下：
+
+1. 打开终端。Schiss-Co推荐：bash, xsh
+2. 导航到包含您白名单的文件夹。默认状态下，它是/home/whitelist。
+3. 双击要添加到你的白名单的IP地址。
+4. 使用“append”命令附上你选择的IP，然后分别是一个空格，你的白名单文件名 （通常是"list.txt"），第二个空格和你的IP地址。
+
+例如，如果你想要添加“192.168.1.1"的IP地址到他们的白名单，它的终端输出应该类似：
+
+whitelist-server:/ admin$ cd Whitelist
+whitelist-server:whitelist admin$ append list.txt 192.168.1.1</file>
+
+
+</Computer>

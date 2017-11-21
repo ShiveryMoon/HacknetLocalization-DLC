@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dFollowsMission">
+  <goals>
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="ds4_expo" destPath="home/talks/files"/>
+
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="dHGrave_Phone" destPath="eos/STORAGE"/>
+    <goal type="fileupload" target="dhsDrop" file="patch_checksum.chk" path="home/grave" destTarget="dHGrave_Phone" destPath="eos/STORAGE"/>
+    
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="ds4_grave" destPath="home"/>
+  </goals>
+  <nextMission>无</nextMission>
+    <posting title="Expo Grave">一位安全问题研究者正在进行一场关于SQL数据库漏洞的演讲。这种信息的公开会对现有的黑客行为带来负面影响。拖慢这场演讲。</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>Expo Grave</subject>
+    <body>
+一位安全问题研究者正在进行一场关于SQL数据库漏洞的演讲。这种信息的公开会对现有的黑客行为带来负面影响。拖慢这场演讲。
+----
+虽然我们完全不反对网络安全领域的进展，但拖慢这场演讲对我们来说确实是有好处的。
+
+Howard Grave 准备了一场关于SQL数据库漏洞的演讲，演讲的焦点在于他开发的一个反漏洞补丁。我们计划用我们自己的效果稍弱版本的补丁将其替换。
+
+攻入expo的服务器，用我们的伪造的假文档替换他的概念演示文件。这意味着你需要同时替换文档和文档的校验文件，如果有的话。我们的版本在共享服务器上。
+
+确保你把那些文件都搞定——在他的个人设备和Expo主服务器上都有副本。
+
+-Kaguya</body>
+    <attachments>
+      <link comp="dhsDrop" />
+      <link comp="ds4_grave" />
+      <link comp="ds4_expo" />
+      <note title="Mission Guidelines">从共享服务器下载及其校验文件
+获取expo服务器和grave的个人装备的访问权，并用从共享服务器下载的文件替换所有补丁和校验文件</note>
+    </attachments>
+  </email>
+</mission>

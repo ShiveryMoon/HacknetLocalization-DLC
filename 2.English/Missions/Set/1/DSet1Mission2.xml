@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dRicerMission">
+  <goals>
+    <goal type="fileupload" target="dRicer" file="SSLTrojan.dec" path="home/projects" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="The Ricer">
+I've received word on the location of someone who's been developing a means of breaking through SSL ports. Unfortunately, their security setup is a bit unusual.
+  </posting>
+  <email>
+    <sender>The Ricer</sender>
+    <subject>The Ricer</subject>
+    <body>
+I've received word on the location of someone who's been developing a means of breaking through SSL ports. Unfortunately, their security setup is a bit unusual.
+----
+The target seems customization obsessed - a Ricer - and has security to match. Nonstandard configs, ports and service allocations are all over the place.
+Once you've found a way in, we want a copy of the latest ssl breaker software. It might be encrypted or secured somehow, but that's fine. Upload it to our drop server (linked) once you've got something and we'll take care of getting it up and running.
+    </body>
+    <attachments>
+      <link comp="dhsDrop" />
+      <link comp="dRicer" />
+      <note title="Mission Guidelines">Connect to the ricer server and bypass security.
+Look for the latest version of an SSL port breaker program.
+Note: It may be encrypted or hidden.
+Upload the file to the team Drop server once you've found something promising.</note>
+    </attachments>
+  </email>
+</mission>

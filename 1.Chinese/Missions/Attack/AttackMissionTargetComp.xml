@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="dAttackTarget" name="Striker缓存" security="3" ip="72.52.4.117" type="4" icon="DLCPC1">
+
+  <!-- This is the "projects" node of striker. See notes.txt file -->
+  
+  <trace time="50" />
+  <portsForCrack val="4" />
+  <ports>22, 21, 80, 6881, 443</ports>
+  <portRemap>ssh=1</portRemap>
+  <admin type="progress"/>
+
+  <file path="bin" name="MDG_Readme.txt">从目标电脑下载一个信息转储器，但在下载时也要扫描输出字节，以寻找无用的东西——它应当会发现无用的垃圾并取消该进程，节省很多分析时间。</file>
+  <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+
+  <!--
+  <file path="home/projects" name="notes.txt">Need files here for striker's work - stuff like playlist links for music, notes on architecture etc. Striker's thing is being hyper rationalist about everything.</file>
+  -->
+
+  <file path="public" name="4870x2_1.16_oem.bin">#BINARY#</file>
+  <file path="public" name="4870x2_1.17_UPDATE.bin">#BINARY#</file>
+
+  <positionNear target="dAttackSource" position="1" total="3"/>
+
+</Computer>

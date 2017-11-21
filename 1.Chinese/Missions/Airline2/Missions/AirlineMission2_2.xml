@@ -1,0 +1,18 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="airline2_player">
+  <goals>
+  </goals>
+  
+  <nextMission>无</nextMission>
+  <posting title="D3f4ult - Decypher Pacific Air Protocols">
+我们拿到了，但我们需要能够进入太平洋航空更高等级的系统中。分析他们的协议并想出一个能够帮我们偷偷潜入的方法。
+  </posting>
+  <email>
+    <sender>空</sender>
+    <subject>空</subject>
+    <body>
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

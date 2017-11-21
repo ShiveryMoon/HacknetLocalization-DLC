@@ -1,0 +1,5 @@
+> Dammit. Looks like a VM-level attack.
+> I've dealt with one of these before. I know you could probably do this yourself
+> but we need you back sooner than that. I'm going to upload you a quick guide.
+> You're going to have to fix this from whatever base system you're running your VM on.
+> Hold on...

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ds2m1">
+  <goals>
+  </goals>
+  <nextMission>无</nextMission>
+    <posting title="破译并设置SSL破解器">重新设置恢复的SSL破解器以供团队使用。为灵活性和模块化进行开发，最好在有完整说明的情况下。
+  </posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dIntro1" name="测试电脑1" security="1">
+
+  <proxy time="0.5" />
+  <portsForCrack val="2" />
+  <ports>22, 21</ports>
+
+  <trace time="150" />
+  
+<file path="home" name="readme.txt">这里有一个程序，它会大幅改变你的界面，摧毁你的netmap和邮件图标，更改主题，发送一些关于进一步测试或者其他事情的讯息
+
+现在，到它的目标地点去，装作你没有启用任何shell的样子 - 那程序也会杀死它们的。
+216.239.32.21
+ </file>
+  
+  
+</Computer>

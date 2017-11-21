@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dAttackMission_P">
+  <goals>
+    <goal type="fileupload" target="dAttackTarget" file="MemDumpGenerator.exe" path="bin" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="1">scanAndStartDLCVenganceHack</missionEnd>
+  <nextMission>无</nextMission>
+  <posting title="攻击者档案">
+一名相对不太知名的黑客‘Striker’据说制作了一个非常出色的信息转储生成器，我们想得到一份。
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Striker藏匿处</subject>
+    <body>
+一名相对不太知名的黑客‘Striker’据说制作了一个非常出色的信息转储生成器，我们想得到一份。
+----
+Striker的系统防护的不错，但你应该能够应付。我希望这个任务尽可能不留下痕迹——如果能够做到的话，不要进行没必要的破坏或带来任何麻烦。
+得到一份信息转储生成器并上传到中心共享服务器。
+
+祝你好运，
+-Kaguya</body>
+    <attachments>
+      <note title="任务指南">
+调查Striker的服务器。
+寻找信息转储生成器程序并下载一份。
+上传到中心共享服务器
+      </note>
+      
+      <link comp="dAttackTarget" />
+      
+    </attachments>
+  </email>
+</mission>

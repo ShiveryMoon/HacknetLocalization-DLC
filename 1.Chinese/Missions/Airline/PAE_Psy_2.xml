@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpae_psy_2" name="Vito McMichael的笔记本" security="3" icon="DLCLaptop" ip="209.68.41.129" type="4">
+
+  <!-- Laptop of another Psylance employee. contains some bitching about how hard it is to keep
+  untrained people secure on a network. Contains a link to the IRC server of the Psylance workers.
+  This will be one of the people that posts on the IRC, so you can do callbacks here to that.-->
+
+  <firewall level="-1"/>
+  <trace time="60" />
+  <portsForCrack val="3" />
+  <ports>21, 443, 6881</ports>
+
+  <positionNear target="dpa_whitelist" position="180" total="290" extraDistance="0"/>
+
+  <dlink target="dpa_psylance" />
+
+  <file path="home" name="notes_for_keeping_the_idiots_down.txt">如何保证未接受训练的人员在网络上的安全
+ 第1步：不要给予他们管理特权
+ 第2步：不允许他们向组织外发送电子邮件，除非特别授权
+ 第3步：不允许他们从外面带设备进来
+ 第4步：不允许他们投诉 - 将他们的投诉重新定向到/dev/null
+ 第5步：在所有事情出问题时只是看着
+ 第6步：滚一边儿去</file>
+
+  <file path="home" name="irc_address.txt">Vito，
+别再忘了IP地址，把它记下来之类的
+50.31.225.93
+你已经在这里工作了六个月，但这件事每隔两周就会发生一次。麻烦你专心点。
+Darryl
+
+另外，你如果继续骂我妈，我会立刻把你降级的。</file>
+  
+</Computer>

@@ -1,0 +1,140 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa_mail" name="太平洋航空_邮件" security="5" type="4" icon="PacificAir">
+
+  <!-- The mail server, will need to have three accounts. Two of these are critical, one is just flavor.
+  The player will never be able to break in here, so we only need to populate the contents of those three
+  accounts, nothing else.-->
+  
+  <proxy time="4" />
+  <trace time="75" />
+  <portsForCrack val="5" />
+  <ports>22, 25, 443, 1433, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dpa_nethub" position="90" total="360" extraDistance="0.03"/>
+  
+  <!--TRANSLATORS: Do not translate these account lines -->
+  <account username="awilburn" password="1234" type="2" />
+  <account username="kburnaby" password="noneofyourbusiness" type="2" />
+  <account username="YasuArai" password="9NINETWO2" type="2" />
+  
+  <mailServer name="Pacific Air Mail" color="153,195,209">
+    <email recipient="kburnaby" sender="YasuArai" subject="这些网络安全人员">天啊，这些安全人员都是神经病吗！
+我只是让他们帮我整整电脑，结果其中一个人直接就高潮了，让我立即更改我的密码和其他安全参数。
+我只是在原密码后加了个1，所以应该不难记住，不过还是太不爽了。
+他们有必要那么谨慎吗？
+-Yasu</email>
+    
+    <email recipient="kburnaby" sender="sp_alerts" subject="第二周钓鱼式攻击警报">以下为自动整理的{$ActiveMonth}第二周周报。
+星期一：3次警报
+星期二：0次警报
+星期三：4次警报
+星期四：1次警报
+星期五：2次警报</email>
+
+    <email recipient="kburnaby" sender="YasuArai" subject="Re: Lunch">不必了，谢谢！我希望彼此间保持极其职业化的关系。
+-Yasu</email>
+
+    <email recipient="kburnaby" sender="MailAdmin" subject="[注意：管理员] 会议记录">兄弟们，求你们了，做点会议记录吧，否则我们全都会有麻烦。
+特别是我。 
+求你们了！</email>
+
+    <email recipient="kburnaby" sender="awilburn" subject="钓鱼邮件？">你好，Kim，
+我打听过，显然与你讨论这个话题最合适。
+我收到一封关于重置密码的邮件，但不确定它是不是真的。你能验证一下吗？
+> admin_password_security_reset@pacifiicaircom.org sent:
+> ""你好，工作人员
+> 这是你的密码重置邮件。
+> 请点击该链接重置密码。
+> 这对于安全性十分重要。
+> 谢谢。
+> 管理员""
+- Alexina</email>
+    
+    <!-- NetAdmin Emails -->
+  
+  <email recipient="YasuArai" sender="kburnaby" subject="回复：这些网络安全人员">J，你好
+我必须请你不要发送与业务无关的内容。这封邮件看起来只是个人抱怨，太不专业了。
+谢谢！
+-Kim</email>
+
+    <email recipient="YasuArai" sender="athurlow" subject="回复：回复：密码重置">你他妈的，我就拜托了你这么一件简单的事情。为什么你就不能帮助我处理一下？
+> NetAdmin@pacificair.com 发送:
+> 不能。
+> > athurlow@pacificair.com 发送:
+> > 哥们，你能重置我的密码吗？</email>
+
+    <email recipient="YasuArai" sender="kburnaby" subject="转发：钓鱼软件">另一个.
+-Kim
+> awilburn@pacificair.com 发送：
+> 你好，Kim，
+> 我打听过，显然与你讨论这个话题最合适。
+> 我收到一封关于重置密码的邮件，但不确定它是不是真的。你能验证一下吗？
+> > admin_password_security_reset@pacifiicaircom.org 发送:
+> > ""你好，工作人员
+> > 这是你的密码重置邮件。
+> > 请点击该链接重置密码。
+> > 这对于安全性十分重要。
+> > 谢谢。
+> > 管理员""
+> - Alexina</email>
+
+    <email recipient="YasuArai" sender="kburnaby" subject="Lunch">J，你好，想不想周末一起去杯咖啡或做点别的？我希望深入了解你 - 已经好几个月了，但我觉着我们对彼此几乎一无所知！记得答复我。:)</email>
+
+    <email recipient="YasuArai" sender="MailAdmin" subject="[注意：管理员] 会议记录">兄弟们，求你们了，做点会议记录吧，否则我们全都会有麻烦。
+特别是我。 
+求你们了！</email>
+
+    <email recipient="YasuArai" sender="sp_alerts" subject="第二周钓鱼式攻击警报">以下为自动整理的{$ActiveMonth}第二周周报。
+星期一：3次警报
+星期二：0次警报
+星期三：4次警报
+星期四：1次警报
+星期五：2次警报</email>
+    
+    
+  <!-- MiscPerson Email -->
+
+    <email recipient="awilburn" sender="temp_0340" subject="九月的计划">Alexina，你好，我能否了解下我下一周的工作时间？谢谢，j</email>
+
+    <email recipient="awilburn" sender="dwiklowski" subject="办公室抽奖">大家好，我只是想通知大家，本周的办公室抽奖推迟了 - Anthony还没有去MailiPad，所以…进行抽奖也毫无意义，对吧？不管怎样，它还是会进行的，但现在是一年中最忙的时间，所以我们可能要等上几周了。
+祝好，丹
+P.S. 恭喜Marta和Benita生了一个可爱的男孩！希望早日见到你们！</email>
+
+    <email recipient="awilburn" sender="jadams" subject="Meeting Thursday">Alexina，
+趣事提醒：你绝对有希望赢得本月最佳员工的称号。
+关于这个，我们要在周四开会决定本月最佳员工。我相信你也会去的吧？
+Jeremey</email>
+
+    <email recipient="awilburn" sender="employee_promotions" subject="[注意：全体非合同员工] 旅行权和你">~打印本邮件前请留意周遭环境~
+大家好，我是Brandi！本邮件包含你的年度旅行权信息及说明。
+我想你们都知道，我们今年要解雇一批人。这是整个公司上下本次削减开支的一部分 - 我们的CEO甚至都接受了降薪，以降低对削减*你的*薪水的影响， 说这些只是为了帮助你们了解情况。
+不管怎样，中级以上太平洋航空员工的免费旅行项目经过了极大调整，删去了歧义内容并让更简单地把低级员工包含到这个计划中。
+你可以在公司门户网站""新闻""项下看到全部详细内容.
+如果有问题，请联系我
+祝好，
+HR部门Brandi</email>
+
+    <email recipient="awilburn" sender="mb_5f_broadcast" subject="[注意：五楼] 厕所问题">OI
+无论是谁在地板上大便，都应被开除
+我们已经在隔间外安装了摄像头
+我们会找到你的
+你一定会被开除的
+别再折磨保洁人员了
+ 
+祝好，
+Ramiro
+""希望世界改变，不如亲自行动"" - Gandhi, 大概吧</email>
+
+    <email recipient="awilburn" sender="admin_password_security_reset@pacifiicaircom.org" subject="密码重置">你好，工作人员
+这是你的密码重置邮件。
+请点击该链接重置密码。
+这对于安全性十分重要。
+谢谢。
+管理员</email>
+    
+    
+  </mailServer>
+  
+</Computer>

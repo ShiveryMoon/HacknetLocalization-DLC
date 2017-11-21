@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dBeanstalkMission">
+  <goals>
+    <goal type="fileupload" target="ds4_laptop" file="038457_doc.pdf" path="home/dagrunsdottir_leak" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Bean Stalk">Hack a coffee shop to steal draft legislation from a frequent visitor's computer. We're not politically affiliated, of course - there's just a significant bounty on the information.</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>Bean Stalk</subject>
+    <body>
+Hack a coffee shop to steal draft legislation from a frequent visitor's computer. We're not politically affiliated, of course - there's just a significant bounty on the information.
+----
+Asdis Dagrunsdottir, a European politician, has reportedly been secretly working within her party to draft legislation that could have an effect on how our industry does things. Hackers are curious folk, and, as such, there's a large bounty on it.
+
+We've uncovered information that points to her being a frequent visitor at a cafe near her house. Fortunately, the cafe's router's IP address wasn't hard to find.
+
+Find the files. Upload them to the drop server. I'll do the rest.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="ds4_cafe" />
+      <note title="Mission Guidelines">Track down Asdis Dagrunsdottir on the Cafe's router list
+Search for legislation documents
+Upload any that you find to the drop server</note>
+    </attachments>
+  </email>
+</mission>

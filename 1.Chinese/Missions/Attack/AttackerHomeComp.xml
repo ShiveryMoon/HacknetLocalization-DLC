@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dAttackHome" name="Striker_攻击位置" security="3" ip="72.60.4.119" >
+
+  <trace time="-1" />
+  <portsForCrack val="1" />
+  <ports>22, 21, 80, 6881, 443</ports>
+  <portRemap>ssh=1</portRemap>
+  <proxy time="0.1" />
+
+  <file path="home/uni" name="assignments.txt">我不知道究竟哪个更难，是入侵大学的成绩服务器并写入我想写的内容，还是真的做作业。这个问题的答案显然更有趣，但，呃，那个东西就是个堡垒。
+  我不禁想到，为了网络安全学位入侵自己的成绩好像是种倒退……
+  </file>
+
+  <file path="home/uni" name="notes.txt">待办：
+理解的艺术 3 (UA101-3)
+理解的艺术 4 (UA101-4)
+通信 101 3
+
+进行中：
+电影研究1介绍 (IFS-1)
+准备提交：
+CMS101-1
+CMS101-2
+
+目前的想法：
+我讨厌这个！我讨厌这个！我讨厌这些白痴！为什么你们为什么不好好写句子！你们是在大学里！你们都是成年人！！！</file>
+
+  <file path="home/uni" name="IFS1-1-film_study.doc">#BINARY#</file>
+
+  <file path="home/uni" name="CMS101-1-reading_comprehension.doc">#BINARY#</file>
+
+  <file path="home/uni" name="CMS101-2-understanding_paragraphs.doc">#BINARY#</file>
+
+  <file path="home/themes/CCTThemePack" name="This_Pack_Downloaded_From_CoolComputerThemes.Rice.txt">
+    本主题包下载自CoolComputerThemes.Rice！记得访问我们的网站寻找你要的全部炫酷电脑主题！
+  </file>
+  <customthemefile path="home/themes/CCTThemePack" name="Hora_x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+  <customthemefile path="home/themes/CCTThemePack" name="Hora-Alt_x-server.sys" themePath="DLC/Themes/HoraThemeAlt.xml"/>
+  <customthemefile path="home/themes/CCTThemePack" name="Miami-blue_x-server.sys" themePath="DLC/Themes/MiamiThemeLightBlue.xml"/>
+
+  <file path="home/themes" name="CCTThemePack.zip">#BINARY##BINARY#</file>
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+
+  <positionNear target="dAttackSource" position="90" total="360" extraDistance="0"/>
+
+</Computer>

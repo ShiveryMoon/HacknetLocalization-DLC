@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ds1m1">
+  <goals>
+  </goals>
+  <nextMission>无</nextMission>
+  <posting title="内存取证(3/3)">
+    分析内存转储（5-6）以找出进入一个安全服务器的连接。
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

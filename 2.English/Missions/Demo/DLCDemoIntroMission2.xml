@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dlcDemoIntro2">
+  <goals>
+    
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Tex</sender>
+    <subject>Fwd: Kaguya Trials</subject>
+    <body>
+Hi all,
+
+I got linked this and thought the group should know. Looks like it's someone pulling a team together and running recruitment tests. 
+If anyone's interested in some new projects, it might be worth checking out - I took a look, but don't really have time for that sort of thing right now.
+Does anyone know who this "Kaguya" person is? The name's new to me.
+
+At any rate, here's the link - keep fighting the good fight,
+-Tex
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

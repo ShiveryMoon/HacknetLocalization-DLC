@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dRicer" name="Ricer个人电脑" security="1" allowsDefaultBootModule="false" type="4" icon="DLCPC2">
+
+  <!-- This computer is owned by a Ricer - someone customization obsessed
+  It'll eventually have a custom UI front for the connection screen, but it's files
+  should contain a bunch of stuff about changing ui themes, hacking layout managers,
+  shit talking other coders and theme makers etc. Maybe some saved forum posts about 
+  this stuff?-->
+  
+  <proxy time="-1" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 80, 6881, 443</ports>
+  <portRemap>ssh=1234,ftp=99,web=9050,6881=6882</portRemap>
+
+  
+
+  <file path="home/projects" name="SSL_project_archiveOLD.zip">#BINARY##BINARY#</file>
+  
+  <encryptedFile path="home/projects" name="WIP_SSLTrojan.dec" extension=".exe" ip="192.168.1.1" header="SECU_CRYPTv1.1">#SSL_EXE#</encryptedFile>
+  
+  <encryptedFile path="home/projects" name="SSLTrojan.dec" extension=".exe" ip="192.168.1.1" header="SECU_CRYPTv1.1">#SSL_EXE#</encryptedFile>
+
+
+  <file path="home/projects/ThemeChanger" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/CautionTheme.xml"/>
+  
+  <customthemefile path="home/themes" name="caution_x-server.sys" themePath="DLC/Themes/CautionTheme.xml"/>
+  <customthemefile path="home/themes" name="starfield_x-server.sys" themePath="DLC/Themes/MiamiTheme.xml"/>
+
+  <CustomConnectDisplayDaemon />
+
+  <Memory>
+    <Commands>
+      <Command>killall -3 gnome-shell</Command>
+      <Command>dbus-send --type=method_call --print-reply --dest=org.gnome.Shell /org/gnome/Shell org.gnome.Shell.Eval string:'global.reexec_self()'</Command>
+      <Command>sudo service lightdm restart</Command>
+    </Commands>
+  </Memory>
+
+</Computer>

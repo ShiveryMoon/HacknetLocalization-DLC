@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="airline2_player">
+  <goals>
+    <goal type="fileupload" target="dHidden" file="sysinfo.bat" path="home" destTarget="dpa2_target" destPath="sys"/>
+  </goals>
+  
+  <nextMission>无</nextMission>
+  <posting title="#PLAYERNAME# - 搭乘_航班内容">
+在太平洋航空链接服务器上安装后门程序
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>搭乘_航班内容</subject>
+    <!-- Translators notes - don't translate the folder name "sys"-->
+    <body>
+在太平洋航空链接服务器上安装后门程序
+----
+#PLAYERNAME#，你的任务是搭建备用计划以保证我们的安全，防止Coel可能的失手。如果一切顺利，我们可能甚至用不到你的备用计划。
+我已经拿到了一套软件，能够让我们劫持太平洋航空的广播硬件。他们的硬件是由一个名为“Skylink”的服务器来运行的。如果能在那台服务器的~/sys/文件夹中安装这个后门程序，我就能完成其他部分。
+
+我已经把该程序上传到了共享服务器的Home文件夹下。它的名字叫"sysinfo.bat"。下载这个程序，想办法进入Skylink并把它上传到sys文件夹，我来完成剩下的事情。你不需要启动它。
+切记要小心不要留下痕迹——这可不是粗心大意的时候。
+
+祝你好运。
+</body>
+    <attachments>
+      <note title="Mission Guidelines">从共享服务器的Home文件夹下载"sysinfo.bat"文件，并把它上传到太平洋航空“Skylink”服务器的~/sys/文件夹。</note>
+      
+      <link comp="dhsDrop" />
+      <link comp="dpa2_start" />
+      <link comp="dpa2_target" />
+      
+    </attachments>
+  </email>
+</mission>

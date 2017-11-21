@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dcentralTest2Demo" name="Kaguya推送试炼" security="1" ip="216.239.32.181" type="4" icon="DLCPC1">
+
+  <!-- The final server on the dlc intro sequence. Should remain empty. -->
+  
+  <proxy time="-1" />
+  <portsForCrack val="2" />
+  <ports>21, 6881</ports>
+  
+  <trace time="75" />
+  
+  
+<file path="home" name="Delete_Me.txt">
+删掉本文档，并继续。
+</file>
+
+  <positionNear target="dIntroCentral" position="100" total="360"/>
+  
+</Computer>

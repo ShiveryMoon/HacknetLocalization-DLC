@@ -1,0 +1,90 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dhaComp1" name="HA_Coagula" security="4" icon="Alchemist" type="empty">
+  
+  <proxy time="-1" />
+  <trace time="200" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dhaComp2" position="320" total="360"/>
+
+  <file path="home" name="alchemy.txt">The Alchemists of old believed - mistakenly, some thought - that metals were alive in an odd sense; that they started as lead, represented by Saturn, and, over time, evolved into different elements, ending up as gold (the Sun).
+
+Later on, it was realized that it was a metaphor. Life and matter, the Materia, evolve in cycles. As above, so below, says the Emerald Tablet. 
+
+"You, my friend, will evolve, and begin a new cycle, and it shall be glorious."</file>
+
+  <!-- Translators note: Do not translate this file! It's meant to stay in Latin -->
+  <file path="home" name="tablet_latin.txt">Tabula Smaragdina
+
+Verum, sine Mendacio, certum et verissimum:
+
+Quod est Inferius est sicut quod est Superius, et quod est Superius est sicut quod est Inferius, ad perpetranda Miracula Rei Unius. Et sicut res omnes fuerunt ab Uno, meditatione inius, sic Omnes Res natae ab hac una Re, adaptatione.
+
+Pater eius est Sol. Mater eius est Luna. Portavit illud Ventus in Ventre suo. Nutrix eius Terra est. Pater omnis Telesmi totius Mundi est hic. Virtus eius integra est si versa fuerit in Terram. Separabis Terram ab Igne, subtile ab spisso, suaviter, magno cum ingenio.
+
+Ascendit a Terra in Coelum, iterumque descendit in Terram, et recipit Vim superiorum et inferiorum. Sic habebis Gloriam totius Mundi. Idio fugiet a te omnis Obscuritas. Haec est totius Fortitudinis Fortitudo fortis, quia vincet Omnem rem subtilem, Omnemque Solidam penetrabit.
+
+Sic Mundus creatus est. Hic erunt Adaptationes Mirabiles, quarum Modus est hic. Itaque vocatus sum Hermis Trismegistus, habens tres partes Philosophiae totius Mundi.
+
+Completum est quod dixi de Operatione Solis.</file>
+
+  
+  <file path="home" name="tablet_newton.txt">The Emerald Tablet
+
+Tis true without error, certain and most true.
+
+That which is below is like that which is above and that which is above is like that which is below to do the miracles of one only thing
+
+And as all things have been and arose from one by the mediation of one: so all things have their birth from this one thing by adaptation.
+
+The Sun is its father, the moon its mother, the wind hath carried it in its belly, the earth is its nurse.
+
+The father of all perfection in the whole world is here.
+
+Its force or power is entire if it be converted into earth.
+
+Separate thou the earth from the fire, the subtle from the gross sweetly with great industry.
+
+It ascends from the earth to the heaven and again it descends to the earth and receives the force of things superior and inferior.
+
+By this means you shall have the glory of the whole world
+and thereby all obscurity shall fly from you.
+
+Its force is above all force. For it vanquishes every subtle thing and penetrates every solid thing.
+
+So was the world created.
+
+From this are and do come admirable adaptations whereof the means (or process) is here in this. Hence I am called Hermes Trismegist, having the three parts of the philosophy of the whole world.
+
+That which I have said of the operation of the Sun is accomplished and ended.</file>
+
+  <file path="home" name="nameofgod.txt">yod
+HE
+vau
+he
+</file>
+
+  <!-- This should be more cryptic than this, and require, ideally, a player to have read 
+  something on the entry comp to understand it properly. It does need to be an explicit hint 
+  for gameplay purposes though. -->
+  <file path="home" name="Rebis.txt">Patterns of illusion and change manifest in cycles, repeating and mirroring themselves throughout generations, fields, and subjects.
+  
+This is clear, for the technologies of this age too, follow alchemical texts down to their very language.
+
+A 'firewall' appears again, not as religious symbol or act of war, but a tool in society. Yet it is spoken to in the same way, the same word.
+Earth, Prima Materia, K'un.
+
+Of Rebis, Search for wisdom of motion, connection, mobility.
+</file>
+
+  <LogoDaemon Name="COAGULA" ShowsTitle="true" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/Alchemists1">
+From Tao there comes One.
+From One there comes Two.
+From Two there comes Three.
+From Three there come all things.
+  </LogoDaemon>
+  
+</Computer>

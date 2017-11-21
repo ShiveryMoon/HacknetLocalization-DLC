@@ -1,0 +1,56 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dhaComp2" name="HA_Solve" security="4" type="4" icon="Alchemist">
+  
+  <proxy time="-1" />
+  <trace time="200" />
+  <portsForCrack val="3" />
+  <ports>6881, 22, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <file path="home" name="heaven.txt">"无，名天地之始 
+有，名万物之母。
+故常无，
+欲以观其妙；
+常有，
+欲以观其徼。"
+
+Vau，神之名的第三个字母，生命之树的第三个枝丫。
+所处不同，世间亦迁。曾经凡尘，今之真仙。游走其间者初启双目，方见新世界。</file>
+
+  <file path="home" name="coagula.txt">分解和重组生命
+
+新存在的诞生
+必以旧存在的分解……
+……然后……
+……重组为新。
+物质如此，神迹亦如此。此论无有不包，淹没在漫漫历史长河。 
+屡见不鲜。
+只是，时人未必致其存在。
+</file>
+  
+  <file path="home" name="nameofgod.txt">yod
+he
+VAU
+he
+</file>
+
+  <!-- This needs to be re-worked - the word clarity should be replaced with a riddle witha  similar length word as the solution.
+  Let me know the riddle/solution, and i'll implement it. Make sure it's *very* clear what the answer should be if the player has
+  been reading along etc as they go, and ideally, provide hints for a way to work it out with only the stuff on this computer, but
+  the true answer should be hinted at in another server's filename, and more details inside. Note that the contents of this will be 
+  relayed to the player through the IRC system, not directly readmost of the time (but will be sometimes).-->
+  <encryptedFile path="home" name="info.dec" extension=".txt" ip="66.96.149.16" header="DEC Encryption Suite v1.112">
+
+    Rebis firewall pass is "clarity"
+
+  </encryptedFile>
+  
+  <LogoDaemon Name="SOLVE" ShowsTitle="true" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/Alchemists2">
+奥秘I：Yod
+奥秘II：解决，阳
+奥秘III：凝块，阴
+奥秘IV：显露
+  </LogoDaemon>
+
+</Computer>

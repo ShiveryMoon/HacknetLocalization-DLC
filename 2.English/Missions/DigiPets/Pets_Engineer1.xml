@@ -1,0 +1,83 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPets_Engineer1" name="Thomas_Office" security="3" ip="104.95.129.117" icon="DLCPC1">
+  <!-- No critical mission link here, but should contain custom theme -->
+  
+  <dlink target="dPets_VC" />
+
+  <ports>22, 21, 6881, 9418</ports>
+
+  <positionNear target="dPets_MF" position="160" total="360" extraDistance="0.05"/>
+
+  <file path="home/work" name="SecurityBreaches.txt">
+Keeping track of security policy breaches for posterity.
+
+1: Tiff had admin passwords for the mainframe in PLAINTEXT on the Auth server. It doesn't matter that it's secure itself - you don't want that to be a single point of failure, plaintext passwords anywhere is crazy!
+Deleted the file with them in it.
+
+2: Ash write the wifi password down on paper and just stickied it to the wall - Come on, we have windows in here!
+
+3: Susan left a computer logged in overnight. Understandable but, hey, we're doing lists now right?
+
+4: Tiff probably keeps sensitive data on her phone, she checks that thing all the time.
+Might be paranoid, but, you never know.
+
+TO BE CONTINUED UNFORTUNATLEY
+  </file>
+
+  <file path="home/work" name="Developer_SetupGuide.txt">
+--DigiPets Developer Setup Guide v1--
+
+Welcome to the Digipets active development team! Setting up should be easy and you'll be able to be productive in just a few minutes, right?
+
+WRONG, BITCH! WELCOME TO HELL.
+What, did you seriously think this 10 million year old website was going to have a clean, maintainable codebase? Welcome to the obfuscated-single-PHP-file-200-page-website pain zone friend!
+What you're looking at is a concentrated effort of years of burnt out developers making your future life as painful, impossible and un-testable as they can. What's that, you want some actual advice on the codebase? Yeah, open that shit right up and go ahead, i'll wait.
+Or, not, because by the time you're done understanding it I'll be fucking dead. What's that sound? You're regretting not joining the art team instead? Understandable - sometimes I also want to leave this place to lovingly create innocent charachter designs and watch people make terrabytes of low quality porn of it the next day. 10/10.
+
+Here's your setup guide:
+
+Step 1: Find a loaded revolver
+Step 2: Track down everyone responsible for this mess
+Step 3: ???
+Step 4: IT'S STILL BROKEN AS FUCK.
+
+One time I changed the login button color and it broke the battle system. What the fuck.
+
+Anyway, that should get you going! If you have any questions, I suggest you pray for the sweet release of death.
+-Thomas
+  </file>
+
+  <file path="home" name="SECRET_DOTA_STRATS.txt">
+#1: Sniper, CM, Dazzle, Death Prophet, Offlaner with lockdown
+Tri lane sniper/CM/Dazzle, mid DP, offlaner pushes and gets XP. Sniper's build order is:
+Rapier
+Rapier 
+Flat Boots 
+Manta Style
+Rapier
+Optional boots upgrade.
+
+5 man push until you win the second he gets the rapier! Dazzle's job is graving the sniper when the enemy jumps him, everyone else is just lockdown and push.
+Literally undefeated in 1/1 games.
+
+
+#2: Offensive Jungle Bounty Hunter
+Pick BH, stealth lvl 1, live in their jungle and steal last hits from their jungler. Basically makes the game an incredibly annoying 4v4 where they have to buy dust and their team starts super tilted. op op.
+
+#3: Secret mid dazzle
+Dazzle mid, max poison ASAP, build Phase Boots -> Urn -> Deso and gank at 6 with weave and crazy op slow. 
+Dazzle's right clicks and animation are crazy good, so laning is fine, ganks are strong with big slow + armour, go roaming and get Deso ASAP for better ganks and push. It's the mid that keeps on giving!
+  </file>
+  
+  <file path="home" name="AnalyticsApp_designNotes.txt">
+Uses API to download replay of games, custom parser to pull details stats out of it.
+Last hit analysis - calculate how often a missed last hit was early and how late - display metrics about what ranges you are more likely to miss at as ranged hero, and how often you miss uncontested last hits etc.
+Show occurrences of spells being cast to no 'effect' - get data on when spells are not hitting, how often you miss, etc.
+Data on support stuff, like ward coverage over time, locations that over time have a high concentration of enemy traffic with no allied vision.
+Detailed XP analysis - get better data on what points of the game the xp per second drops off - find times when players are likely to roam to little effect and make this more obvious.
+Detailed metrics on times when allies or enemies had long blocks of uninterpreted farm (no enemy heroes in vicinity for a number of minutes).
+  </file>
+
+  <customthemefile path="sys" name="Riptide_x-server.sys" themePath="DLC/Themes/RiptideTheme.xml"/>
+  
+</Computer>

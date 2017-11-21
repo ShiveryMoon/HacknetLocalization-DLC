@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dRicerMission">
+  <goals>
+    <goal type="fileupload" target="dRicer" file="SSLTrojan.dec" path="home/projects" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <nextMission>无</nextMission>
+    <posting title="定制狂">
+我收到了关于某个正在开发一种能突破SSL端口的办法的家伙所在位置的消息。不幸的是，他们的安全设置有点不同寻常。
+  </posting>
+  <email>
+    <sender>定制狂</sender>
+    <subject>定制狂</subject>
+    <body>
+我收到了关于某个正在开发一种能突破SSL端口的办法的家伙所在位置的消息。不幸的是，他们的安全设置有点不同寻常。
+----
+目标看起来对定制着了迷——一个定制狂——他也配备了相应的安全系统。
+到处都是非标准的配置、端口和服务器设置。如果你找到了进入的办法，我们想要一份最新版本的SSL端口破解软件的拷贝。它也许被加密或是保护起来了，不过那没关系。一旦你找到什么东西，就把它上传到我们的删除服务器（已链接），我们会搞定它的。
+    </body>
+    <attachments>
+      <link comp="dhsDrop" />
+      <link comp="dRicer" />
+      <note title="任务指引">连接至定制狂服务器并绕过安全系统。
+寻找最新版本的SSL端口破解程序。
+注意：该程序可能被加密或隐藏起来了。
+一旦你找到有价值的东西，就将其上传至团队删除服务器。</note>
+    </attachments>
+  </email>
+</mission>

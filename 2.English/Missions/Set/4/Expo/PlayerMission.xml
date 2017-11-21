@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dFollowsMission">
+  <goals>
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="ds4_expo" destPath="home/talks/files"/>
+
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="dHGrave_Phone" destPath="eos/STORAGE"/>
+    <goal type="fileupload" target="dhsDrop" file="patch_checksum.chk" path="home/grave" destTarget="dHGrave_Phone" destPath="eos/STORAGE"/>
+    
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="ds4_grave" destPath="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Expo Grave">A security researcher is presenting a talk on SQL database vulnerabilities. The sharing of this information would have an adverse effect on current efforts. Slow it down.</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>Expo Grave</subject>
+    <body>
+A security researcher is presenting a talk on SQL database vulnerabilities. The sharing of this information would have an adverse effect on current hacking efforts. Slow it down.
+----
+While not at all against progress in the cyber security sphere, we do have vested interest in delaying this particular advancement a bit.
+
+Howard Grave has prepared a talk on SQL vulnerabilities that focuses on a patch he has developed to counter them. We want to replace that patch with our own, very slightly less effective version.
+
+Break into the expo's servers, and replace his proof-of-concept demonstration files with our doctored dummy archives. That means you've got to replace both the archives and the checksum that's next to it, if there is one. Our versions are on the drop server.
+
+Make sure you get all of them - there will be copies on his personal devices, as well as the Expo's main server.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="dhsDrop" />
+      <link comp="ds4_grave" />
+      <link comp="ds4_expo" />
+      <note title="Mission Guidelines">Download p_SQL_399.gz and it's checksum file form the drop server
+Gain access to the expo server and grave's personal devices and replace all instances of the patch and checksum files with the ones from the drop server.</note>
+    </attachments>
+  </email>
+</mission>

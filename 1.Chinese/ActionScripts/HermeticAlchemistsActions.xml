@@ -1,0 +1,14 @@
+﻿<ConditionalActions>
+  
+  <OnAdminGained target="dhaComp2">
+    
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="23.0">@channel，我在"Solve服务器"中发现了一个加密文件，你俩可能会感兴趣。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="32.2">解密后看来，它似乎是说“Rebis”的密码是“clarity“。然而用户名却不是admin？</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="50.2">谢谢提醒，@D3f4ult</AddIRCMessage>
+  </OnAdminGained>
+  <OnConnect target="dhaAdminPhone" needsMissionComplete="false">
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="17.0">@channel - 谁能告诉我eOS的默认管理员密码是什么？</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="24">默认是“alpine”。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="27.0">谢谢</AddIRCMessage>
+  </OnConnect>
+</ConditionalActions>

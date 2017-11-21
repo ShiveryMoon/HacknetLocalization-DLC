@@ -1,0 +1,100 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpae_airline_misc" name="Mark Robertson的办公室电脑" security="2" ip="98.124.245.24" type="4" icon="DLCPC1">
+
+  <!-- Low security misc employee of the airline!
+  There's nothing mission critical here, this just exists to pad things out, give a little more variety
+  and have a location for a non-critical character to talk about stuff. Pretty free reign with this one!
+  -->
+  
+  <portsForCrack val="2" />
+  <ports>22, 21, 443, 6881, 80, 25, 192</ports>
+
+  <positionNear target="dpa_whitelist" position="180" total="360" extraDistance="0"/>
+
+  <file path="home" name="todolist.txt">待办事项.txt
+
+- 完成GitV
+- 为下周预留出时间
+- 赢得在animeFora中的辩论
+- 健身
+- 删除facebook
+- 找个律师
+- 别真的找个律师
+- 删除律师</file>
+
+  <file path="home" name="watchlist.txt">
+动漫观看列表
+
+--进行中--
+Nights in Cydonia
+Goats in the Veldt
+Two Samurai
+Ball Boy Chipstop
+Game: Hard Mode
+Shield Science Offline
+Hey-O!
+
+--未开始--
+Goats in the Veldt: Stand on the Fence
+Die El Die
+The Guy Who Punches People But Only Once And Then He Wins The Fight And That's The Whole Episode See You Next Week!
+Hey-O!!
+Hey-O!: A Movie We Made
+My Complex Relationship With My Butt
+My Complex Relationship With My Butt II
+My Complex Relationship With My Butt II OVA : Firm Complex
+Unsatisfying Ending
+Retcon Paradise
+Large Wizard Alchemia
+Starts;Fate
+Fate;Verb/Noun
+Gatherer y Gatherer
+Story of the Secret Generator
+Spoon Collector!!!!!
+Lifeboat
+Three:Re:Hero
+Heavenyodel
+Two or Three Pieces
+Piece/Two
+Magical Friend Motoko Arcana
+Meta-Commentary On Working Conditions In The Anime Industry
+Foolish Coolish
+Immobile Dressup
+Big Fighters....???</file>
+  
+  <file path="home" name="namegenerator.txt">配置名字生成器，供使用台式机的呆子等使用
+
+进度日志：
+前缀 0%
+后缀 92%
+
+前缀 - 展开
+
+Pledge,Expanse,Accord,Division,Cliffs,Desert,Mountains,Mountain,Plains,Plain,Beach,Foothill,Bluff,Island,Islands,Isle,Isles,Crags,Crag,Emptiness,Absence,Heights,Mount,Mounts,Canyon,Mesa,Slopes,Mire,Beacons,Wastes,Waste,Coast,Coasts,Front,Homelands,Cascade,Cascades,Borderlands,Wildlands,Plateau,Hinterlands,Falls,Glacier,Volcano
+
+
+后缀 - 内陆地区
+
+Dale,Forest,Wood,Valley,Ruins,Peak,Hill,Hills,Cave,Caves,Grove,Outpost,Pond,Swamp,Lake,Creek,Falls,Glen,Mire,Fen,Pass,Brook,Dam,Tarn
+
+后缀 - 村镇/营地
+
+Division,City,Town,Village,Road,Parish,Outpost,Camp,County
+
+后缀 - 水边地区
+
+Harbor,Inlet,Dock,Pier,Port,Wharf,Anchorage,Cove,Gulf,Jetty,Bight,Bay,Fjord,Landing,Sound,Loch,Lagoon,Bayou,Basin,Estuary,Stait,Narrows,Bridge,Canal,Watercourse,Beach,Crossing
+
+后缀 - 军事地点
+
+Fortress,Fort,Castle,Fortalice,Keep,Stronghold,Redoubt,Bastion,Citadel,Garrison,Tower,Stockade,Stronghold,Ward,Supply Depot
+
+后缀 - 富裕公民地点
+
+Manor,Castle,Keep,Mansion,Chateau,House,Villa,Estate,Palace,Hall,Alcazar
+
+后缀 - 公民私有地点
+
+Apartments,House,Farm,Estate,Residence,Shack,</file>
+  
+</Computer>

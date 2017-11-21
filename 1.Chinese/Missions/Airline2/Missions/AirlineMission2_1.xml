@@ -1,0 +1,19 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="airline2_player">
+  <goals>
+  </goals>
+  
+  <nextMission>无</nextMission>
+  <posting title="Coel - Nisei MK III_Exodus">
+解压。清理。
+你清楚利害关系。
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>空</subject>
+    <body>
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

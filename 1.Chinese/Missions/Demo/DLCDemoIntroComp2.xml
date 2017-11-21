@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dDemointro2" name="Kaguya来源" security="3" type="4">
+
+  <!-- This is the second DLC intro server, that gives the player the intro exe that wipes their mail icon
+  It's designed to be pretty empty - it's a recruitment server that's designed to be hackable and targeted,
+  but Kaguys is pretty dilligent and wipes it often. The sort of people that will be trying this are a higher
+  class of Hacker too, so not as much vandalism. Mostly clean, I think - maybe just a single note or so in
+  a different folder?-->
+  
+  <proxy time="-1" />
+  <portsForCrack val="2" />
+
+  <file path="bin" name="Recruitment.txt">
+我是Kaguya，正在组建一支团队。
+完全的精英团队，共享所有资源，做大事。
+感兴趣者可通过这里的可执行文件申请。
+运行这个程序即表明同意进行测试，
+并且好好评估一下自己的能力。
+祝你好运。
+  </file>
+  
+  <file path="home/backups" name="KaguyaTrials.exe">#KAGUYA_EXE#</file>
+  <file path="bin" name="KaguyaTrials.exe">#KAGUYA_EXE#</file>
+
+  <encryptedFile path="home/msg" name="kenobi.dec" extension=".txt" ip="192.168.1.1" header="onlyhope" pass="Obi-Wan">
+我听说你的团队为了正义，为了正确的事情而奋斗。
+帮帮我，Kaguya，你是我唯一的希望了。
+有些混蛋脚本小子感染了我父母的网络，窃取了我们所有的银行信息、护照信息和我们一生的积蓄。
+我们积攒了数年才有钱离开这个破地方并前往美国。
+我相信我们的护照信息已经在某个黑市卖掉了。至于我们的钱，永远也找不回来了。
+我需要帮助，求你了。
+我水平不够，但我想你们会帮我的。
+求你们了？
+kingjoffery227@jmail.com 
+</encryptedFile>
+
+  
+  
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/MiamiThemeLight.xml"/>
+
+</Computer>

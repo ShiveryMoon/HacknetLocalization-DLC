@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dpetsM1">
+  <goals>
+    
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="DigiPets - D3f4ult">
+Old school legendary target DigiPets has been given to the team as a test. Climb that mountain.
+  </posting>
+  <email>
+    <sender>1</sender>
+    <subject>1</subject>
+    <body>--</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

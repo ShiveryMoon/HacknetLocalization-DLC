@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ds1m3">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Trace Grindcraft server outages">On request from Coel, I've gotten hold of some IPs that seem to be connected to the DDoSers. Go find out who's causing it.
+  </posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

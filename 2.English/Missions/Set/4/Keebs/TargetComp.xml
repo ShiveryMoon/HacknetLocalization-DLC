@@ -1,0 +1,120 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dKeebs" name="ClickLab Productions" security="1" type="4" icon="DLCPC1">
+
+  <proxy time="1" />
+  <portsForCrack val="3" />
+  <ports>21, 6881, 443</ports>
+  <trace time="85" />
+
+  <file path="home/keebs" name="Switches.txt">Switch Buying Guide
+----------------------
+Switches are always to personal taste, so I highly recommend going out to try and type on a few different types at a store or something before committing, but if you cant, here's an overview of what they feel like.
+I'll go over types first, then talk about brand differences quickly later.
+
+Brown:
+These are your "basic" mech switch - tactile (means they have a kinda bump as you press them down so you can feel exactly when the switch activates), reasonably light, without any extra clicking.
+These are pretty much what I'll recommend to anyone buying a mech for the first time without getting to try something first. They feel great and are a great way to check what you like in a board without getting something disappointing right off the bat.
+Basically everyone likes browns, and they're a good way to nudge you towards finding something that you love.
+
+Reds:
+These are designed to be linear browns. Linear means they don't have any bump in their activation, so it's the same resistance all the way down the keypress. They're generally marketed as being "better for gaming" but to be honest that seems kinda dumb to me.
+A lot of people (myself included) think reds feel a little "muddy" to type on - I really miss that bump as the switch actuates, but some people swear by them.
+
+Blues:
+These are browns with an extra mechanism inside the switch that makes an extra clicking sound when they activate. These are super loud (too loud for me) but that little bit of extra feedback makes them feel great to type on.
+If you live or work around other people, probably start with browns. Keep in mind that you can hear these popping off with headphones on.
+
+And nwo the "heavier variants" - these are the same as the above switches in design, but contain an internal spring that's heavier, so it's a little harder to pres each key down.
+This heaviness makes the boards feel strong and expensive, which is nice, but it can makes your fingers sore when you;re at the desk for a while, and takes a bit of getting used to.
+
+Greens are heavier Blues
+Blacks are heavier Reds
+Clears are heavier Browns
+
+Common manufacturers are Gateron and Cherry.
+Gateron tactile switches (blues, browns and greens) are basically smoother, cheaper versions of the Cherry switches, so get those instead.
+Gateron clears are NOT heavier browns though - for some reason they are lighter reds (?!??!?!?!?!!). I learned this the (very) expensive way.
+Gateron linear switches also feel a bit wobbly - go cherry for those. Basically you cant go wrong with Cherry, they do great work. Gateron browns are great though.
+
+  </file>
+
+  <file path="home/keebs" name="Advanced_Switches.txt">Advanced or Uncommon Switches
+------------------------
+
+Lets talk about Topre.
+Topre's some good shit. I'm writing this on my Topre RF87U right now. 55g uniform for life. No doubt.
+
+So, Topre's a Japanese company that make a special kind of switch that's electrostatic capacitive. They feel a little different to classic mech switches, and if you like it or not is a bit to personal taste.
+Some people say they feel like expensive rubber dome keyboards, and other just say they feel fucking amazing. It's not for everyone, but I basically disagree with everyone that thinks that. They're weird and amazing and my favourite.
+
+The only downside is that you cant put custom caps on them, because they don't have Cherry MX stems. Except that they just solves that problem and are now bringing out boards that have new stems that do support that. For all of those, just trust me, get a set of hypersphere silencing rings and put them on them - it'll make it feel more like a Realforce that you can change caps on that has backlights (aka the dream) 
+
+Zealios.
+And MOD-X switches. These are some custom community switches that have special weights and manufacturing processes. Zealios are commonly thought of as "gateron purples".
+They're between cherry browns and clears, with gateron smoothness, and will be the perfect endgame switch for a lot of people. You need to build your own board to get them in anything though, so, this is pretty far down the line.
+  </file>
+  
+  <file path="home/keebs" name="Keycaps.txt">Keycap Guide
+------------------------
+Sign up for Massdrop, get on the /r/MechanicalKeyboards subreddit and keep pace with what's new in the keycap world. Expect to pay like, $200 and wait 9 months for your little bits of plastic, but damn, they look nice.
+
+Signature Plastics in the US, TaiHao in Taiwan, and GMK in Germany are the big hitters at the moment here. TaiHao are cheap and nice, GMK are expensive and *very nice*, and SP are expensive, but the only way to get caps in SA or DSA profile.
+
+Oh yeah, profiles. Normal Mechs use OEM profile, which is extremely similar (or exactly the same usually) to "cherry" profile. TaiHao and GMK use cherry profile.
+
+SP make SA and DSA profile caps. SA caps are high, shiny and domed, DSA caps are uniform, low and flat - more like a laptop keyboard. Worth looking up pictures for!
+The problem is, these places usually don't really have a bunch of stuff in stock, so it's normal to just be keeping an eye out for sales and group buys of new sets. The community has a bunch of designers that propose sets, and once those go through, you can sign up for them.
+It's a lot of fun! Some good examples:
+
+GMK Carbon
+DSA Dolch
+TaiHao Sunset
+SA CalmDepths
+  </file>
+  
+  
+  <file path="home/keebs" name="BoardLayout_Design_Notes.txt">
+TenKeyless (no numpad) is nice, but mostly because having the numpad between your hand and your mouse is lame, and boards that huge look clunky.
+I'm thinking - left side numpad (like the Monarch board) is the future.
+I'm not giving up the navigation cluster though.
+
+I think custom design is pretty rad - everyone uses their board differently, so i'm just going to cut keys that I don't use.
+After using a WhiteFox for a while, i'm pretty sold on smaller boards being amazing - going back to a full size feels so unnecessarily huge and clumsy.
+
+Caps lock is such an awful, inconvenient use of prime space. Swap it with Control.
+Better yet - replace it with control and use ctrl for something else, bing caps to a function layer somewhere.
+
+Navigation cluster: Testing shows that I usually blindly find the arrow keys by the empty space over the right key - as long as there's a 1U space above that key, it'll be easy to find.
+1U space to the left of the arrow cluster on the whitefox looks nice but is ultimately useless. Still, my designs show not much use adding a new key there, so I'll probably keep both gaps.
+  </file>
+  
+  <file path="home/keebs" name="the_dream.txt">
+Custom layout -> Left numpad, compact nav cluster.
+55g uniform topre switches w. novatouch sliders
+silencing hyperspheres
+change caps often (start with DSA Dolch?) 
+Double-thick aluminum faceplate and underlit resin body - Monarch style.
+Fully re-programmable with input.club
+
+Walnut wrist rest.
+</file>
+  
+  <file path="home/keebs" name="purchase_blacklist.txt">
+ChucklingKumquat
+</file>
+
+  <file path="home/projects" name="Adonis87U_PCB_Spec.gbr">#BINARY#</file>
+  <file path="home/projects" name="Adonis68ISO_PCB_Spec.gbr">#BINARY#</file>
+  <file path="home/projects" name="layout_wip.txt">http://www.keyboard-layout-editor.com/#/gists/0ffdf87af5ba50af1a1018052012832b</file>
+  
+  <file path="home/records" name="purchase_blacklist.txt">
+ChucklingKumquat
+</file>
+  
+  <Memory>
+    <Data>
+      <Block>http://imgur.com/a/B1Iox</Block>
+    </Data>
+  </Memory>
+
+</Computer>

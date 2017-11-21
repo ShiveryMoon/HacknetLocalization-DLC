@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="CSEC_DLC_End" activeCheck="true">
+  <goals>
+    <!-- No goals and autocomplete here - this exists to clear player missions and also send them back to their faction -->
+  </goals>
+  <nextMission>无</nextMission>
+  <posting title="">
+  </posting>
+  <email>
+    <sender>CSEC中心服务</sender>
+    <subject>Re:Kaguya的试炼</subject>
+    <body>Agent,
+    
+接受Kaguya的试炼任务后，你已经很长时间没有上线了——有什么需要进行调查吗？
+如果你只是想休息一下，去做做别的项目，没有问题。你在CSEC的位置很安全，并且无论你何时想接些任务，它都会等着你。
+
+-CSEC团队
+    </body>
+    <attachments>
+      <link comp="mainHub" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="airline2_player">
+  <goals>
+    <goal type="fileupload" target="dHidden" file="sysinfo.bat" path="home" destTarget="dpa2_target" destPath="sys"/>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="#PLAYERNAME# - Take_Flight Cont.">
+Install a backdoor on a secure PacificAir link server
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Take_Flight Cont.</subject>
+    <!-- Translators notes - don't translate the folder name "sys"-->
+    <body>
+Install a backdoor on a secure PacificAir link server
+----
+#PLAYERNAME#, your task is to secure us a backup plan, just incase my suspicions about Coel's job comes to fruition. If all goes well we wont even need it.
+I've secured a piece of software that should allow us to hijack PacificAir's broadcast hardware. Their hardware is run by a computer they call the "Skylink" server. If you install this backdoor onto that server in the ~/sys/ folder, I can take care of the rest.
+
+I've uploaded the backdoor you'll need to install to the home folder on the drop server. It's named "sysinfo.bat". Download that, find a way into the Skylink, and upload it to the sys folder, and I'll take care of the rest. No need to activate it.
+Remember to be careful with your tracks - this isn't the time to get sloppy.
+
+Good luck.
+</body>
+    <attachments>
+      <note title="Mission Guidelines">Download the file "sysinfo.bat" from the home folder on the Drop Server, and upload it to ~/sys/ on the Pacific Air "Skylink" server.</note>
+      
+      <link comp="dhsDrop" />
+      <link comp="dpa2_start" />
+      <link comp="dpa2_target" />
+      
+    </attachments>
+  </email>
+</mission>

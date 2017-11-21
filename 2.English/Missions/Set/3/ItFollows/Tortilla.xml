@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds3_dest" name="TortillaVPS" security="1" type="4" icon="DLCPC1" ip="7.201.4.178">
+
+  <proxy time="-1" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 6881, 443</ports>
+  <portRemap>6881=69</portRemap>
+  <trace time="250" />
+
+  <file path="home" name="01_begin.zip">#BINARY#</file>
+  <file path="home" name="02_progress.zip">#BINARY#</file>
+  <file path="home" name="03_dreadnought.zip">#BINARY#</file>
+  <file path="home" name="04_n.zip">#BINARY#</file>
+  <file path="home" name="05_dreadnought.zip">#BINARY#</file>
+  <file path="home" name="06_dreadnought.zip">#BINARY#</file>
+  <file path="home" name="07_kaguya.zip">#BINARY#</file>
+  <file path="home" name="08_kaguya_info.txt">Kaguya continues to gather operatives. His objective is, as of yet, unknown. 
+Our work continues, at a slower pace. </file>
+  <file path="home" name="08_kaguya_ichisei.log">#BINARY#</file>
+
+</Computer>

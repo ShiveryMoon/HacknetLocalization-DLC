@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Entropy_DLC_End" activeCheck="true">
+  <goals>
+    <!-- No goals and autocomplete here - this exists to clear player missions and also send them back to their faction -->
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="">
+  </posting>
+  <email>
+    <sender>Tex</sender>
+    <subject>Everything alright?</subject>
+    <body>#PLAYERNAME#,
+    
+You haven't signed back into Entropy since taking the Kaguya Trials mission, is everything okay?
+Of course, I expected that to be something of another faction, but you've been gone for some time now.
+
+If you're just taking a break from Entropy, know that you're welcome back any time.
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy00" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,54 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dMF_2_Lihotas" name="Lihota产品" security="2" ip="17.5.3.9" type="empty" >
+
+  <!-- Discoverable computer from block 1 of the memory forensics intro missions
+  Use the IP address in the second line of this file in one of the memory dumps
+  to make it findable.-->
+  
+  <ports>6881, 443, 21, 22, 80</ports>
+  
+  <proxy time="-1" />
+  <portsForCrack val="4" />
+
+  <trace time="125" />
+
+  <admin type="progress"/>
+
+  <adminPass pass="4TL4S" />
+
+  <tracker />
+
+  <file path="share/secure" name="meta.txt">交付给匿名客户的加密成果
+c级以下的内部间隙无访问权限
+我们能看到日志。自己小心点儿
+</file>
+  <file path="share/secure" name="memorydumps.rar">#BINARY#</file>
+  <file path="share/secure/originals" name="sn_memory_dump.rar">#BINARY#</file>
+  <file path="share/secure/originals" name="sn_memory_dump_decompiled.rar">#BINARY#</file>
+  <file path="share/secure/originals" name="sn_memory_dump.txt">这份Snackintosh软件是作为一项技能或软件交易的一部分被给予接受者的，接收者不得反编译、逆向、出售、交易、或以任何方式传播此软件。 
+如果Snackintosh发现你在做这种事，你可是会有麻烦的。</file>
+
+  <file path="home/client" name="meta.txt">交付给客户的成果。在发送前等待付款。在修改此处的任何文件前先联系addi或者ani。如果你不这么做我们就把你烧死。 :-)</file>
+  
+  <file path="home/client/schissco" name="meta.txt">可交付的成果，在发送前等待最终确认（谢天谢地，构建服务器在我们做完这些之后才死机）</file>
+
+  <file path="home/client/schissco" name="server-deliverable.zip">#BINARY#</file>
+  <file path="home/client/schissco" name="fw-a6e.zip">#BINARY#</file>
+  <file path="home/client/schissco" name="server2b-deliverable.zip">#BINARY#</file>
+  <file path="home/client/schissco" name="meta.txt">可交付的成果，在发送前等待最终确认（谢天谢地，构建服务器在我们做完这些之后才死机）</file>
+  
+  <file path="home/client/megasanta" name="barkeep-v1a.zip">#BINARY#</file>
+  <file path="home/client/megasanta" name="corgi-extension.zip">#BINARY#</file>
+  <file path="home/client/megasanta" name="jacuzzi.zip">#BINARY#</file>
+
+  <file path="home/client/vgcollective" name="smah2-backend.zip">#BINARY#</file>
+  <file path="home/client/vgcollective" name="iprosthetic-fw.zip">#BINARY#</file>
+  <file path="home/client/vgcollective" name="5e9d.zip">#BINARY#</file>
+  <file path="home/client/vgcollective" name="d0ng5.zip">#BINARY#</file>
+
+  <file path="home/client/sneakysenpai" name="yandere-b7063.zip">#BINARY#</file>
+
+  <file path="home/client/wisebird" name="newroman.zip">#BINARY#</file>
+  <file path="home/client/wisebird" name="articulated.zip">#BINARY#</file>
+
+</Computer>

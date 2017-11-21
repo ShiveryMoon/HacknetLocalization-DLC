@@ -1,0 +1,56 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPets_Auth" name="DigiPets_Authentication" security="8" type="4" icon="DLCServer">
+
+  <adminPass pass="mlk3fsdie321" />
+
+  <positionNear target="dPets_MF" position="220" total="360" extraDistance="0.01"/>
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/DigiPets/Chisha" title="DLC/Sprites/DigiPetsLogo" overdrawLogo="false" buttonAlignment="right" />
+
+  
+  
+  <Memory>
+    <Commands>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+    </Commands>
+    <Data>
+      <Block>v=atY2Z0J6zX8</Block>
+      <Block>
+~/home/reminder.txt
+
+Mainframe Auth:
+Login: admin
+Pass: n8u5v432kj</Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/DigiPets/Kachici</Image>
+    </Images>
+  </Memory>
+
+  <dlink target="dPets_MF" />
+  <dlink target="dPets_Home" />
+
+  <file path="AUTHSERV" name="EncryptedVerificationCluster.blk">#BINARY##BINARY#</file>
+  <file path="AUTHSERV" name="AuthServ.dll">#BINARY#</file>
+  <file path="home" name="NO_REBOOT.txt">DO NOT RESTART THIS MACHINE!
+The API Uses this server for logins, do not restart it or mess with it's settings without asking first! Or ever, really, for any reason!
+-T</file>
+  <file path="home" name="Ash_READTHIS.txt">
+Dammit Ash, I know you're just messing with me at this point. Regardless of how secure this thing is, "authentication server" doesn't mean the server you write authentication details for everything down on!
+File's deleted, don't make me report this to Tiff.
+-T</file>
+  
+  <admin type="progress" isSuper="true"/>
+  
+</Computer>

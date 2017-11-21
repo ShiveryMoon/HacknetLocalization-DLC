@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds4_grave" name="Howard Grave's personal computer" security="1" type="4" icon="DLCPC1">
+
+  <proxy time="0.2" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 6881, 443, 80, 25, 1443</ports>
+  <trace time="-1" />
+
+  <file path="home" name="p_SQL_399.gz">001101010110111#BINARY#</file>
+
+  <file path="home" name="Thank_You_For_Purchasing_File_.txt">Thank you for purchasing File Backup Manager 2099. 
+Your license key has been sent to the email address you entered during the purchasing process.
+
+File Backup Manager 2099's default folder is /home/fman_cfg/. </file>
+
+
+  <file path="home/fman_cfg/files-backup" name="setup_log.txt">CRITICAL ERROR: File backup systems failed.
+Error Follows:
+Unhanded FileSecurityException:
+Folder home/fman_cfg is inaccessible at this program's security level.</file>
+    
+  
+  <file path="home" name="phone_reminder.txt">alpine is old news. new news is fma93dk
+remember to install Seedia and get all the good repos</file>
+  
+  <eosDevice name="Howard Grave's ePwned+-" id="dHGrave_Phone" icon="ePhone2" passOverride="fma93dK">
+    <note>TestNote
+More text</note>
+    
+    <file path="eos/STORAGE" name="p_SQL_399.gz">001101010110111#BINARY#</file>
+    <file path="eos/STORAGE" name="patch_checksum.chk">3F636BDC-946E-4021-B29C-1BD1511C5B40S</file>
+  </eosDevice>
+
+</Computer>

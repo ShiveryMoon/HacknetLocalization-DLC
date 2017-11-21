@@ -1,0 +1,30 @@
+-- VM Bootloader Trap Repair Guide --
+
+1: If you don't have one already, open a command prompt near where the blocking file will be.
+(I've copied over a shortcut script that should do this called "OpenCMD.bat" - running that will work). 
+It changes from system to system, but you should be looking near where your VM stores it's data files.
+
+2: Move through folders to find the offending file. You're looking for "VMBootloaderTrap.dll".
+Note for Windows:
+
+linux | windows
+cd    =   cd
+ls    =   dir
+rm    =   del
+
+I recommend using "dir" right away, and every time you change directories so you don't lose track of where you are. 
+Don't forget ".." to go back. Tab will autocomplete file and folder names in Windows, but not commands!
+
+
+3: Once you've found VMBootloaderTrap.dll, you'll need to release the permissions lock on it before you can delete it.
+
+Run this:
+icacls VMBootloaderTrap.dll /grant USERS:D
+
+
+4: Now delete it!
+
+
+5: Start up your VM again and get going.
+
+-Coel

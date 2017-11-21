@@ -1,0 +1,46 @@
+Computers and their files will be the bulk of the translation work for this project.
+
+A computer starts with a tag like this:
+
+<Computer id="dal_lax" name="LAX_Pacific_Server" security="5" type="4">
+
+Computers have a lot of things to translate in them, many of them optional and/or repeating, so i'll list them all out carefully here. If you run across something you're unsure about, please contact me about it.
+
+DO Translate:
+
+"name" atributes of the top tag (never ids). Example:
+<Computer id="bitMission00" name="Bitwise Test PC" security="1">
+Translate only "Bitwise Test PC"
+
+Body contents of files (Never filenames) Example:
+<file path="home" name="Test_File.txt">Congratulations, You win!</file>
+Translate "Congratulations, You win!" but nothing else
+
+Do not translate anything in between hashes. For example:
+#BINARY#
+or #PLAYERNAME# - these are program wildcards and should remain as-is
+
+For email servers:
+email tag subject attributes and body
+
+For IRC servers:
+post tag body
+<post user="faithless">Who's that?</post>
+Above tag should translate "Who's that?"
+
+
+Special cases where the text is clearly for decoration. Examples include the computers in the "Alchemists" folder. The "LogoDaemon" tag sometimes contains text in it's body that should be translated. It's ok to use your own judgement on this sort of thing, but if there's sentences it's safe!
+
+Example:
+"As Above
+So Below" On the alchemists server should be translated.
+
+Memory and MemoryDumpFile tags:
+Translate the contents of <command> tags where apropriate (wont be neded often)
+Translate the contents of all <block> tags
+
+
+DO NOT Translate:
+Everything else not mentioned above
+
+Good luck! Let me know if you run into any trouble or confusion. I'm reacahble extra fast on twitter as @Orann, and more formally on email as matt@hacknet-os.com

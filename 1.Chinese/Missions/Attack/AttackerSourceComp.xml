@@ -1,0 +1,178 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dAttackSource" name="Striker代理" security="6" ip="72.52.4.119" type="4" icon="DLCPC2">
+  
+  <trace time="80" />
+  <portsForCrack val="3" />
+  <ports>21, 22, 6881</ports>
+  <proxy time="0.4" />
+  <firewall level="-1"/>
+  
+
+  <dlink target="dAttackHome" />
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+
+  <file path="home" name="irc_autolog_286.log">fdsfjga：你能不能别烦我了
+StrikeR：那
+StrikeR：你
+StrikeR：就别BB了
+StrikeR：另外快他妈发给我
+StrikeR：你的主题
+fdsfjga：哎
+fdsfjga：现在？
+StrikeR：是的
+fdsfjga：不能等到比赛结束吗
+StrikeR：。
+fdsfjga：真的
+fdsfjga：我正忙着打野呢
+StrikeR：哦，我以为你已经afk了
+fdsfjga：笑死了，操
+StrikeR：xd
+fdsfjga：oi
+StrikeR：什么
+StrikeR：你现在要干什么
+fdsfjga：比赛结束了
+StrikeR：什么
+fdsfjga：我们玩的游戏呀
+StrikeR：抱歉，我想不起来了
+fdsfjga：天啊
+fdsfjga：你真猥亵
+StrikeR：离开一下，马上回来
+fdsfjga：不，你才不会
+StrikeR：混账，算你猜对了
+fdsfjga：你要不要主题文件夹
+StrikeR：呃呃呃呃
+StrikeR：行吧
+StrikeR：去irc
+fdsfjga：这就是irc
+StrikeR：咳
+StrikeR：只是
+</file>
+  
+  <file path="home" name="irc_autolog_289.log">StrikeR：你的主题坏了
+fdsfjga: ？
+StrikeR: ？
+fdsfjga: ？？？
+StrikeR: 它坏了
+StrikeR: 什么？
+fdsfjga: 什么什么？
+StrikeR: 我不知道该怎么说
+StrikeR: 它不加载
+fdsfjga: 我看看
+fdsfjga: 我这边没问题
+fdsfjga: 你确定不是因为你的问题？
+StrikeR: 这
+StrikeR: 面对现实吧
+StrikeR: 怎么肯能是我的问题？
+fdsfjga: 你是不是改了文件的扩展名
+StrikeR: 没有
+fdsfjga: 你检查了吗
+StrikeR: 检查了
+fdsfjga: 你真检查了吗
+StrikeR: 真的
+fdsfjga: 再检查一遍
+StrikeR: 操
+fdsfjga: 就是扩展名的问题吧，嗯？
+StrikeR: 你的主题没问题，算你走运
+fdsfjga: 我靠？
+fdsfjga: 很高兴知道你对自己的品格评价有多高
+fdsfjga: :3
+StrikeR: 已报告
+</file>
+  
+  <file path="home" name="irc_autolog_290.log">fdsfjga：嘿
+fdsfjga: 只是想告诉你
+fdsfjga: 你离开后，Jammy说了你的坏话
+fdsfjga: 说什么女生玩不好dota
+fdsfjga: 啧，真刻薄，哈哈
+StrikeR: 好
+StrikeR: 我下场比赛走中路
+fdsfjga: 好，我已经告诉其他人了
+StrikeR: 我根本不在乎能否赢得比赛
+fdsfjga: 哦，别啊
+StrikeR: 哦，就不
+fdsfjga: 求你了
+StrikeR: 中路，影魔
+StrikeR: 你知道SF很脆的
+fdsfjga: 不要啊
+StrikeR: 达贡，梅肯斯姆
+StrikeR: 我保证他会愤愤退出的
+</file>
+
+  <file path="home" name="irc_autolog_291.log">
+fdsfjga: 你有没有
+fdsfjga: 认真的
+fdsfjga: 入侵Jammy
+StrikeR: ？
+fdsfjga: 天哪
+fdsfjga: 你
+StrikeR: 他确实用了代理
+StrikeR: 基本上就是在求着我动手了
+fdsfjga: 我做不到
+fdsfjga: 他在#dota上抱怨
+fdsfjga: 稍等
+StrikeR: 噢，有用吗？
+fdsfjga: 是的，你摧毁了他的显卡
+fdsfjga: 完全摧毁了
+StrikeR: 笑死我了，在我问他使用的型号时，他应该更多疑一些
+fdsfjga: 简直无法相信
+fdsfjga: 他所有的钱都花在了那个东西上
+StrikeR: 他应该花5美元买个VPS
+fdsfjga: 我知道他在对待你上是个混蛋，不过
+fdsfjga: 你不觉着有点过了吗
+StrikeR: 没有
+StrikeR: 哈哈
+fdsfjga: 那么，好吧
+StrikeR: 他应该记住
+StrikeR: ，
+StrikeR: 祸从
+StrikeR: 口
+StrikeR: 出
+StrikeR: 哈哈
+StrikeR: 猜猜我在搞垮他的GPU的时候还看到了什么
+fdsfjga: 什么
+StrikeR: 完整的聊天记录，关于他追求一个超级难追的女孩
+fdsfjga: 不会吧
+StrikeR: 真的，他保存了全部的MSN Messager聊天记录
+fdsfjga: 太有趣了
+</file>
+  
+  <file path="home" name="strikeout.txt">j4mmy: 你好
+- - -
+j4mmy: 你好！
+* j4mmy推了你一下！*
+- - -
+j4mmy: 你好吗？
+- - -
+j4mmy: *发给你一个耸肩的表情*
+* j4mmy发送了一个表情*
+- - -
+j4mmy: *waves*
+* j4mmy推了你一下！*
+- - -
+* j4mmy推了你一下！ *
+j4mmy: 天啊，别不理我
+[A]LEX[A]: 你想干什么
+j4mmy: 你好吗？
+[A]LEX[A]: 听着
+[A]LEX[A]: 我不喜欢你
+[A]LEX[A]: 别再烦我了
+j4mmy: 什么？
+j4mmy: 太粗鲁了吧
+[A]LEX[A]: 不，你知道什么叫真正的粗鲁吗？
+[A]LEX[A]: 一直不停地给我发明显饥渴的信息。
+[A]LEX[A]: 就为了上我。
+[A]LEX[A]：你完全没有机会。而你的古怪的消息和推只是让可能性变得更低。
+j4mmy: 不用对我这么歇斯底里的吧。
+[A]LEX[A]: 不！这招对我没用！我不需要你说教我。
+[A]LEX[A]: 总之，走开，废物，别把你的玉米片哭湿了，那就不好吃了。
+[A]LEX[A]: 再见了
+* [A]LEX[A]不在线，可能无法收到你的信息。*
+* [A]LEX[A]不在线，可能无法收到你的信息。*
+* [A]LEX[A]不在线，可能无法收到你的信息。*
+</file>
+  
+  
+  
+  
+</Computer>

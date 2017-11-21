@@ -1,0 +1,67 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds4_journalist" name="Manananggal_workbook" ip="244.188.232.231" security="1" type="empty" icon="DLCLaptop">
+
+  <proxy time="-1" />
+  <portsForCrack val="1" />
+  <ports>80, 6881</ports>
+  <portRemap>443=43</portRemap>
+  <trace time="80" />
+
+  <file path="home/dagrunsdottir_leak" name="038457_doc.pdf">#BINARY#</file>
+
+  <file path="home/Articles" name="MentalEnergy.txt">
+I'm starting to think I should make a list of the energy pools in my head.
+You know, the one that runs out sometimes if you talk to too many new people in a day, the one that runs out when a work meeting goes for hours, the one that runs out when that one friend talks about that one thing they love more than anyone less in the world that's meaningless to you for hours and you cant find an escape. The one where you've been writing for a few hours past the limits of the creative streak and there's just nothing left.
+Those things.
+I think they're generally all tied to one core pool of energy - most people call it 'patience'.
+Don't get too caught up on the name, and try not to let it bias your thinking into the traditional definitions of that word, but it's what I'm going to roll with here. So, What other pools of energy do we have.
+I know that I can leave an exhausting social situation and go home and write for work, so I don't think it's like you run out of one and it's gone forever - but when I am writing in that state, it'll never be as good or last as long as when I'm operating on a clean slate.
+Building off that, if this is just an exercise in self reflection, I'm guessing that I have a central pool of patience energy, and a few other pools that it combines with to form specific energies - one for social stuff, one for 'pure' patience (listening to things you don't care about), one for creativity, and probably a few others I don't understand fully.
+I cant be sure if I'm talking about literal chemical pools in the brain here or just neural pathways getting exhausted (can that happen?) or something, but this is what it 'feels' like.
+My energy to code things is different from my energy to write creatively, but if either of those energies are exhausted, it's very hard for me to do the other. This probably means that either I'm mistaken in thinking they are different (interesting!) or that my supply of code and writing converter chemicals outlast my core patience pool (also interesting!).
+Can we test this? That's another article there, so we wont check now - but if I'm optimizing for that it's useful to describe the patterns you find yourself falling into when you lose productivity - identifying how your energy and creativity works, and how it's exhausted is a great first step in optimizing it for the future.
+  </file>
+  
+  <file path="home/Articles" name="TestingMentalEnergyPools.txt">
+Hypothesis: Mental energy to write creatively and write code is drawn from the same mental source - running out of one exhausts both.
+Thoughts: This is very difficult to measure with any objectivity. It'd probably be best to saturation test this over a few months and gage changes in productivity with regimen differences, but that's an exhausting and annoying test. Maybe for a less stressful work month.
+Is this even the right thing to test? Lets see, what do I gain from this being proved or disproved?
+Disproved case: I have a better starting point to optimize my productivity by identifying more closely the differences in energy and where they are coming from - then when I do tests to see if I can recharge the pools faster, I can target one. This information is a prerequisite to this.
+Proved case: Similar to above, but I know that this pool is the exact one I need to focus on to improve productivity (then i can start researching what exhausts this so I can cut out those influences - I need this pool for work stuff).
+Ok! Looks like it's useful information. Lets thing of some quick tests to get some evidence for either side.
+Tests:
+1: .... shit, how do you test this.
+Ok, music is off, lets think about it.
+If this IS true, I should be able to write a bunch of code until I feel burnt out, then try creative writing and find myself unable to. I've already noticed that this happens reliably, so we don't really need to test it.
+This is already weak evidence for this Hypothesis which is what drove me to it in the first place. I suspect that I'll not be able to find strong evidence for i...
+WAIT- my weak evidence drove me to make a hypothesis that agrees with it! That's terrible science, this question is backwards!
+Time for a mark 2.
+Edit: Wait, is that bad science? I formed a prediction of a universal behavior based on weak evidence and tried to find a way to disprove it, isn't that basically exactly good scientific procedure? Dammit.
+</file>
+  
+  <file path="home/Articles" name="TestingMentalEnergyPoolsV2.txt">
+Hypothesis: Mental energy to write creatively and write code is drawn from different mental sources.
+Ok, if we can prove or disprove this one, it's strong evidence via translative property to MK1. Lets try.
+Test: Alternate between making the main task for the day creative writing and coding for a week, measure productivity against a week of spending days doing both mixed together.
+Theory: Given the recharge delay and block recharge benefit properties (energy only starts to recharge properly after a 6 hour block) this will optimize energy for both, with a day delay in between each other.
+If the hypothesis is correct, productivity under this method will be much greater than when mixing the actions together.
+Results: Pending.
+</file>
+  
+  <file path="home/Articles" name="Marrige.txt">
+So, lets talk about marriage. Like, people, getting married. For context, this is just going to be about white hetrosexual marriage, but, whatever, it kind of applies to all kinds. Though mostly for that.
+There's a weird standard accepted by society that getting married is the 'goal' - or the ideal, or whatever, but at *the exact same time* it's a pretty well accepted 'joke' that's sort of not really a joke that it'll make you super unhappy and is the end of all fun.
+What the hell, society? That doesn't seem to make sense, so what's with all the pressure? I get the whole traditional ideal and all, and the hundreds (thousands?) of years of that actually being the optimal solution in a shitty world, but that sort of thing isn't genetic, and I'm pretty sure we're a few generations out of that trap at the moment.
+Rationally speaking, what's actually holding us back here?
+First though; people are formed almost entirely as a result of their environment, and that environment is, collectively speaking, kind of slow to change. You can see the same effect in stuff like gay marriage, where for the most part, everyone above a certain education level gets that it's fine, but it's just taking a long time to phase out. I could go into the same thing about religion still being around, but that's for another article (haha, RIP my comments section).
+So, the environment had that standard, and now we're slowly phasing it out for a more modern view on relationships, but the lasting effects of years of that way of thinking are still floating around, so we feel that 'pressure'.
+It's an 'alright point, but I think we can do better.
+Taking a stab at it - it puts a nice, achievable, event-based end point to an actual life goal. Even though it's kind of a shitty life goal. That last bit is probably going to piss a lot of people off, but breaking it down, what does the marriage have to do with anything? Shouldn't the goal be "be in a fulfilling and happy relationship that you feel comfortable in"? I mean, even that wording sucks for polyamory, so we can probably do better still. Anyway.
+'Good' goals (at least good to me) are really hard. And are likely to never be fulfilled. That might drive you towards excellence and true happiness a bit better, but at the cost of this lasting unhappiness and existential dread while you haven;t got it - which will be always and probably forever, because the goals are *designed* to be impossibly ideal.
+So to avoid this problem, people find an achievable endpoint towards one of those goals and shoot for that as the ultimatum, because it keeps the end in sight. Possibly?
+In that way, getting married solves the relationships side of the life goals problem - you don't need to think about how happy you are, but you aren't aiming for that, you just want to check that box off.
+Achievable goals are good for people, and I'm not too against that - but this one bothers me. It seems to bait people into giving up the pursuit of happiness and stability by taking those elements out of the equation because they're 'too hard' - *then tying themselves to that reality forever*!
+Yeah. Strange. I'm not going to presume answers for you, but I think there are lots of cases where it's worth taking the time to think properly and clearly about *why* something is your goal, and adjusting it to make sure it wont lead you into a reality that makes you unhappy.
+  </file>
+  
+</Computer>

@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds4_laptop" name="Asdis Dagrunsdottir的笔记本电脑" ip="198.150.137.83" security="1" type="empty" icon="DLCLaptop">
+
+  <proxy time="-1" />
+  <portsForCrack val="1" />
+  <ports>80, 6881</ports>
+  <portRemap>443=43</portRemap>
+  <trace time="80" />
+
+  <file path="home" name="data_policy.txt">
+提醒，所有敏感数据都必须被保留在LegiCloud上——没有例外。党的领导层对此很明确。
+
+说得再清楚一些：禁止在本地存储文件。我们的伙伴国政府报告说有骇客正在使用一种由新老技术混合而成的办法——鱼叉式网络钓鱼、暴力破解密码破解、实时内存转储，这些只是其中的一小部分——但多数泄露是由于疏忽和用户错误。
+
+-IT</file>
+
+    <Memory>
+    <Data>
+      <Block>
+dagrunsdottir (198.150.137.83)已连接。
+Manananggal (244.188.232.231)已连接。
+聊天是安全的。 
+dagrunsdottir: 嗨！
+Manananggal: 嘿你好
+dagrunsdottir: 感谢你与我联络
+dagrunsdottir: 我的办公室给我发份了你的详细资料。
+dagrunsdottir: 那么我能怎样帮到你呢？
+Manananggal: 很简单
+Manananggal: 我搞到了一份新立法的拷贝
+Manananggal: 我明白这会变得很有争议，对吧？
+dagrunsdottir: 什么？
+Manananggal: 所以我正在写一篇关于此事的文章。
+Manananggal: 只是想弄一份新立法第三部分的说明。
+Manananggal: 人呢？
+dagrunsdottir: 不好意思，你是在勒索我吗？
+Manananggal: 你这么说真是有点无情。我只是在做我的工作。
+Manananggal: 这么说第三部分还没有完成，对吧？
+dagrunsdottir: 我没有兴趣讨论这个。
+Manananggal: 那么，我想我可以把整份文档都发出去
+dagrunsdottir: 请不要这么做，我会丢掉饭碗的
+Manananggal: 那就让我们谈谈吧
+Manananggal: 在离国会两条街的地方见我。拐角处有一家咖啡馆
+dagrunsdottir: 我知道那家店
+dagrunsdottir: 但是如果你想勒索我，我就告发你，而你*会*进监狱的
+Manananggal: 明白 :)
+Manananggal已断开连接。
+dagrunsdottir已断开连接。</Block>
+    </Data>
+  </Memory>
+
+  
+</Computer>

@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dFollowsMission">
+  <goals>
+    <goal type="clearfolder" target="ds3_dest" path="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="It Follows">Someone claims to have dirt on Kaguya. Hunt them down and verify the claims - and, if need be, keep them quiet. We need this ship to stay afloat.</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>It Follows</subject>
+    <body>
+Someone claims to have dirt on Kaguya. Hunt them down and verify the claims - and, if need be, keep them quiet. We need this ship to stay afloat.
+----
+An anonymous user has started making noise in a few hacker forums, saying that they have dirt on me. I'm not notorious enough for the hacker community to actually care about this, and the poster in question was laughed out of the IRC channel in question, but some of their allegations were specific enough that I'm slightly concerned.
+
+One of my contacts sent me the poster's IP. That said, I'm busy with other work right now, so I need you to deal with this. 
+
+Check out their claims. If they seem to have any supporting evidence, wipe it and all their files. They need to know that they can't mess with us: Our outfit needs to appear impenetrable. And, if you see any encryption keys, put them in IRC. I'll look into it further later.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="ds3_entry" />
+      <note title="Mission Guidelines">Investigate their claims. If the evidence seems 'real', or mentions a person called 'Dreadnought', destroy all their files.</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds3_fnb" name="Funkenstein's Basement" security="1" type="4" icon="DLCPC1" ip="32.43.54.65">
+
+  <proxy time="-1" />
+  
+  <portsForCrack val="1" />
+  <ports>6881, 443</ports>
+  <portRemap>6881=69</portRemap>
+  <trace time="250" />
+
+  <file path="home/backup/unreleased" name="hells_maw.dec">#BINARY#</file>
+  <file path="home/backup/unreleased" name="mouth_screams.dec">#BINARY#</file>
+  <file path="home/backup/released" name="face_noises.dec">#BINARY#</file>
+  <file path="home/backup/released" name="face_yells.dec">#BINARY#</file>
+
+
+</Computer>

@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Entropy_DLC_Connector">
+  <goals>
+    <!-- Impossible goal here - this mission isn't completable in the normal sense
+    It leads the player to KaguyaTrials, which replaces this. We don't want the player
+    to skip past this mission by quick replying or anything, so put a debug only goal here-->
+    <goal type="getstring" target="kaguyatrialscompletedebug" />
+  </goals>
+  <missionStart val="1" suppress="true">addFlags:dlc_start_entropy</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>无</nextMission>
+  <posting title="#警告# - Kaguya的试炼"> ### 注意 ###
+Entropy管理员已经把该合同标记为时间极长、危险或困难。
+除非你对自己的能力极有信心，管理员建议晚一些
+再调查这件事。
+ ### 注意 ###
+ 
+一名未知代理人给几个团体的领导者发去了某种招募挑战。这是进行调查的公开邀请。
+  </posting>
+  <email>
+    <sender>Entropy自动回复</sender>
+    <subject>Kaguya的试炼</subject>
+    <body>代理人，
+    
+据我们所知。一个名叫“Kaguya”的人注明的DigiSec社区领导者以及多个派系的管理员发送了一个挑战。
+这看起来是一种招募挑战，以组建部分团队。出于Entropy开放新政策，我们将该邀请转发给任何感兴趣者。
+
+请记住，该团队不属于Entropy。如果你加入了这个拍戏，这可能需要你离开本社区一段时间。
+如果你在Entropy还有没完成的事情，或希望继续现在的道路，这个机会很有可能会存在一直存在一段时间——如果这样，不如晚一些再考虑到放弃这份合约并回头来看这个帖子。
+
+另外，他提供的说明仅仅包含一个IP地址（附件）和“开始你的试炼”的说明。
+
+祝你好运,
+-Entropy管理组
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

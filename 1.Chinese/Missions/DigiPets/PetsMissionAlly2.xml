@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dpetsM1">
+  <goals>
+    
+  </goals>
+  <nextMission>无</nextMission>
+  <posting title="DigiPets - D3f4ult">
+经典老派传奇目标DigiPets已被派发给小组以作为一次测试。翻越那座山吧。
+  </posting>
+  <email>
+    <sender>1</sender>
+    <subject>1</subject>
+    <body>--</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

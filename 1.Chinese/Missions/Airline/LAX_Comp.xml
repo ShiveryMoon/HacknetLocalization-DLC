@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dal_lax" name="LAX_太平洋_服务器" security="5" type="4">
+
+   <!-- This is a server for Pacific Air located in LAX Airport - kaguya or someone else went there physically and scanned for it's signal.
+  I don't have many thoughts on what should be on here. It's also valid to keep it empty. Up to you!
+  -->
+  
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="49" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 443</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  
+  <dlink target="dpa_nethub" />
+
+  <file path="home" name="settings_default.cfg">?cfg version = "1.0" encoding = "UTF-8" ?
+//这个文件本不是供用户修改的；
+//在Schiss-Co路由设置网络应用在本地客户端运行后
+//它将自动填充。
+</file>
+  
+  <file path="home" name="settings_custom.cfg">
+?cfg version = "1.0" encoding = "UTF-8" ?
+//把你的自定义设置放在这里，或者运行Schiss-Co路由设置网络应用，
+//自动填充这个文件你可以在我们的门户网站上找到该应用。
+  </file>
+  
+  <file path="home" name="readme.txt">
+恭喜您购买了一台Schiss-Co无线路由服务器！您购买了地球上最安全的网络硬件之一，只需再进行少许设置，你的系统将毫无破绽。
+
+出于安全原因，我们建议您立刻修改默认设置：当你第一次启动Schiss-Co路由器，它将处于开放状态，这样您无需通过层层阻拦就可以进入并配置它。
+
+接下来，您需要将专有Schiss-Co验证密钥插入您进行安装时使用的客户端上任一可用的USB端口。这台机器可以运行手册或我们的网站上列出的Windows、Mac或Linux发行版或版本。这是本流程中的强制步骤；我们需要验证您是否正在使用Schiss-Co支持的硬件/软件组合。
+
+这将启动安装向导。
+
+如需离线安装，请在西海岸工作时间内随时联系555-0167，专业的代表将很乐意在这个过程中帮助您。
+
+请注意，我们不允许在Schiss-Co品牌的路由硬件上使用第三方软件。
+  </file>
+  
+  <positionNear target="dpa_nethub" position="90" total="360" extraDistance="0.12"/>
+  
+</Computer>

@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ds2m1">
+  <goals>
+    <goal type="clearfolder" target="dDdoserComp" path="LOIC"/>
+    <goal type="clearfolder" target="dDdoserHomeComp" path="LOIC"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="DDOSer on some critical servers">
+Coel dug up the source of some of the Grindcraft server outages - we want it stopped.
+    </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>DDOSer on some critical servers</subject>
+    <body>
+Coel dug up the source of some of the Grindcraft server outages - we want it stopped.
+----
+Someone apparently thinks it's hilarious to try DDOSing the Secrets of Grindcraft servers - like they're not under enough load with the entire world hammering them to get the new update. Anyway, Coel has keeping them up as one of her conditions for joining the group, so we want this disturbance fixed.
+They're probably using the LOIC (Low Orbit Ion Cannon) code for it, so i'll settle for just wiping that folder and stopping it - but if you want to do a little damage in /sys no one's going to judge you.
+
+Keep in mind that you should probably do a quick look and scan for anything else you can find there and make sure you get everything.
+    </body>
+    <attachments>
+      <link comp="dDdoserComp" />
+    </attachments>
+  </email>
+</mission>

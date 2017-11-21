@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dBeanstalkMission">
+  <goals>
+    <goal type="fileupload" target="ds4_laptop" file="038457_doc.pdf" path="home/dagrunsdottir_leak" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <nextMission>无</nextMission>
+    <posting title="豆茎">黑掉一家咖啡店以从一个常客的电脑上偷取立法草案。当然，我们在政治上没有倾向 - 只是情报的悬赏金比较高而已。</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>豆茎</subject>
+    <body>
+黑掉一家咖啡店以从一个常客的电脑上偷取立法草案。当然，我们在政治上没有倾向——只是情报的悬赏金比较高而已。
+----
+Asdis Dagrunsdottir, 一位欧洲政治家，据传正在她的党内秘密编写一份可能会对我们的工业产生重大影响的立法草案。黑客是一群好奇心很强的人，而且，还有一大笔赏金。
+
+我们发现她是她的住处附近的一家咖啡馆的常客。幸运的是，那家咖啡馆的路由器IP地址并不难找。
+
+找到文件。把它们上传到共享服务器。我会处理剩下的事。
+
+-Kaguya</body>
+    <attachments>
+      <link comp="ds4_cafe" />
+      <note title="任务指引">在咖啡馆的路由器列表上找到Asdis Dagrunsdottir
+搜寻立法文件
+将你找到的立法文件上传到共享服务器</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,14 @@
+﻿<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-15.0">解密工具配置完成！</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-12.0">不幸的是我现在还没有整合这个工具……我还需要把所有文件打包写成exe</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-7.0">不过，你们可以把加密文件发给我，在我这里可以破解</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-3.0">算了吧，等你破解完这个文件？我感觉你还不如去把你的工具打包成exe更快。你要破解多久？</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="0.5">尴尬……你说得对，但是我想花更多的时间好好配置这个exe，现在我们就暂时先这么破解吧-_-</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="3.2">我们没的选，对吧？</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="3.5">-_-</AddIRCMessage>
+  </OnConnect>
+  
+</ConditionalActions>

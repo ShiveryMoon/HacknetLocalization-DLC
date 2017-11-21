@@ -1,0 +1,94 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dhaComp3" name="HA_Rebis" security="4" ip="66.96.149.16" type="4" icon="Alchemist">
+  
+  <proxy time="-1" />
+  <trace time="180" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dhaComp2" position="160" total="360"/>
+  
+  <firewall level="20" solution="clarity" additionalTime="6.2"/>
+
+  <!-- This server should contain "revelations" - the architect designed this one to be the end of the line. -->
+
+  <file path="home" name="behindthecurtain.txt">The Cycle of Change
+
+1. Active Concentrate (Fire)
+2. Active Expand (Air)
+3. Passive Contract (Water)
+4. Passive Expand (Earth)
+
+Historically, metals were believed to be alive, in a sense. The belief was that each metal undergoes a very slow process of gradual evolutionary growth towards perfection; this mirrors contemporary theories of things moving towards a "heat death".
+
+The most primitive form of metal - the thing from which all things begin - is lead. If left on its own, lead will slowly evolve its way upwards, from tin to iron, and eventually to the state of pure perfection: gold. This is a journey through both the mundane and the astrological: a journey from Saturn, to Jupiter, to Mars, Venus, Mercury, the Moon, and, finally, to the Sun. The sun is perfection. We will all become star people, eventually.
+
+Alchemy simply makes the process go faster. Alchemists are the minds which tinker with the simplicities and the complexities of the universe... they are the ones who strive towards perfection, even when it seems like the rest of the human race is actively pushing against it.
+</file>
+
+  <file path="sys" name="eos_sync.log">SYNC_LOG: Factory reset initiated
+Cause: Automated reset on jailbreak detection
+Issue Code: JA6629B_43</file>
+  
+  <file path="home" name="rebis.txt">the end is the beginning is the end is the beginning is lead to tin to iron to copper to quicksiler to silver to gold to the beginning to the end to the beginning to the end to the beginning to the perfect summation of life and perfection in its very self and back to the beginning
+
+It's not black magic, it's just the truth.</file>
+
+  <file path="home" name="nameofgod.txt">yod
+he
+vau
+HE
+
++o
+o+
+++
+oo
+
+one
+two
+three
+four
+
+point
+line
+plane
+solid
+
+arcanum I: the philosopher's stone
+arcanum II: SOLVE
+arcanum III: COAGULA
+arcanum IV: illusions of manifestation
+arcanum v: change
+</file>
+  
+  
+  <eosDevice name="Nate's ePhone 4S" id="dhaAdminPhone" icon="ePhone2">
+    <note>Home:
+66.175.58.9
+
+Work:
+66.96.149.16
+</note>
+    <note>
+Calcination:
+reduction of the bodies to their first principles without destruction of their seed virtues.
+When discovering the inner self, like in mediation, this is by very nature a reduction of bodily awareness, and becoming more aware of the more subtle energies that are the foundation of our lives.
+</note>
+<note>
+Fixation:
+fixating the volatile is an ongoing process that starts from the moment of Blackness throughout Whiteness, and with Redness fixation has attained its maximum degree. 
+</note>
+<note>
+Projection:
+The Hermetic Philosophers call their projection powder, a powder which is the result of their Art, that they project in very small quantity onto the imperfect metals in fusion, by means of which they get transmuted in gold or silver, according to the degree of its perfection. One needs to know that in the projection the entire metal on which one projects the powder, will not transmute completely in silver or gold, if the powder was not well purified before it was thrown in the mix.
+</note>
+    <mail username="AlchemistNate@jmail.com" pass="manifestation" />
+  </eosDevice>
+
+  <LogoDaemon Name="REBIS" ShowsTitle="false" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/Alchemists3" />
+
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/RiptideTheme.xml"/>
+</Computer>

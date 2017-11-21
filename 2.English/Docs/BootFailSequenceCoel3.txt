@@ -1,0 +1,5 @@
+> Ok. Whenever you're ready, this will crash your VM and send you back to your desktop.
+> I've got a script waiting to launch a terminal for you there and open up a few instructions to get you going.
+> Good luck - i'll see you back in chat once you're fixed up. I'm going to start tracking down whoever did this.
+> Hit the button whenever you're ready
+> -Coel

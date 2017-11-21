@@ -1,0 +1,3 @@
+For these files, be very careful to maintain formatting and special characters like %, >, and #.
+
+Also make sure to keep replaceables: {0}, {1}, [PASSWORD] etc.

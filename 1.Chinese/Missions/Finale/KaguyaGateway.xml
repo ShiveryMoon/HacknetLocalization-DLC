@@ -1,0 +1,71 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dKagGate" name="Kaguya_网关" security="4" type="empty" ip="54.183.231.31">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 192, 443, 6881</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="-1" />
+
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+  <file path="bin" name="trnt.exe">#TORRENT_EXE#</file>
+  <file path="bin" name="SignalScramble.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+
+  <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+
+  <file path="home/projects" name="KaguyaTrial.exe">#KAGUYA_EXE#</file>
+
+  <file path="home/projects" name="trialSources.txt">
+    //P1
+    PhaseTitle = "74.125.23.121";
+    PhaseSubtitle = "下载工具" + "\n" + "删除系统文件";
+
+    //P2
+    PhaseTitle = "216.239.32.181";
+    PhaseSubtitle = "调查" + "\n" + "高级";
+  </file>
+  
+  <file path="home/projects" name="LabyrinthsTodo.txt">
+删除Skylink后门并重新检查追踪器的白名单条目
+重新确认删除完成
+惩罚CEO
+Shell服务器等待监控
+清除迷宫团队服务器
+清除Kaguya角色
+  </file>
+  
+  <file path="home/projects" name="KTH.txt">
+诺顿KTH后门计划
+---------------------------
+
+对他们的构建系统的调查和企业设置显示，他们使用一种内部开发的定制IDE（一种现有的开源成果的分支）来构建所有产品。这其中包括他们的构建服务器，上面运行着这个IDE的某个无名版本。
+这个IDE使用一种定制版本的C++编译器。那即是说——如果那其中包含改良，那他们就会有他们自己的分支。这个编译器版本内部是用C++写成的，而新版本是用他们自己的系统的上一版C++编译的。这是自生自存的。
+
+阶段1：获得访问权限并下载那个特别版本编译器的源代码。
+下线，添加进下列编译器自身的系统中：
+
+1：所有编译过的程序都被注入能够预先处理网络上所有传入的数据包的一小段。如果数据包有特定的标头，则以目标系统中可能的最高权限设置按代码执行数据包中的内容。
+
+2：添加一个可以侦测程序是否正在编译*这个编译器本身*的编译器检查。将系统1和2再次注入新输出的编译器。
+
+使用新的数据包接入系统来编译新版本的编译器，并传播hack版。
+
+阶段2：再次获得他们的系统的访问权限。用hack版的编译器替换他们*当前版本*的编译器，但不要更新他们的源代码。
+对他们的产品服务器进行一次攻击，并往他们生产的全部安全产品的源代码中注入一个可见的弱点。
+彻底清除日志。
+
+阶段3：对一套由他们的软件保护的系统进行攻击。提示一次更新，更新中包含你注入的错误。他们将找到、修正并移除它，但为了这么做他们将被迫使用被入侵的编译器重建他们的系统。对系统的佯攻会逼迫他们这么做的，也会让他们以为他们已经解决了问题。 
+
+
+现在他们的软件的所有后续版本都默许你获得访问目标机器的全部权限。根本没有需要修正的源代码，他们的程序中也压根没有错误，你所做的一切仅仅是在迟编译时间进行了注入。
+不仅如此，即使他们检查并重新编译他们的*编译器*也不会解决问题，因为hack版传播至新版本的过程是自动且不可见的。
+
+  </file>
+  
+  
+  
+</Computer>

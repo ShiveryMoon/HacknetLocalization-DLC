@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="airline_player">
+  <goals>
+  </goals>
+  
+  <nextMission>无</nextMission>
+  <posting title="Take_Flight - D3f4ult">
+获取一家国际航空公司的预售服务器访问权限。
+  </posting>
+  <email>
+    <sender>空</sender>
+    <subject>空</subject>
+    <body>
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

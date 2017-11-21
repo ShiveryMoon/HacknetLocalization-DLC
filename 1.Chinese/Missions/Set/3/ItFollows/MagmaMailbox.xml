@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds3_mail" name="MagmaMailbox" security="1" type="4" icon="DLCSERVER" ip="26.26.62.62">
+
+  <proxy time="-1" />
+  <portsForCrack val="7" />
+  <ports>22, 21, 6881, 443, 80, 25, 104</ports>
+  <trace time="250" />
+
+  <customthemefile path="home" name="caution_standard_x-server.sys" themePath="DLC/Themes/CautionThemeStandard.xml"/>
+
+  <account username="cornch1p" password="SaltyChippies22" type="2" />
+  
+  <mailServer name="MagmaMailbox" color="224,52,0">
+    
+    <email recipient="kburnaby" sender="temp_05ECE" subject="（无主题）">你的家庭服务器的IP地址是177.3.200.6，对吧？请把我的VPS加入白名单；IP地址是7.201.4.178。
+你需要更加谨慎一些。我听说你最近有些不安分；这无疑会招来注意的。</email>
+    
+    <email recipient="kburnaby" sender="temp_ACCC0" subject="（无主题）">我需要你去和西部社区的骇客展开对话，搞清楚Kaguya是不是想自己出名。
+保持低调。保持谨慎。</email>
+    
+    <email recipient="kburnaby" sender="temp_05ECE" subject="（无主题）">Kaguya这次做得太过了。我建议你保持耐心。</email>
+    
+    <email recipient="kburnaby" sender="do-not-reply@magmamailbox.com" subject="自动通知：订购已更新">亲爱的cornch1p，
+这是一封自动提醒邮件，您的MagmaMailbox订购已更新。
+感谢您成为互联网#1邮件服务的忠实订购者。
+祝好，
+MagmaMailbox管理团队
+---
+请勿回复此邮件 - 此信箱未被监控。
+---</email>
+    
+    <email recipient="kburnaby" sender="temp_05ECE" subject="（无主题）">感谢你进行联络。我是上个月收到这份公报的。你知道是谁发来的吗：
+---
+Dreadnought现在的名字是""Kaguya""。
+他（？）烧毁了他的同胞的硬盘驱动器，然后搬到西部去了。
+我们尝试过追踪他，但是他的痕迹被掩盖了。
+它活着。
+---</email>               
+    
+    <email recipient="kburnaby" sender="do-not-reply@magmamailbox.com" subject="自动通知：邮箱已清理">亲爱的cornch1p，
+这是一封自动提醒邮件，作为MagmaMailbox每周清洁工作的一部分，您的邮箱已被清理。此邮件仅仅是作为提醒：您无需采取任何行动。
+祝好，
+MagmaMailbox管理团队
+---
+请勿回复此邮件 - 此信箱未被监控。
+---</email>
+    
+  </mailServer>
+  
+</Computer>

@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPets_Home" name="DigiPets Homepage" security="1" type="empty">
+
+  <trace time="70" />
+  <portsForCrack val="3" />
+  <ports>22, 80, 6881, 443</ports>
+  <portRemap>443=8080</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <addWebServer name="DigiPets!"
+                url="Content/Web/Presets/DigiPets/DigiPets.html" />
+
+  <dlink target="dPets_Auth" />
+  <dlink target="dPets_MF" />
+  <dlink target="dPets_VC" />
+
+  <positionNear target="dPets_MF" position="10" total="360" extraDistance="0.01"/>
+
+  <proxy time="1.5" />
+
+  <admin type="progress" isSuper="true"/>
+
+  <file path="home" name="Server_Config_Info.txt">
+--IMPORTANT--
+This server hosts the front end of the site. It maintains connections to the Authentication and Mainframe servers to pull data down, and it gets it's own updates from the Version Control system.
+Don't put deployment files on here manually! This is automatically configured - messing with it could ruin the update deployment process.
+  </file>
+  
+</Computer>

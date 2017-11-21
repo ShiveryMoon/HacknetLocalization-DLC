@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dpetsM1">
+  <goals>
+    <goal type="databaseEntryChange" comp="dPets_MF" recordName="minx" fieldName="DigiPoints" operation="greater" targetValue="999999"/>
+  </goals>
+  <missionStart val="1" suppress="true">loadConditionalActions:DLC/ActionScripts/PetsAcceptedActions.xml</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="DigiPets - #PLAYERNAME#">
+Old school legendary target DigiPets has been given to the team as a test. Climb that mountain.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>DigiPets</subject>
+    <body>
+Old school legendary target DigiPets has been given to the team as a test. Climb that mountain.
+----
+So, this wasn't my decision. We're nearly ready for the first of our two endgame jobs
+A friend of mine has been doing a lot of digging for me to get us some starting points for something that I have in the works, but she's now asking for a show of confidence in the team.
+Apparently not everyone just accepts that the three of you are the goods, so we've got some proving to do - and here we are.
+
+Now, unfortunately, this network is no joke - it's a surprisingly legit litmus test of Hacker skill - so this is a team job, for #PLAYERNAME# and D3f4ult.
+
+The task itself is to shuffle a few values on their mainframe's database - user "Minx" wants their value of "DigiPoints" set to anything over 1,000,000.
+
+Stay sharp - this one's tricky.
+-Kaguya</body>
+    <attachments>
+      <note title="DigiPets Mission Guidelines">
+Break the frontend web server and scan for nodes. Try not to cause damage there or it could alert network admins.
+Locate the Mainframe and investigate the network until you find a way in.
+Find file of user "Minx", and set "DigiPoints" to anything over 1,000,000
+Verify change in database view.
+      </note>
+      
+      <link comp="dPets_Home" />
+      
+    </attachments>
+  </email>
+</mission>

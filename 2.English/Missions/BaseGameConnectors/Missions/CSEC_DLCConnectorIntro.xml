@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="CSEC_DLC_Connector">
+  <goals>
+    <!-- Impossible goal here - this mission isn't completable in the normal sense
+    It leads the player to KaguyaTrials, which replaces this. We don't want the player
+    to skip past this mission by quick replying or anything, so put a debug only goal here-->
+    <goal type="getstring" target="kaguyatrialscompletedebug" />
+  </goals>
+  <missionStart val="1" suppress="true">addFlags:dlc_start_csec</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#ALERT# - The Kaguya Trials"> ### ALERT ###
+Note: This task represents the start of what CSEC admins predict to be an unusually long sequence. If you have critical CSEC business, we recommend completing that before progressing with this task.
+ ### ALERT ###
+ 
+An agent known as "Kaguya" has posted a link to an unusual set of trials as a recruitment effort for some sort of team. The message implies agents will be well rewarded, in exchange for helping with some work for this team if they happen to pass the tests.
+This task is noncritical to CSEC and is presented as an opt-in task for anyone interested.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>The Kaguya Trials</subject>
+    <body>Agent,
+    
+Someone named "Kaguya" has send out a recruitment challenge to several prominent groups, once of which was CSEC. It looks fairly sophisticated, and extremely well organized - we suspect that whatever's behind those trials is going to be a significant time investment - possibly taking whoever completes it away from CSEC for a while, so know that before heading in.
+That being said, you're of course free to investigate whatever you want, and this seems like a promising lead if you're after new tools.
+
+The instructions in the challenge provide an IP address (attached below) and instructions to "Begin the trials".
+
+Good luck.
+-CSEC Team
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

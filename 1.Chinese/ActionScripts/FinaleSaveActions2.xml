@@ -1,0 +1,20 @@
+﻿<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="1.2">安全了。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="5.2">呼……我们可以放心了……</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="10.2">他们居然做出了这种事</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="14.2">一架飞机……一架载满乘客的飞机……</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="20.2">不管怎样。我们需要低调一段时间了。最好不要联系。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="27.2">谢谢你的帮助。没有你我真不知道该怎么办。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="33.2">我会负责所有清理工作。你曾经连接过那架飞机，所以你在这段时间里最好不要再接触这些服务器。我会确保没有留下痕迹。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="36.2">啊，并且，我在这台服务器的安装配置里找到了这个。它似乎能够重置你的用户界面并移除Kaguya的追踪器。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="40.2">很高兴与你并肩战斗，#PLAYERNAME#祝你好运，保重。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="42.2">-C</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="44.0">!ATTACHMENT:link#%#Kaguya_Projects#%#54.183.231.34</AddIRCMessage>
+  
+  </OnConnect>
+
+</ConditionalActions>

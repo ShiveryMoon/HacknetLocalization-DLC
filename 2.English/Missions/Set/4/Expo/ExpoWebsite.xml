@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds4_expo" name="SecurityCoNnEXION Web Portal" security="1" type="empty" icon="DLCServer">
+
+  <proxy time="1" />
+  <portsForCrack val="3" />
+  <ports>22, 80, 443, </ports>
+  <portRemap>443=43</portRemap>
+  <trace time="80" />
+
+  <tracker />
+
+  <addWebServer name="SecurityCoNnEXION" url="Content/Web/Presets/Expo/Expo.html" />
+
+  <file path="home/talks/files" name="p_31953.gz">#BINARY#</file>
+  <file path="home/talks/files" name="p_31948.gz">#BINARY#10101011001</file>
+  <file path="home/talks/files" name="p_31948.chk">414A4D0B-457D-423C-A5C0-4190889C2527</file>
+  <file path="home/talks/files" name="p_SQL_399.gz">001101010110111#BINARY#</file>
+  <file path="home/talks/files" name="p_31949.gz">#BINARY#</file>
+
+  
+</Computer>

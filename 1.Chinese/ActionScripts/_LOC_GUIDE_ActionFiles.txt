@@ -1,0 +1,2 @@
+For these, only translate the body contents of <AddIRCMessage> tags.
+Read the file on names and wildcards to make sure you know about the special case lines!

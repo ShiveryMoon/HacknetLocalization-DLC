@@ -1,0 +1,70 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dKagGate" name="Kaguya_Gateway" security="4" type="empty" ip="54.183.231.31">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 192, 443, 6881</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="-1" />
+
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+  <file path="bin" name="trnt.exe">#TORRENT_EXE#</file>
+  <file path="bin" name="SignalScramble.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+
+  <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+
+  <file path="home/projects" name="KaguyaTrial.exe">#KAGUYA_EXE#</file>
+
+  <file path="home/projects" name="trialSources.txt">
+    //P1
+    PhaseTitle = "74.125.23.121";
+    PhaseSubtitle = "Download Tools" + "\n" + "Delete System Files";
+
+    //P2
+    PhaseTitle = "216.239.32.181";
+    PhaseSubtitle = "Investigate" + "\n" + "Advance";
+  </file>
+  
+  <file path="home/projects" name="LabyrinthsTodo.txt">
+Delete Skylink back door and re-check whitelist entries for trackers
+Re-Confirm deletions complete
+Punish CEO
+Shell servers for monitoring
+Wipe Labyrinths Team servers
+Wipe Kaguya persona
+  </file>
+  
+  <file path="home/projects" name="KTH.txt">
+Nortron KTH Backdoor Project
+---------------------------
+
+Investigations into their build systems and corporate setup show that they use a custom IDE that's developed in-house off of a branch of an existing open source effort to build all products. This includes their build server, running a headless version of it.
+This IDE uses a custom version of the C++ compiler. That is - they have their own branch of if that includes modifications. This compiler version is in itself written in C++, and new versions are compiled by the previous C++ version of their own system. It's self perpetuating.
+
+Phase 1: Gain access and download the source code of that particular version of the compiler.
+Offline, Add in the following systems to the compiler itself:
+
+1: All compiled programs get injected a small section that pre-processes all incoming packets on a network. If the packet has a specific header, execute the packet's contents as code with the highest possible permissions settings that the current executions allows in the target system.
+
+2: Add in a compiler check that detects if the program this is compiling is *this compiler itself* re-inject systems 1 and 2 into the newly outputted compiler again.
+
+Compile the new version of the compiler with the new packet access system, and the propagation hack.
+
+Phase 2: Gain access to their systems again. Replace their *current version* of the compiler with the hacked version, but do not update their source code.
+Make an attack on their production server and inject a visible weakness into their source code for all security products that they produce.
+Clean logs thoroughly.
+
+Phase 3: Make a public attack on a system protected by their software. Prompt an update, which includes your injected error. They will find, fix and remove it, but in doing so, will be forced to rebuild their systems using the compromised compiler. The red herring attack forces this, and also leads them into thinking they have solved the problem.
+
+All future versions of their software now silently allow you full access to target machines. There is no source code to fix, or error in their program at all, as all of your work is only injected at late-compile time.
+Not only that, even them checking and recompiling their *compiler* wont fix it, as the hack propagates to the new version invisibly and automatically.
+
+  </file>
+  
+  
+  
+</Computer>

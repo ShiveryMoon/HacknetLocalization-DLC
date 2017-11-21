@@ -1,0 +1,160 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPets_Engineer3" name="Tiff Doehan_PersonalPowerbook" security="2" ip="98.129.229.204" icon="laptop" type="empty">
+
+  <ports>21, 80, 6881, 9418</ports>
+
+  <positionNear target="dPets_MF" position="5" total="360" extraDistance="0.05"/>
+
+  <file path="home" name="EventsTodo.txt">
+Spooky Ghosts
+Fairies v2
+Musical Town (Oh god please no)
+Dark Souls tie in (!!)
+Tanks (...)
+</file>
+  
+  <file path="home/productivity" name="Trello.txt">
+Trello tests. Was originally using this as the work system, seeing how it goes for personal organization etc.
+-----
+
+The board system is awesome, the way you can make a card for some big-ish action and put multiple checklists into it to track progress inside a bigger goal is great.
+Downsides - the app for it is bad. It works and all, just the user experience of adding stuff to a checklist or reviewing what you need to do is tiresome, slow and clunky.
+Infact, just using it as a to-do list manager thing doesn't really work - it's kinda hard to get an overview of what I actually have written down, what needs to be done next.
+
+I notice that I'm feeling overwhelmed by the work that I have to do, in an abstract sense. Thinking about that problem critically, it means I have an organizational problem.
+I know I have a lot of work to do, and it's fair to feel overwhelmed if there's literally too much to complete before a due date, but if I'm not actually 100% sure what I have to do by when, then I don't have good organization systems, and those feelings are probably stemming from that problem.
+So, the clunkiness of not being able to pull out a distinct list of tasks from this complex board and complex project is a real killer here. Trello's not working.
+
+Other things - you cant mark a card as "done" in a good way. You can have a "done" column, sure, but that's not quite what i'm after. This system is about shuffling jobs around columns, not checking things off a list.
+Got to investigate other systems.
+</file>
+  
+  <file path="home/productivity" name="AnyDo.txt">
+AnyDo - tested for a week (ish)
+---
+It's a bit over-simple for what I need. Too light.
+Sync is fine, email plugin is an awesome(!) idea (stealing this), but it's execution is just a bit too light once again.
+Why doesn't it have like, more parsers for email content, pulling body and subject out into todo item notes etc?
+I guess because it doesn't have notes on an individual entry.
+
+I *really* like the idea of a "plan your day" screen that they do with the notification, but there's no button for it!
+
+Paid upgrade prompts are a bit obnoxious. Good ideas, but a few oversights or decisions in execution make it frustrating and unpleasant. Pass.
+
+I get a lot of what it's doing - it's designed to be super light, friendly and for personal stuff, not huge projects. That's fine, but it's not what I'm after.
+Lots of good ideas in it that could be applied to a heavier system though, well worth the time to test it out.
+</file>
+  
+  <file path="home/productivity" name="ePhoneAppsGeneral.txt">
+Various eOS productivity apps
+---
+So I was going to go into more detail with this, but they all share the same fundamental problem for me - I need a relatively heavyweight system to track a whole bunch of stuff for big projects, and I spend most of my organizational time on a computer. Almost all of these are way too light, and mobile focused.
+I want a computer interface. Increasingly feeling like I want to design something just for my own use.
+</file>
+  
+  <file path="home/productivity" name="Asana.txt">
+Asana
+---
+I should have heard about this before. It shouldn't have taken me this long to just type what I wanted into google. Anyway, it found 2 promising results - Asana and Taskworld. Taskworld has really obnoxious pricing and entry systems before it even introduces itself, so i'm going to look at Asana first.
+Note here - god damn is it annoying that there's not better systems implemented by all of these things to make your lists transferable between systems. You'd think Trello export into Asana import would be a core free feature so you could try it out without starting from scratch, but noooooo. Ugh.
+
+So, Asana is pretty close to what i'm after. Not perfect at all, and it seems even a bit *too* heavy for what I need - it's kind of enterprisey forced (taskworld looks like even more of this problem tbh).
+Good stuff: Lots of the niceness of Trello boards but they are more list and todo focused. You can check cards as complete. Cards can be assigned to you and viewed as a list item in my todo. Awesome.
+Cards can only have one internal checklist (called subtasks here) which is pretty annoying. Seems like they just reskinned a system built off of lists into a board presentation? That's kind of awesome in it's own way though.
+
+There's not a great way of getting your day of tasks sorted out - but that's not too bad, you can pretty quickly go over the bigger list and flag a few things for "today" - that works pretty well.
+
+NO SETTING OF DEFAULTS FOR STUFF LIKE ASIGNEES! Auuughhhh!
+Every time you make anything you have to assign it to yourself manually and do a bunch of flagging. This is *really* annoying - you want your interactions with the system to be as lightweight as possible with as much detail as possible, so not being able to set your own sensible defaults for where auto-added stuff goes is just the worst.
+
+Currently working with a system where I have boards for the major projects, I make a card for a milestone and assign subtasks to stuff in there (which I have to then again assign to myself, ugh). It does mean I can nicely set due dates on big groups of tasks though, and sort them nicely, so that's cool.
+It feels "pretty close" to what I want, and there are generally solutions to the problems I have and ways of doing things... just... It feels annoying to have so many things that seem obviously necessary to be just missing from it - setting task creation defaults especially.
+
+Also prettying up the board with images and assets makes the tiles way too big sometimes - it'd be super useful to have some options inside each tile for how assets in it are displayed so you can pretty up your board better. Hmm.
+</file>
+  
+  <file path="home/productivity" name="My_System_Planning.txt">
+Notes for planning my own productivity system.
+Ideas from other systems that I like, things that I feel are missing from most etc.
+---
+Core is Trello style board layout. Cards can be ticked off as "done" - moves them to a usually hidden (revealable) completed panel.
+There's an optional (default enabled) left side panel called "focus" that you can drag cards to - representing stuff you're looking into next.
+Cards can have multiple sublists inside them - cards display on main screen the items in their sublists (collapsible - system remembers collapse state of cards between platforms and visits). Can check things off inside cards from the board view (checkbox hitbox only, labels open card view).
+Can add sprites etc to cars with a few options on how to render that asset on main view.
+
+Milestone focus - you create a milestone you want to achieve (like releasing a product or something) and provide details to that about it's due date and approach date etc.
+Creating a task, you define it's milestone and it can be auto-assigned a due date based on a vague priority you can optionally give it. Make the upfront work in defining milestones the big big, creating an individual task should be as rich and as quick as possible.
+
+View that pulls out just the current focused things for the day and shows them with options to expand it.
+</file>
+  
+  <file path="home/productivity" name="My_System_PlanningView.txt">
+Button to show a screen that's like "Plan my day" - it asks easy questions to narrow down a list of stuff to do for the day and encourages actually getting that stuff done. Store this information for later analysis and planning use (see if person consistently over or under estimates ability, make guesses about project deadlines etc).
+Questions:
+
+"How much time do you have to plan right now?" - None, 30 seconds, a few minutes
+"How much time and energy do you have for work today" basically none, not much, about normal, a lot!
+defines detail of further refining questions - none automatically assigns missed stuff from yesterday and random(?) stuff from current milestone
+"Is it important to continue unfinished work from yesterday?" Yes/No
+"Which of these do you feel like working on more today" (present a few options for tasks/major cards/sublists, prioritize those for today. This is a temporary priority boost that lasts 20 hours.
+
+If user selected a few minutes, show some details about how the current milestone is going (Not whole project - just milestone - focus on what's ahead right now).
+Use that info to build a todo list for the day based on historical data about how much the user actually does in a normal day for their energy answer above.
+
+Show an encouraging message when the user finishes their questions! Go get em tiger!
+
+Once a todolist for the day is built, display that. If the player completes everything for the day, have another button that says "give me some more tasks!" - these don't get added to unfinished for the day if the user doesn't do them.
+Also have something that says "Or just finish early for the day! You did a great job!"
+</file>
+  
+  <file path="home/productivity" name="My_System_Dailies.txt">
+Elaborate but approachable system for creating recurring tasks - dailies or things to address once per week etc.
+System that asks questions about what you want then does a lot of work for you. I.E:
+
+"Do you want to be reminded about birthdays? Pick some people! (Facebook?) How's this template?
+Have buttons like "I dont need to get gifts, just remind me on the day"
+
+Things that we need systems for:
+Getting presents for people before birthdays
+Christmas shopping stuff
+Valentines Day (RISKY)
+Anniversaries
+
+
+Recurring stuff like "Go to the gym" - once ticked off, it'll show up again 2 days later, and display how long overdue it is if it's more than 2 days late etc.
+
+Adding these sort of things is hard to tutorialize, and people forget the need to learn more about a system once they're established in it. Need an option for this in tutorial...
+</file>
+  
+  <file path="home/productivity" name="My_System_Tutorial.txt">
+First bootup is incredibly important.
+Ask "Do you want to be introduced to the system now?" -> Show me Around! + Not right now
+After that, it adds a task to the system (asking about it, of course) that has a special button on it that says "Set up my system". Let people do it when comfortable.
+
+The system setup thing will ask if it's ok to add in tasks later to teach the user about more stuff. Make it clear that they shouldn't learn everything at once. Also says "see you tomorrow!" or something.
+Have an option that lets them do it all right away if they want.
+Tasks on day 2 will teach about recurring tasks, or something.
+
+Tutorials should also have a "I don't have time, do this quickly" option.
+
+CONTAIN OPTION TO IMPORT FROM OTHER SYSTEMS! Guide user through it with full setup.
+</file>
+  
+  <adminPass pass="ixidixie" />
+  <dlink target="dPets_VC" />
+
+  <eosDevice name="Tiff's ePhone 7" id="dPets_Engineer3_Phone" icon="ePhone2">
+    <note>Placeholder todo
+Tanks Event
+</note>
+    <note>Work Logins
+Auth (admin): mlk3fsdie321
+VC (admin): undc321b9y
+</note>
+    <mail username="tdoehan@boatmail.com" pass="ixidixie" />
+  </eosDevice>
+  
+  
+  
+
+</Computer>

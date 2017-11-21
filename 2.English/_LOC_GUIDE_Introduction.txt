@@ -1,0 +1,20 @@
+Hi localizer!
+Thanks for working on the Hacknet Labyrinths translation.
+
+A few quick notes on how this is all laid out:
+The "Missions" folder contains only Mission and Computer files, both in XML format. Missions and Computers have their own rules for what should and shouldn't be translated, so be sure to read up on those and learn how to tell the difference between them before diving in.
+Oh, it also has some "memory" files in there. They follow computer rules.
+
+Other files should have their own guides!
+Some files like DLCFaction.xml will have their guides embedded within them in XML comments. Comments are surrounded by tags like this:
+
+<!-- This is a comment! -->
+
+If you dont already have one, I highly reccomend getting a text editor like Sublime Text that does syntax highlighting for XML to make picking out what does and doesnt need translating easier.
+
+If you have any questions at all (technical, about formats, writing, context questions etc), feel free to contact me at any time via email:
+
+matt@hacknet-os.com
+
+Thanks for working on the project! Let me know if you need anything,
+-Matt

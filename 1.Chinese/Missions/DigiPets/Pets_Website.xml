@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPets_Home" name="DigiPets主页" security="1" type="empty">
+
+  <trace time="70" />
+  <portsForCrack val="3" />
+  <ports>22, 80, 6881, 443</ports>
+  <portRemap>443=8080</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <addWebServer name="DigiPets!"
+                url="Content/Web/Presets/DigiPets/DigiPets.html" />
+
+  <dlink target="dPets_Auth" />
+  <dlink target="dPets_MF" />
+  <dlink target="dPets_VC" />
+
+  <positionNear target="dPets_MF" position="10" total="360" extraDistance="0.01"/>
+
+  <proxy time="1.5" />
+
+  <admin type="progress" isSuper="true"/>
+
+  <file path="home" name="Server_Config_Info.txt">
+--重要--
+此服务器存有网站的前端。它维持着与检查服务器和主服务器的连接以提取数据，且会从版本控制系统获取它自己的更新。
+不要在此次手动放置开发文件！配置是自动的——扰乱配置有可能会破坏更新部署过程。
+  </file>
+  
+</Computer>

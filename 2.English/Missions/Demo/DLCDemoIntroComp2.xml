@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dDemointro2" name="Kaguya Source" security="3" type="4">
+
+  <!-- This is the second DLC intro server, that gives the player the intro exe that wipes their mail icon
+  It's designed to be pretty empty - it's a recruitment server that's designed to be hackable and targeted,
+  but Kaguys is pretty dilligent and wipes it often. The sort of people that will be trying this are a higher
+  class of Hacker too, so not as much vandalism. Mostly clean, I think - maybe just a single note or so in
+  a different folder?-->
+  
+  <proxy time="-1" />
+  <portsForCrack val="2" />
+
+  <file path="bin" name="Recruitment.txt">
+I am Kaguya, and I am forming a team.
+Elites only, all resources shared, building towards big things.
+Interested applicants can apply via the executable here.
+Running this program constitutes an agreement to be tested,
+and an understanding that you may be found unworthy.
+Good luck.
+  </file>
+  
+  <file path="home/backups" name="KaguyaTrials.exe">#KAGUYA_EXE#</file>
+  <file path="bin" name="KaguyaTrials.exe">#KAGUYA_EXE#</file>
+
+  <encryptedFile path="home/msg" name="kenobi.dec" extension=".txt" ip="192.168.1.1" header="onlyhope" pass="Obi-Wan">
+I've heard your team fights for justice, for what is right. 
+Help me Kaguya, you are my only hope.
+Some script kiddie fucks have infected my parents network, taking with them all of our banking details, passport information, and our life savings. 
+We were saving for years to finally leave this dump and make our way to the US. 
+I'm sure our passport information has already been sold in some black market deal, and as for our money, it's long gone.
+I need someone to help. Pls.
+I'm no 1337 hacker, but I thought you guys would help.
+Pls?
+kingjoffery227@jmail.com 
+</encryptedFile>
+
+  
+  
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/MiamiThemeLight.xml"/>
+
+</Computer>

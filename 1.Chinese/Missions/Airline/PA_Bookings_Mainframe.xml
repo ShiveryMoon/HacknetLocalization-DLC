@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa_bookings" name="太平洋航空_预售服务器" security="5" type="4" icon="PacificAir">
+  
+  <!-- This is the endpoint server that is the ultimate goal of the mission.
+  Is has security that's too advanced for the player to break into by force,
+  but also has an option on it to reset the password, which emails the new
+  password to the administrator. This is how the player breaks in.
+  It isn't built to be investigated much, so doesn't need many files.-->
+
+  <firewall level="-1"/>
+  <proxy time="4" />
+  <trace time="75" />
+  <portsForCrack val="6" />
+  <ports>22, 25, 443, 1433, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <DatabaseDaemon Name="PacificAir Bookings Mainframe" Permissions="adminonly" DataType="NONE" AdminEmailAccount="YasuArai@PacificAir.com" AdminEmailHostID="dpa_mail" />
+  
+  <positionNear target="dpa_nethub" position="0" total="360" extraDistance="0.06"/>
+
+  <WhitelistAuthenticatorDaemon Remote="dpa_whitelist" />
+  
+<file path="home" name="version_info.txt">SCHISS-CO主机96CDCD
+软件版本 3.0.7.2_b91110
+安全网络和存储硬件畅销品牌</file>
+  
+<file path="home" name="settings_default.cfg">
+?cfg version = "1.0" encoding = "UTF-8" ?
+//把你的自定义设置放在这里，或者运行Schiss-Co路由设置网络应用 
+//自动填充这个文件，你可以在我们的门户网站上找到该应用。</file>
+
+<file path="home" name="readme.txt">没有适合本主机产品的标准化安装流程，请拨打555-0167转2，联系Schiss-Co客服团队寻求全天候支持服务。在问到密码词时，请说"shibboleet".</file>
+
+</Computer>

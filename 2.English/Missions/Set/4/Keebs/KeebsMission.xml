@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dKeebsMission">
+  <goals>
+    <goal type="filedeletion" target="missionTestNode" file="purchase_blacklist.txt" path="home/records"/>
+
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="The Keyboard Life">A member of the mechanical keyboards community wants to be removed from a sales blacklist.</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>The Keyboard Life</subject>
+    <body>
+A member of the mechanical keyboards community wants to be removed from a sales blacklist.
+----
+
+Apparently added to the blacklist for "completely reasonable" comments made in his respective community, user "ChucklingKumquat" wants to be removed from a blacklist on a particular keyboard component designer's server.
+He purports that the list is probably quite extensive from his own ban being given out so lightly, and suggests we remove only his name from the list, to keep the community clean.
+
+In exchange for this, I've made a deal securing a lead on a hard to track down project for us.
+
+Good luck,
+
+-Kaguya</body>
+    <attachments>
+      <link comp="dKeebs" />
+      <note title="Mission Guidelines">Delete user "ChucklingKumquat" from the purchase blacklist on the ClickLab server.</note>
+    </attachments>
+  </email>
+</mission>

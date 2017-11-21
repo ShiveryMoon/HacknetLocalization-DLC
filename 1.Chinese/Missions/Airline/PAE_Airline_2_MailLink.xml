@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpae_airline_mailLink" name="Kim Burnaby的办公室电脑" security="3" ip="141.8.224.143" type="4">
+
+  <!-- Misc airline employee. Close friend of the administrator of the bookings server.
+  This contains the login details of the owner's mail account for the airline, which is important for
+  player progression.
+  The details can be on an eOS device, if that's signposted here, or just sitting in a file.
+  Adding that extra layer of complexity is subject to testing and seeing how players perform on this network.-->
+
+  <proxy time="-1" />
+  <firewall level="-1"/>
+  <portsForCrack val="2" />
+  <ports>22, 21, 443, 6881, 80, 25</ports>
+
+  <file path="home/ePadBackup" name="MAIL.txt">eOS_MAILSYS_ACCOUNTDUMP
+    c704d41a-f5ae-411d-916f-6c484a34ef0f
+    太平洋航空账户：
+    用户名：kburnaby@pacificair.com
+    密码：noneofyourbusiness
+  </file>
+
+  <file path="home/ePadBackup" name="NOTES.txt">
+Mark的推荐：
+Goats in the Veldt (11/10)
+Retcon Paradise（前半部分不错，跳过第13集（？？？））
+关于打什么东西，但只有一次？？问下名字。
+  </file>
+
+  <file path="home" name="ePadUserGuide.pdf">#BINARY#</file>
+
+  <file path="home" name="ePadWarrantyGuide.pdf">#BINARY#</file>
+
+  <file path="home" name="ePadSupportTicket.txt">我已经备份了这台ePad中的所有文件，但它仍不能用？！我尝试了你们的”恢复工厂设置“，但它仍无法进行账户设置。 
+可能是硬件问题？请检查！</file>
+
+  <positionNear target="dpa_whitelist" position="20" total="360" extraDistance="0"/>
+
+  <eosDevice name="Kim's ePad XL" id="dpae_airline_mailLink_eos" icon="tablet" empty="true">
+    <note>系统更新备注： 
+系统版本有误，请咨询支持团队！</note>
+  </eosDevice>
+
+</Computer>

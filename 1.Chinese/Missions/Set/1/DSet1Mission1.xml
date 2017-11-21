@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ds1m1">
+  <goals>
+  </goals>
+  <nextMission>无</nextMission>
+    <posting title="构建解密工具">我们遇上了一些加密文件，我们需要一些能破解加密的东西。D3f4ult，这是你的专长。你知道该做什么。</posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

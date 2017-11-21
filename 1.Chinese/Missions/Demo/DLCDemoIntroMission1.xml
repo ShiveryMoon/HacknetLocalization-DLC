@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dlcDemoIntro1">
+  <goals>
+    <goal type="filedownload" target="dDemointro1" file="FTPSprint.exe" path="bin"/>
+  </goals>
+  <nextMission>../DLC/Missions/Demo/DLCDemoIntroMission2.xml</nextMission>
+  <email>
+    <sender>Matt</sender>
+    <subject>回归</subject>
+    <body>嗨，
+    
+欢迎回来，新的风波又起，很多组织都对其产生了极大的兴趣。Entropy和CSEC都派了代理人参与，但我想你也应该去看看。
+
+但首先，咱们先来复习一下操作方法吧。这个虚拟机已经预装了SSHCrack和FTPBounce——只要入侵链接的服务器并下载~/bin中的文件就可以继续了。我想你会喜欢它。
+
+下载完成后，我有些来自Tex的邮件要转给你。
+希望你的技术宝刀未老，你会用得到它。
+-Matt
+    </body>
+    <attachments>
+      <link comp="dDemointro1" />
+      <note title="Recap">使用以下命令来运行：
+程序名 [端口号]
+一旦端口打开，使用"Porthack"破坏动态安全系统
+
+下载目标电脑中的bin/XXXX并回复到该邮件。
+- scp [文件名]
+
+删除/log中的日志
+-rm [* or 文件名]
+</note>
+    </attachments>
+  </email>
+</mission>

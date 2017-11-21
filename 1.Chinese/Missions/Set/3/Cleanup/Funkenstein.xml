@@ -1,0 +1,72 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds3_fn" name="佛兰克斯坦的实验室" security="1" type="4" icon="DLCPC1" ip="21.32.43.54">
+
+  <proxy time="-1" />
+  <portsForCrack val="3" />
+  <ports>6881, 443, 22, 21</ports>
+  <portRemap>6881=69,22=1999</portRemap>
+  <trace time="200" />
+
+  <adminPass pass="redwood" />
+
+  <file path="home" name="d3f_ROOTKIT.zip">#BINARY#</file>
+  <file path="home" name="d3f_ROOTKIT_extras.zip.zip">#BINARY#</file>
+  <file path="home" name="d3f_ROOTKIT_REMINDER-DELETEMEt.txt">如果你正在看这段话，那现在事情可就比你能够想象到的极限还要糟糕了</file>
+
+
+  <file path="home/ableton" name="We_Are_Number_Onederwall.mp3">#BINARY#</file>
+  <file path="home/ableton/finished" name="Wonderwall_But_Every_Time_They_Say_Wonderwall_It_Gets_Faster.mp3">#BINARY#</file>
+  <file path="home/ableton" name="note.txt">
+这些需要被放入精选专辑
+
+
+home/ableton/samples/burp.mp3
+home/ableton/samples/pointclicker_click.mp3
+home/ableton/samples/pointclicker_win.mp3
+home/ableton/samples/pointclicker_lose.mp3
+home/ableton/samples/noticemesenpai.mp3
+home/ableton/samples/ohno.mp3
+home/ableton/samples/madonna.mp3
+home/ableton/samples/windowsXP_error_sound.mp3
+home/ableton/samples/windows98_login_sound.mp3
+  </file>
+  
+  
+  <file path="home/ableton" name="samples.zip">#BINARY#</file>
+  
+  
+  <file path="home/ableton" name="todo.txt">
+迷墙混音
+全明星混音
+迷墙与全明星混音
+
+备份当前的音轨以发布给不断上传垃圾的分销商
+
+</file>
+  
+  
+  <Memory>
+    <Commands>
+      <Command>FTPZilla -连接 32.43.54.65
+...正在连接...
+...已连接。
+...上传中 (1/12)...
+...上传中 (2/12)...
+...上传中 (3/12)...
+...上传中 (4/12)...
+...上传中 (5/12)...
+...上传中 (6/12)...
+...上传中 (7/12)...
+...上传中 (8/12)...
+...上传中 (9/12)...
+...上传中 (10/12)...
+...上传中 (11/12)...
+...上传中 (12/12)...完成！
+...正在将12个文件打包进文档hells_maw.dec...完成！
+...已断开连接。
+正在退出。</Command>
+    </Commands>
+  </Memory>
+
+
+</Computer>

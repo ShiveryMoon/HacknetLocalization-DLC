@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dIntroCentral" name="Kaguya中心" security="3" ip="216.239.32.21" type="4">
+
+  <dlink target="dcentralTest1" />
+  <dlink target="dcentralTest2" />
+
+  <proxy time="-1" />
+  <portsForCrack val="2" />
+  <ports>22, 6881, 1433</ports>
+  
+  <admin type="fast" resetPassword="true" isSuper="false"/> <!-- Stop shells here -->
+  
+<file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+<file path="home" name="hint.txt">扫描</file>
+  
+</Computer>

@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa_psylance" name="Psylance网络安全雇员IRC" security="5" ip="50.31.225.93" type="4" icon="Psylance">
+  
+  <!-- This will have the IRC of the Psylance guys on it - player will need to log in to view it. -->
+
+  <firewall level="-1"/>
+  <proxy time="4" />
+  <trace time="90" />
+  <portsForCrack val="9" />
+  <ports>22, 21, 443</ports>
+  <portRemap>22=340</portRemap>
+
+  <account username="faithless" password="catsarebestpet" type="2" />
+  
+  <IRCDaemon themeColor="67,204,148" name="Psylance Client Admin IRC Channel" needsLogin="true">
+    <user name="faithless" color="0,209,232"/>
+    <user name="dardypants" color="202,98,0"/>
+    <user name="da_vito" color="0,196,82"/>
+
+    <post user="faithless">哎，是啊，媒体说电子游戏会让人变得暴力，但数百年前，人类会活活烧死那些被认为是女巫的可怜人。到底谁更暴力？这些蠢货花着我的钱真是白瞎了。</post>
+    <post user="da_vito">哈哈</post>
+    <post user="dardypants">我没想到那个Yasu这么蠢</post>
+    <post user="faithless">谁？</post>
+    <post user="dardypants">Yasu Arai，太平洋航空的IT管理员。</post>
+    <post user="dardypants">就这样公开广播他的电子邮件密码！天啊，他可是管理员啊。</post>
+    <post user="faithless">他说了什么？</post>
+    <post user="dardypants">他是这么说的：</post>
+    <post user="dardypants">“你能否登录我的笔记本电脑，帮我把项目做一下？密码是 1185JACK”</post>
+    <post user="faithless">我去？666666</post>
+    <post user="faithless">不过你就这样把他的密码发到聊天频道里？这样真的好吗？</post>
+    <post user="dardypants">我已经让他把密码改了，没事的。</post>
+    <post user="dardypants">虽然……他这个密码并不是他邮箱的密码</post>
+    <post user="dardypants">我们可是要保护这个网络的啊！他这么轻易就把密码暴露出来的话，我们的防御措施都白做了！</post>
+  </IRCDaemon>
+
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+
+</Computer>

@@ -1,0 +1,11 @@
+The main charachter's names are "Coel", "Kaguya" and "D3f4ult".
+
+Common wildcards are #PLAYERNAME# which gets automatically swapped out with the player's chosen name at runtime, and #BINARY# which becomes generated binary strings. Dont change anything surrounded by hashes in allcaps basically!
+
+Links look like this:
+!ATTACHMENT:link#%#Kaguya_Projects#%#54.183.231.34
+
+Make sure you match them up with the name you've changed the server they are link to, So, if in the computer file containing the computer named Kaguya_Projects, you change the name, make sure you change it here too!
+
+This isn't *super* critical, but it is nice to have, so please try.
+

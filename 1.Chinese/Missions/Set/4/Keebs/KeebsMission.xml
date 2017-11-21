@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dKeebsMission">
+  <goals>
+    <goal type="filedeletion" target="missionTestNode" file="purchase_blacklist.txt" path="home/records"/>
+
+  </goals>
+  <nextMission>无</nextMission>
+    <posting title="键盘人生">一个机械键盘社区的会员想要把自己从销售黑名单中移除出去</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>键盘人生</subject>
+    <body>
+一个机械键盘社区的会员想要把自己从销售黑名单中移除出去。
+----
+
+用户“ChucklingKumquat”想要把自己从某个特定的键盘组件设计师的服务器黑名单上移除出去，很显然他是因为在所属的社区内发布了“完全合理”的评论而被加入了社区黑名单。
+他声称，名单里很可能远远不止有他自己的那份被轻易下达的禁令，并建议我们从名单中只删除他的名字，以保持社区的清洁。
+
+
+作为交换，我已经达成了一项协议，以确保我们在一个难以追踪的项目上取得领先。
+
+
+祝好运，
+
+-Kaguya</body>
+    <attachments>
+      <link comp="dKeebs" />
+      <note title="任务指引">把用户“ChucklingKumquat”从ClickLab服务器上的销售黑名单中删掉</note> 
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa2_target" name="Pacific_ATC_Skylink" security="5" type="4" ip="208.91.196.94" icon="PacificAir">
+
+  <!-- This is the most secure non-secret server in the DLC, and the final technically challenging hack the player must perform.
+  It's only accessible once the player's broken into the whitelist server earlier, and their goal here is to upload a file they've been given
+  from Kaguya into the sys folder.
+  In cannon terms, the "skylink" is the server that manages all traffic from currently flying aircraft communicating with the internet or
+  their own internal communications and tracking etc. This is the management and routing server of all active aircraft. By uploading the skylink jack
+  here, Kaguya gets us access to live connections to actual flying aricraft.
+  -->
+  
+  <portsForCrack val="5" />
+  <ports>6881, 22, 21, 443, 192</ports>
+  <firewall level="-1"/>
+  <proxy time="1.2" />
+  <trace time="55" />
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  
+  <WhitelistAuthenticatorDaemon Remote="dpa2_whitelist"/>
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/PacificAir_Big" title="DLC/Sprites/PacificAirTitle" overdrawLogo="true" buttonAlignment="right" />
+  
+  <positionNear target="dpa_bookings" position="180" total="360" extraDistance="0.15"/>
+
+  <dlink target="dpa2_whitelist" />
+  
+  <file path="sys/docs" name="readme.txt">This is a custom-designed Schiss-Co server. As it is, there is no standardized documentation available. For instructions and other information, please consult your setup binder, supplied by your Schiss-Co representative.
+
+User notes below:
+
+Don't touch anything. DON'T TOUCH ANYTHING. Check with upper tech management BEFORE pushing to production. This is not a joke.</file>
+  
+  
+</Computer>

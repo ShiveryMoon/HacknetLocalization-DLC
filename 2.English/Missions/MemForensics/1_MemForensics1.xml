@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1_mf_1">
+  <goals>
+    <goal type="filedeletion" target="dMF_1_Misc" file="SN_MF_Decompiled.zip" path="home/MemoryForensics"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Memory Forensics (1/3)">
+Analyze memory dumps (1 - 2) to find links into a secure server.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Memory Forensics</subject>
+    <body>
+While you've been busy securing new security tools, I've been locking down some new software to help our investigations. Memory forensics - pulling out a copy of a target's entire RAM state, and sifting through it with tools to find useful data is something we'll need going forwards.
+As a price for this, the 'seller' has asked me to get the team to look through a few memory dumps that came with it.
+This should be clear to you too, but just incase - this is obviously a trap, or some sort of test. The seller has the tools (BUILT the tools!) to do this herself, and palming this off to us is almost certainly a way to keep tabs on who's using this.
+
+It's not strictly a bad thing to be watching your tool distribution like that, but it does mean that if you want your identity and involvement kept under wraps, be *very careful* about your logs and presence on whatever you connect to from these.
+Because of this, I'm splitting the files up into 3 groups. 
+
+Your files to check are dumps 1 and 2.
+
+Process them with the Memory Forensics tool I've uploaded to the drop server (guide for it is right next to it in the bin folder), and find some connections out.
+
+A message from the sender: "Punish any rule breakers. Those who try to decompile and sell the memory dumper should get what's coming to them."
+I'm reading this as "delete any decompiled memory dumpers you find, and attack the systems that they're found on".
+
+Again, be careful.
+-Kaguya
+</body>
+    <attachments>
+      <note title="Mission Guidelines">Download the memory forensics tools from the drop server
+Analyze memory dumps 1 and 2.
+Look for connections in the dumps (the command "scan [ip]" will ping the server without removing you from the forensics view)
+Delete any decompiled memory dumps, and attack the systems containing them.
+</note>
+      <link comp="dhsDrop" />
+    </attachments>
+  </email>
+</mission>

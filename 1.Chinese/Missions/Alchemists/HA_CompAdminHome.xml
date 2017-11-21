@@ -1,0 +1,83 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dhaAdminHome" name="Nate Wesson的家" security="4" ip="66.175.58.9" type="4" icon="DLCPC1">
+  
+  <!-- This is the home computer of the architect of the system, it's more personal, less formal, and contains WIP files -->
+  
+  <proxy time="-1" />
+  <trace time="300" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 443, 80, 6881</ports>
+  
+  <positionNear target="dhaComp2" position="300" total="360" extraDistance="0.01"/>
+
+  <file path="sys" name="STOR-DRIVE_activesync.log">本地存储器图像已建立
+确保远程驱动器在线相应Ping命令
+启动成功
+错误：0</file>
+
+  <file path="bin" name="SignalScrambler.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+
+  <file path="home/wip" name="todo_books.txt">要写的书
+
+进行中
+- 减肥指南
+
+已完成
+- 炼金术入门指南（为何销量不佳？必须掉查下）
+- 活树的复杂性（需要约谈发行商）
+
+待办
+- 食物玄学
+- cfc烹饪指南
+- 一部关于蜜蜂的舞台剧（有意识的蜜蜂是时下热门话题）</file>
+
+  <file path="home/wip" name="weightloss.txt">意志决定一切：你离减肥只差一个积极的想法！
+或：
+Wesson的方式
+
+简介
+
+药品不可怕！食物是治疗一切疾病的良药！事事都很美好，也都对你有益！
+
+我读的每一本书都这么说，但我告诉你，这都是屁话！人们想减肥，他们这样告诉我，真是见了鬼，“哦不，我减不掉肥，尽管我吃得少、锻炼并保持健康！我的所有肥肉都变成了肌肉群，并且我保持锻炼，体重并没有下降！”
+
+让！我！告！诉！你！这并不仅仅在于少吃或者锻炼或者字典和“医生”说的“健康”。你需要真正产生一些优秀的思想，而在这份综合性的指南中，我会告诉你应该遵从的那类思想。</file>
+  
+  <file path="home/wip" name="weightloss_parody.txt">给未来发行商的备注：我不是疯子，这只是一本拙劣的减肥书，针对三十岁左右不安的人群，他们可以把这本书放在书架上，让别人觉着他们聪明而有趣。请把我放在你们的废稿堆里。
+</file>
+  
+  <file path="home/wip" name="weightloss_c2.txt">第2章
+
+吃任何曾让加快你走向未知的东西
+
+结构备注：
+-想吃什么就吃什么
+-想一些减肥的念头
+-只有走向完美你才会减肥
+-走向完美可助你减肥
+-与传统炼金文形成对比
+</file>
+
+
+  <file path="home/wip" name="weightloss_c3.txt">第3章
+
+-别吃松油等有害的东西或排水沟里捡来的香烟，你会死的。但大量的垃圾食品就没问题（特别是来自CFC）</file>
+
+  <file path="home/wip" name="weightloss_c4.txt">第4章
+
+-继续写一附录的睿智思想，单独出售</file>
+  
+  
+  <Memory>
+    <Commands>
+      <Command>STOR-DRIVE upkeep ping @ 66.175.58.11 _ ACTIVE</Command>
+    </Commands>
+    <Images>
+      <Image>DLC/Sprites/Misc/Alchemy</Image>
+    </Images>
+  </Memory>
+  
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/RiptideTheme.xml"/>
+
+
+</Computer>

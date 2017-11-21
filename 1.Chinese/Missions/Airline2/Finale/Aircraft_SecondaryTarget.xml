@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dair_secondary" name="PA_747_0018»úÔØµçÄÔ" security="5" type="4" icon="PacificAir" ip="208.73.211.70">
+
+  <portsForCrack val="2" />
+  <ports>22, 192</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="-1" />
+  <AircraftDaemon Name="Pacific Air Flight PA133"  OriginX="0.6672" OriginY="0.4264" DestX="0.4073" DestY="0.4264" />
+  
+</Computer>

@@ -1,0 +1,348 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dHidden" name="Bibliotheque影子存储器" security="10">
+
+  <!-- Programs and rewards -->
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+  <!-- Custom Theme Files -->
+  <customthemefile path="home" name="Floatvoid_x-server.sys" themePath="DLC/Themes/FloatVoidTheme.xml"/>
+  <customthemefile path="home" name="FloatvoidStandard_x-server.sys" themePath="DLC/Themes/FloatVoidThemeStandard.xml"/>
+  
+  <!-- Expo Mission -->
+  <file path="home" name="p_SQL_399.gz">#BINARY#</file>
+  <file path="home" name="patch_checksum.chk">16060154-F6FD-4876-82FD-8544E6BD6C21</file>
+
+  <!-- Memory Forensics Files -->
+  <file path="home" name="Memory_Forensics_Readme.txt">
+导航至包涵要分析的存储器转储所在的文件夹。
+运行命令：
+MemForensics [文件名]
+记住，你可以使用TAB来自动完成文件名和路径。
+处理（索引）转储需要花一些时间，随后你将得到扫描工具。
+每个选项都将分析内存并尝试挑选出相关数据。
+其中并不涉及任何损失或追踪的危险，因为本工具并不会kill任何进程——只是读取并打印。
+  </file>
+
+  <file path="home" name="sysinfo.bat">
+::远程后门批量脚本
+::参考：《批量处理学》Elias Bachaalany著
+certutil -decode "%~1.tmp" "%~1" ]nul 2]A1
+-----证书开始-----
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAsAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5v
+dCBiZSBydW4gaW4gRE9TIG1vZGUuDQ0KJAAAAAAAAABdXG3BGT0Dkhk9A5IZPQOS
+lyIQkh49A5LlHRGSGD0DklJpY2gZPQOSAAAAAAAAAABQRQAATAEBALL6QFcAAAAA
+AAAAAOAADwELAQUMAAIAAAAAAAAAAAAAEBAAAAAQAAAAIAAAAABAAAAQAAAAAgAA
+BAAAAAAAAAAEAAAAAAAAAAAgAAAAAgAAAAAAAAIAAAAAABAAABAAAAAAEAAAEAAA
+AAAAABAAAAAAAAAAAAAAAGwQAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC50ZXh0AAAA
+7gAAAAAQAAAAAgAAAAIAAAAAAAAAAAAAAAAAACAAAGAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADSEAAAAAAAALgQAAAAAAAA
+6zJEcm9wcGVkIGV4ZWN1dGFibGUATGV0J3MgZG8gbW9yZSBldmlsIHN0dWZmLCBu
+b3QhAGoAaBIQQABoJRBAAGoA6AcAAABqAOgGAAAA/yUIEEAA/yUAEEAAzMywEAAA
+AAAAAAAAAADGEAAACBAAAKgQAAAAAAAAAAAAAOAQAAAAEAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAADSEAAAAAAAALgQAAAAAAAAsQFNZXNzYWdlQm94QQB1c2VyMzIuZGxs
+AACbAEV4aXRQcm9jZXNzAGtlcm5lbDMyLmRsbAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAA==
+-----证书结束-----
+  </file>
+
+  <!-- These are memory dump files! The player will be assigned 2 of these to investigate (either 1 + 2 or 3+4)
+        5+6 are visible to the player, but are auto-assigned to one of the NPC hackers. You can add
+        as many <Block> or <Command> items as you like.
+        These represent memory dumps from RAM, so it makes sense for some files etc to be scrambled or have chunks missing here.
+        If you want me to write any file scrambling code (I can add in "safe regions" that wont get scrambled too) let me know.-->
+  
+  <memoryDumpFile name="Kaguya_Dump_1.md" path="home">
+    <Memory>
+      <Data>
+      </Data>
+      <Commands>
+        <Command>^C
+iodependency-atlas:Tools iodependency$ fdsfdsfds
+-bash: fdsfsdfs: command not found
+iodependency-atlas:~ iodependency$ curl ipecho.net/plain ; echo
+88.29.144.6
+iodependency-atlas:Tools iodependency$ cd ..
+iodependency-atlas:Applications iodependency$ cd ~
+iodependency-atlas:~ iodepedency$ cat memory_dumper_dcryptd.app/Contents/MacOS/listen.ini</Command>
+      <Command>$ip=167.72.73.56
+$log_win=C:/Windows/SysWOW64/filelist.txt
+$log_lnx=
+$log_osx=/Library/Application\ Support/Apple/filelist.plist
+#remove for prod build
+#usr: listen
+#pass: 4TL4S</Command>
+        <Command>iodependency-atlas:~ iodependency$ ls
+Applications
+baking puns.txt
+decrypted_dump_analyzer.app
+Desktop
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+Risk assessment.pdf
+SSHCrack.exe
+Tools</Command>
+        <Command>
+iodependency-atlas:~ iodepedency$ ls
+Applications
+baking puns.txt
+decrypted_dump_analyzer.app
+Desktop
+Downloads
+hello.txt
+Library
+Movies
+Music
+Pictures
+Public
+Risk assessment.pdf
+SSHCrack.exe
+Tools</Command>
+        <Command>iodependency-atlas:~ iodepedency$ cat hello.txt
+Hello! -SN
+iodependency-atlas:~ iodependency$ hlat -lq
+-bash: hlat: command not found
+iodependency-atlas:~ iodependency$ sudo rm *; sudo halt -lq
+Password:
+Broadcast message from iodependency@iodependency-atlas 
+    (/dev/pts/1) at 11:28 ...
+    The system is going down for halt NOW!</Command>
+      </Commands>
+    
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_2.md" path="home">
+    <Memory>
+      <Data>
+        <Block>调查记录：SNACKINTOSH, 调查事件：TemplarSecurityNet，调查人：@alidaxavier22
+        
+真实姓名（多个？）：
+Vita Prendergast - 在与她电子邮件地址关联的IP中发现found on IP connected to her email address
+Maia Burgess - 与Vita关联的姓名，无其他有用记录。
+Hikari Krizan - 同上（这些是不是一次性身份？）
+Rose Ishikawa - 我的暗网联络人提到的“她的朋友”
+
+职业：
+在黑客界她可是鼎鼎大名，但不是……知名度？很强大。
+在很多地方留下了指纹，比她想象的多。不少都有几年历史了。是粗心大意？还是故意露出破绽？给希望找到她的人留下的线索？（天哪，难道我是黑客Hansel？）
+据我所知，她确实发明了些东西，可能是一些工具？在*一个*公开讨论中我发现，她一开口谈论工具链和组合代码，其他人就一句话也不说了。值得追查下去。
+
+已知IP：
+143.78.36.213 - 已死 - 通过它连接到一个公共的网盘
+219.242.177.14 - 已死 - 通过它连接到我们的聊天
+39.46.123.206 - 已死 - 它的代理地址？
+185.160.171.69 - 可能死了？ - 隐藏在第一个代理地址后的另一个代理地址？我雇人突破了第一个，但不知道要怎么进入这个。需要去HackerForums买一些新工具了
+
+联系详情：
+我要是知道怎么回事就好了。我是能够通过我们共同的联系人与她取得联系，但她看起来并没有再次联系的兴趣。我猜，如果她想继续讨论，她会来找我的。
+
+进行中的计划：
+-继续做些事情
+-买别人的idk
+-去死
+</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_3.md" path="home">
+    <Memory>
+      <Data>
+        <Block>[@sbeezy] 笑死我了，最后我只能切断连接然后跑掉
+[@sbeezy] ... 可能不是我最佳的决定 XD
+[@sbeezy] 易物经济行动现在是什么状态？
+[@addili] 什么
+[@annili] ？？？
+[@addili] 哦
+[@addili] 买家？
+[@sbeezy] 没错
+[@annili] 我很快就把频道密码给他们。
+[@annili] 你有空的时候告诉我。
+[@addili] 你确定我们要这样做？
+[@annili] 是。
+[@annili] 太晚了，已经来不及收手了。
+[@sbeezy] 我们都掩盖了我们的行踪，对吗？
+[@sbeezy] 她警告我们的时候听起来真吓人
+[@sbeezy] 让
+[@sbeezy] 我们不要做我们现在正在做的事情
+[@addili] 是的，嗯
+[@addili] 或者让我和Annie来负责谈判
+[@sbeezy] 都行啊
+[@sbeezy] 我不在乎啊，哈哈
+[@sbeezy] 我的屁股可能不那么危险
+[@sbeezy] 随时让他们过来
+[@annili] 正在发送访问令牌
+[@sbeezy] 好
+* blanner已加入 #atohil，模式 +v
+[+blanner] 早上好
+[@sbeezy] 你好
+[@addili] 很高兴见到你
+* dramm已加入 #atohil，模式 +v
+[+dramm] 喂
+[+dramm] 你好？
+[@addili] 你好，dramm，稍等，我们正在弄一些东西
+[@annili] 三个人到了两个，第三个人什么状况？
+[@sbeezy] 实话实说，可能是一架飞机
+[+dramm] 天哪，我希望不是这样。
+[+blanner] 如果是这样，我可太失望了。
+* intehan已加入 #atohil，模式 +v
+[+intehan] 大家好
+[@annili] 你来晚了。
+[+intehan] 真冷漠啊
+[+intehan] 被一些事情拖住了
+[+intehan] 全是些破事，笑死人
+[@addili] ……好吧
+[@addili] 不管怎样，我们之前和你们讨论过这些
+[@addili] 能否贴一下你的交易量
+[+intehan] 当然可以
+[+blanner] 我的是to7meuX64Q
+[+dramm] 我的是a7hxZsULur
+[+intehan] zSp01aALFr
+[@annili] 请给我们一点时间验证这些收据
+* blanner已退出#atohil
+[@sbeezy] 怎么了
+* blanner已加入#atohil，模式 +v
+[+blanner] 不好意思
+[+blanner] 这边的网络不太好
+[@addili] 唉
+[+intehan] 我可没有一整天时间……
+[@annili] 我们检查了区块链，收据是没问题。
+[@annili] 我们已经建立一个远程共享服务器。
+[@annili] addili，可否详细说下？
+[@addili] 啊呀，稍等
+[@addili] IP地址：40.73.228.137
+[@addili] 用户名：atohil
+[@addili] 密码：JHhTSDtxYv
+[@addili] 这个帐号将在24小时后过期。请务必在它，呃，过期前，领取你们购买的东西
+[+intehan] 好
+[+intehan] 好
+[+intehan] 好！
+[+dramm] 谢谢
+[+blanner] 我已经拿到东西了。
+[@addili] 太棒了
+[@annili] 我们的交易就此结束，有机会再次合作。
+* annili已退出#atohil
+* addili已退出#atohil
+[+intehan] 漂亮
+* intehan已退出#atohil
+* blanner已退出#atohil
+* blanner已加入#atohil，模式 +v
+* dramm已退出#atohil
+* blanner已退出#atohil
+[@sbeezy] 被阻拦。被阻拦。你们都有罪。
+[@sbeezy] 哎呀，发错窗口了
+* sbeezy已退出#atohil</Block>
+      </Data>
+      <Commands>
+      </Commands>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_4.md" path="home">
+    <Memory>
+      <Commands>
+        <Command>
+> profiledump.exe -gp alihotatohila
+获取档案……
+姓名：Lihota, Addi
+年龄：22
+职业：软件工程，Netsec（Schiss-Co创新实验室）
+档案描述：（空）
+关注的页面：Perturbator, Emancipator, What's the deal with Bee Movie Memes, CFC: Colonel's Fried Chicken, ePad Giveaway Page（更多）
+加入日期：07/11/2010
+上次登录：3小时前(03:22 GMT+1)
+上次IP：17.5.3.9
+关联档案：363
+最近查看的档案：Ani Lihota（哥哥）， Devi Muhammad, Jaswinder Esan（合作者）, Sharma Lihota（妈妈）, Simon Bestman（不是朋友）（更多）
+最近联系人: Ani Lihota (哥哥), Sharma Lihota (妈妈)
+> disconnect
+</Command>
+      </Commands>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_5.md" path="home">
+    <!-- Should be a secret here... -->
+    <Memory>
+      <Commands>
+        <Command>ping 208.73.49.146</Command>
+      </Commands>
+      <Data>
+        <Block>口令：芝麻开门。
+-: 答复: 同一件事我已经说了九十九遍了
+收到。
+以物易物行动。
+-: 真的？
+目标是抢先获得软件，修改它，这样就没有人会发现我们在转售它，然后大赚一笔。Addi负责逆向工程。Ani，联系买家。Simon，把钱收拾好。
+-: ？
+别做恶人，Simon。
+-: 我也擅长联系买家。
+没错，但Ani更擅长。让他来做。
+-: 好吧，但你在确定你能搞定*这个*吗？
+百分之一百确定。我已经准备好所有工具了。
+Simon，我们的兼并活动现在是什么状态？ 
+-: 正在进行中，有消息随时告诉你。
+谢谢，还有什么要担心的吗？
+-: 没有了，我相信我们没有。
+信心有多足？
+-: 十足。
+好好保持。以后再聊。
+-: 别让Ani把事情搞砸了。
+I won't.</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+  208.73.49.146
+  <memoryDumpFile name="Kaguya_Dump_6.md" path="home">
+    <Memory>
+      <Data>
+        <Block>两个人手牵着手走入飞机。
+一个是黑心的杂货商。
+一个是自由飞行的花商。
+飞机降落后，一个人拎着包离开了。
+这个人是谁？
+
+当你向树上一只令人遗憾的考拉扔一座火山，会怎样？
+就成了电冰箱。
+
+*极其Jerry Seinfeld的声音* 我愿意用一个Malaysian Ringgit来换！
+
+我听过一个关于三只威尔士矮脚狗的故事：一只很丰满，一直很冷漠，还有一只拼命喝酒。它们走进一家酒吧。酒吧后面是一个爱抽烟的年轻女士。角落里，一个退役的职业摔跤手正在和一个待着头盔的骑士摔跤。接下来要发生什么？
+
+一个人头上带着一只鞋。他爱编老故事。他拥有一个喜怒无常，住在壳里的生物。他是谁？
+
+在一个寒冷之地，有一个编织奇迹的人出现在很多国家。这个人是个流氓，佩带着一把剑，从不撒谎。.
+她是谁？
+
+- 节选自《Markov Chain讲的笑话和谜语卷三：有所进展》</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+  
+  <!-- False report for Psylance CSEC Injected mission -->
+  <encryptedFile path="home" name="PA_0022_Incident.dec" ip="54.183.231.31" header="Psylance Incident Report v2">
+Psylance Cyber Security - internal investigations division.
+---------------------------------------
+
+对太平洋航空航班PA_0022上设备突然失灵的调查正在进行，但初步报告显示它是由于机上固件故障所致。
+Psylance服务器仍然安全，并且在事故期间并未表现出低于预期的表现。（事实上，这起事故表明应用Skylink和相关服务器的远程监视能力大有前途——比以往预期的延迟更低）。
+
+固件故障似乎出现在747FlightOps.dll——在目前为止的罕见情况下，固件会停止对飞行员的控制响应病需要重启固件（我们在本案例中就看到它成功重启了）
+Psylance建议调查本模块后的软件供应商，并为全部飞行员培训固件重启流程，以防遇到这种可能间歇性出现的罕见情况。
+
+和往常一样，Psylance网络安全尽最大可能保障您的数据、记录和安全性。我们将继续对该状况进行监视，以确保您的网络在这个微妙的时刻安全无虞。
+  </encryptedFile>
+  
+</Computer>

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dAttackMission_NPC2">
+  <goals>
+    <goal type="fileupload" target="dAttackTarget" file="MemDumpGenerator.exe" path="bin" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <nextMission>无</nextMission>
+  <posting title="Personal Ties">
+为Coel解决一件私人事务。
+  </posting>
+  <email>
+    <sender>1</sender>
+    <subject>1</subject>
+    <body></body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

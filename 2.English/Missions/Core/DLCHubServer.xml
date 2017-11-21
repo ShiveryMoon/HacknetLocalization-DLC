@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dhs" name="Bibliotheque" security="6" ip="69.58.186.114" type="4" icon="DLCServer">
+
+  <ports>22, 21, 80, 6881, 443</ports>
+  <portRemap>ssh=1234,ftp=99,web=9050,6881=6882</portRemap>
+
+  <DHSDaemon groupName="Bibliotheque" themeColor="38, 201, 155" allowContractAbbandon="false" addsFactionPointOnMissionComplete="true">
+    <agent name="Coel" pass="colamaeleon" color="209,74,48"/>
+    <agent name="Kaguya" pass="dj820mmaCb" color="112,198,255"/>
+    <agent name="D3f4ult" pass="kanzaz" color="58,202,146"/>
+  </DHSDaemon>
+  
+</Computer>

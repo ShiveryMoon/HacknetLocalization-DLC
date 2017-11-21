@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Entropy_DLC_End" activeCheck="true">
+  <goals>
+    <!-- No goals and autocomplete here - this exists to clear player missions and also send them back to their faction -->
+  </goals>
+  <nextMission>无</nextMission>
+  <posting title="">
+  </posting>
+  <email>
+    <sender>Tex</sender>
+    <subject>近来可好？</subject>
+    <body>#PLAYERNAME#，
+    
+自从开始Kaguya的试炼任务后，你就一直没登录Entropy，是否一切顺利？
+当然了，我希望这是另外一起派系纷争，但你已经离开了一段时间了。
+
+如果你只是想离开Entropy休息一下，欢迎你随时回来。
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy00" />
+    </attachments>
+  </email>
+</mission>

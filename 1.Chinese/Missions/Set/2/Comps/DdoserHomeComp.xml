@@ -1,0 +1,87 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dDdoserHomeComp" name="L. Shaffer的笔记本" security="2" type="4" icon="laptop">
+
+  <!-- Home laptop of Luke Shaffer, who runs the r00t_tek DDOS server. Player needs to wipe this one too.
+  Should contain a bunch of files that you'd see on the laptop of somenoe who cheats in CS:GO by DDOsing his
+  opponents.-->
+  
+  <trace time="-1" />
+  <proxy time="-1" />
+  <portsForCrack val="2" />
+  <ports>21, 443</ports>
+  <portRemap>ftp=22</portRemap>
+
+  <positionNear target="dDdoserComp" position="160" total="360"/>
+
+  <file path="LOIC" name="runtime.dll">#BINARY#</file>
+  <file path="LOIC" name="config.cfg">#BINARY#</file>
+  <file path="LOIC" name="sources.txt">
+    
+    ## 无服务器，在LOIC配置和主机设置中添加更多
+    
+  </file>
+  <file path="LOIC" name="TARGETS.txt">
+101.79.150.88, Snowstorm SoG Cluster 0-6
+101.79.150.89, Snowstorm SoG Cluster 6-9
+101.79.150.101, Snowstorm SoG Cluster 9-16 - LOGIN SERVERS
+101.79.150.200, Snowstorm SoG Cluster 16-18
+101.79.150.207, Snowstorm SoG Cluster 18-20
+101.88.150.89, Snowstorm SoG Cluster 20-26 - LOAD BALANCERS
+101.88.150.101, Snowstorm SoG Cluster 26-31
+101.88.150.200, Snowstorm SoG Cluster 31-36
+101.88.152.207, Snowstorm SoG Cluster 36-40
+  </file>
+
+  <!--Translators Note - for this joke, it uses the English meaning of "vanilla" as "plain or basic". Feel free to re-word it. -->
+  <file path="home" name="smug_shop.txt"> 
+[H_EvansVerres] 这家伙……
+[H_EvansVerres] 他觉得他是如此神奇，以最基本的方式，天啊。
+[H_EvansVerres] 他就像是
+[H_EvansVerres] 你从精品店带回来的香草熏香一样
+[H_EvansVerres] 柜台后面的人会说“你确定不再来点别的东西了？不来些糕点配料或者别的熏香或是什么东西？”
+[H_EvansVerres] 他就会说“哎呀我只想要平原pre-2009坎耶组合包”
+[H_EvansVerres] 他们会说“你知道不，我根本不想要你那肮脏愚蠢的钱，你想付账都没门”
+[LONGCHAMP] 啊哈哈哈
+[H_EvansVerres] 顺便一提，那是我
+[H_EvansVerres] 我是那家精品店的老板
+[LONGCHAMP] 哈哈哈哈</file>
+
+  <file path="home" name="asdfkjhj.txt">
+vac已屏蔽：
+hybrid cs hack
+smartBoy Hack
+CombinationCheat
+Smackie's Hack
+Subtlety
+
+未屏蔽：
+???
+
+这周要攻击的IP：
+thorn - 109.111.232.1
+Master[]Disaster - 28.2.85.6
+Snarklesaurus - 230.67.176.1
+smigin - 127.0.0.1 （这笨蛋自己在聊天里说的）
+  </file>
+
+  <file path="home" name="bedtime restrictions.txt">
+LUKE的睡觉时间约定
+
+我，Luke Shaffer，同意在这些时间上床睡觉，否则就会失去在饭后使用我的妈妈和爸爸慷慨地允许我放在我的房子里的电脑的权力。
+
+周一至周四（上学日的晚上）
+8:30 PM
+周五：
+9:30 PM
+周六及周日：
+10:00 PM
+  </file>
+
+  <file path="home" name="homework list.txt">
+10年级健康
+高等数学（与助教一起讨论）
+西班牙语
+社会与环境（之后）
+  </file>
+
+</Computer>

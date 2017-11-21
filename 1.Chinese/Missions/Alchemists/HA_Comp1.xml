@@ -1,0 +1,90 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dhaComp1" name="HA_Coagula" security="4" icon="Alchemist" type="empty">
+  
+  <proxy time="-1" />
+  <trace time="200" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dhaComp2" position="320" total="360"/>
+
+  <file path="home" name="alchemy.txt">古代的炼金术师相信——有些是错误的——认为金属在某种奇特的意义上是生命体。他们从铅开始尝试，土星正是典型代表；他们又渐渐转到了不同的元素，最终落在了黄金上（太阳）。
+
+后来，人们发现这是一种隐喻。生命和物质是循环进化的，即魔纹石。正如翡翠石碑所述，天上如是，地下亦然。 
+
+"你，我的朋友，将会进化，并开始新的循环，而荣耀必将相伴。"</file>
+
+  <!-- Translators note: Do not translate this file! It's meant to stay in Latin -->
+  <file path="home" name="tablet_latin.txt">Tabula Smaragdina
+
+Verum, sine Mendacio, certum et verissimum:
+
+Quod est Inferius est sicut quod est Superius, et quod est Superius est sicut quod est Inferius, ad perpetranda Miracula Rei Unius. Et sicut res omnes fuerunt ab Uno, meditatione inius, sic Omnes Res natae ab hac una Re, adaptatione.
+
+Pater eius est Sol. Mater eius est Luna. Portavit illud Ventus in Ventre suo. Nutrix eius Terra est. Pater omnis Telesmi totius Mundi est hic. Virtus eius integra est si versa fuerit in Terram. Separabis Terram ab Igne, subtile ab spisso, suaviter, magno cum ingenio.
+
+Ascendit a Terra in Coelum, iterumque descendit in Terram, et recipit Vim superiorum et inferiorum. Sic habebis Gloriam totius Mundi. Idio fugiet a te omnis Obscuritas. Haec est totius Fortitudinis Fortitudo fortis, quia vincet Omnem rem subtilem, Omnemque Solidam penetrabit.
+
+Sic Mundus creatus est. Hic erunt Adaptationes Mirabiles, quarum Modus est hic. Itaque vocatus sum Hermis Trismegistus, habens tres partes Philosophiae totius Mundi.
+
+Completum est quod dixi de Operatione Solis.</file>
+
+  
+  <file path="home" name="tablet_newton.txt">翡翠石碑
+
+这是确凿，无瑕的真理。
+
+上方之物正如下方之物，反之亦然，
+
+又因万物皆源于一物，故一物的思索可衍化为万物。
+
+太阳是其父，月亮是其母，风儿将它置于腹中携带，大地是它的看护。
+
+万物之父，世界的先知在此。
+
+若是它降临于世，即拥有完整无敌的力量。
+
+伴随着崇敬与智慧，你应愉快的从烈火中分离泥土，从粗鄙中分离精细。
+
+它直冲云霄，然后再次落下，吸收天地之力。
+
+然后你将会拥有世界的荣耀，
+因此，所有的障碍都会远离你。
+
+这是最强的力量，因为它将战胜所有精巧之物，穿透所有坚硬之物。
+
+世界即是如此创造而成。
+
+依此步骤（所得）是奇迹般的演化。而在这世上拥有三重智慧的分身的我也因此得名赫尔墨斯。
+
+我说，有关太阳的任务已经完成。</file>
+
+  <file path="home" name="nameofgod.txt">yod
+HE
+vau
+he
+</file>
+
+  <!-- This should be more cryptic than this, and require, ideally, a player to have read 
+  something on the entry comp to understand it properly. It does need to be an explicit hint 
+  for gameplay purposes though. -->
+  <file path="home" name="Rebis.txt">幻想和变化的纹路往复循环，在不同的生代，领域和主题上重现并自映。
+  
+这点清晰可见，对于这个年代的技术也是如此，追随着炼金法书通往他们自己的语言。
+
+‘火墙’再次出现，不是宗教符号或战争，而是社会中的工具。然而它却用相同的方式，说着相同的话语。
+大地、第一原质、昆
+
+之于双质，寻找移动、连接、移动性的智慧。
+</file>
+
+  <LogoDaemon Name="COAGULA" ShowsTitle="true" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/Alchemists1">
+道生一，
+一生二，
+二生三，
+三生万物。
+  </LogoDaemon>
+  
+</Computer>

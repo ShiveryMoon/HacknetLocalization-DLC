@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ham_player">
+  <goals>
+    <goal type="fileupload" target="dhaAdminHome" file="SignalScrambler.exe" path="bin" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionStart val="3" suppress="true">changeSongDLC</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="The Hermetic Alchemists - #PLAYERNAME#">
+The administrator of a strange, philosophical group's server system has developed some software that we'll need for future projects.
+  </posting>
+  <email>
+    <sender>The Hermetic Alchemists - #PLAYERNAME#</sender>
+    <subject>The Hermetic Alchemists</subject>
+    <body>
+The administrator of a strange, philosophical group's server system has developed some software that we'll need for future projects.
+----
+The program we're looking for is an advanced piece of trace-diverting software, that's been developed in-house. Unfortunately, all we know is that the developer runs the linked network of servers, and basically nothing else.
+We need you to track them down, find their development setup, and secure a build of this software for our future use.
+Preliminary scans show the network to be quite extensive, and to host files and various services for a philosophical group called the "Hermetic Alchemists".
+
+As this sysadmin seems competent, I'm having everyone investigate this at once, leaving as little time for them to respond as possible. If you discover something that may be useful to the rest of the team, post it in the chat.
+    
+Good luck.</body>
+    <attachments>
+      <note title="Mission Guidelines">
+Investigate the network, track down the administrator, and download anything you think is relevant.
+Optionally report anything the others may find useful to the chat.
+Upload relevant files to the drop server.
+      </note>
+      
+      <link comp="dhaEntry" />
+      
+    </attachments>
+  </email>
+</mission>

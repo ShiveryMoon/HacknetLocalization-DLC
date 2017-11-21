@@ -1,0 +1,72 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPets_Engineer2" name="Ash-ALIENGEAR13" security="2" ip="54.192.234.65" icon="DLCPC2">
+
+  <!-- Digipets artist - contains eos device hint for other comp  -->
+  
+  
+  <dlink target="dPets_VC" />
+
+  <positionNear target="dPets_MF" position="220" total="360" extraDistance="0.05"/>
+
+  <file name="IMPORTANT_SusanLog.txt" path="home">
+
+[S.Bonesau] No one's saying you HAVE to change your art style, just that...
+[S.Bonesau] You do get an awful lot of requests for changes after submitting
+[S.Bonesau] And I think we could improve efficiency if you took some of that more seriously
+[S.Bonesau] As in, took previous feedback on board when planning future pieces.
+[Ash] Ok I get that, but I really believe in this design
+[S.Bonesau] I know. I understand, it's just...
+[S.Bonesau] It's meant to be a spooky haunted house outfit, and you've drawn them all sitting in tanks
+[S.Bonesau] Again.
+[Ash] I like tanks. Tanks are scary.
+[S.Bonesau] I know you like tanks
+[Ash] You don't think the Romanians found the German tank lines scary?
+[S.Bonesau] No, I mean, of course they did, that's beside the point, just hold on a sec
+[Ash] That's 25 tonnes of German engineered death barreling down towards you, that's not spooky enough for you?
+[S.Bonesau] Hold on!
+[S.Bonesau] I just don't think our playerbase will connect with that the same way you do.
+[S.Bonesau] Should I remind you that you also drew them all sitting in tanks for the fairy event?
+[Ash] Tanks are a lot like fairies
+[S.Bonesau] ...
+[Ash] I like cute things and WW2 militaria, what do you want from me here?
+[S.Bonesau] I want you to draw the DigiPets in Dracula costumes and stuff like that
+[Ash] I'll do it if we can do a tanks event later
+[S.Bonesau] This isn't really a bargaining situation for you
+[Ash] I bet Dracula owned loads of tanks
+[S.Bonesau] Jesus Christ, ok, deal, just draw the sprites
+[Ash] I'm saving this log you know. It's happening.
+[S.Bonesau] It's in my phone, don't worry
+  </file>
+
+  <file name="DRACULATANK.psd" path="home">#BINARY##BINARY#</file>
+  <file name="asdf.psd" path="home">#BINARY#</file>
+  <file name="asdf2.psd" path="home">#BINARY##BINARY#</file>
+  <file name="asdfasdf.psd" path="home">#BINARY#</file>
+
+  <!-- Memory dump with viewable sketches of Dracula tank -->
+  <Memory>
+    <Data>
+      <Block>
+STEAM_CHAT:activewindow
+4e0f622c-c5f1-4959-902d-bd2c1009a4cb
+Log:
+CONSOLE: Never tell your password to anyone.
+2:46 PM - Jigxor: these automaton videos are crazy
+2:47 PM - Jigxor: oh man, I'm watching another one about a 240 year old automaton called 'the writer', which is a mechanical boy who can actually write out a whole sentence or two, with a real pen and paper in his hands, all mechanically driven with clockwork, this shit is unbelievable.
+2:48 PM - Jigxor: and he's blinking and moving his head around and stuff
+2:48 PM - [P]Ash: oh my god why did you put me onto these. I was going do get stuff done today ;_;
+2:48 PM - Jigxor: it's crazy
+CONSOLE: Jigxor Disconnected
+CONSOLE: Jigxor Reconnected to Chat
+3:18 PM - Jigxor: I feel smart
+3:18 PM - Jigxor: even though I just copied some regex over from StackOverflow
+3:18 PM - [P]Ash: >my_life.txt
+      </Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Misc/DraculaTank</Image>
+    </Images>
+  </Memory>
+  
+  
+</Computer>

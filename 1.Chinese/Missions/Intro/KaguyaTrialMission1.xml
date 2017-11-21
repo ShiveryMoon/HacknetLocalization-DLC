@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="kaguya1">
+  <goals>
+    <goal type="clearfolder" target="dKaguya1" path="sys"/>
+  </goals>
+  <nextMission>无</nextMission>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>
+      错误
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>
